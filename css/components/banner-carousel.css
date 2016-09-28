@@ -3,6 +3,18 @@
 ======================== */
 
 /* ========================
+	Mobile Banner Carousel
+======================== */
+
+/* controls the mobile banner */
+#banner-mobile {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	max-height: 586px;	
+}
+
+/* ========================
 	Desktop Banner Carousel
 ======================== */
 
@@ -137,20 +149,4 @@
 .slide-arrow {
 	display: flex;
 	align-self: flex-end;
-}
-
-/* ========================
-	Mobile Banner Carousel
-======================== */
-
-/* controls the mobile banner */
-#banner-mobile {
-	background-image: url("/img/reisig-slide-1.jpg");
-	background-position: top center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0px;
-	padding: 20px 20px 10px 20px;
-	width: 100%;
-	max-height: 586px;	
 }
