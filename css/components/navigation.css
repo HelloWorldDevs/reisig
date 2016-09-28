@@ -1,0 +1,122 @@
+/* =================
+	Navbar Component 
+================= */
+
+nav {
+	margin: 0px !important; 
+	padding: 10px 0px 20px 0px !important;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  height: 60px;
+  padding: 0px;
+  width: auto;
+}
+
+button.navbar-toggle {
+	border: none;
+}
+
+button.navbar-toggle:hover  {
+	background:none;
+}
+
+button.navbar-toggle:active {
+	background-color: #ffffff !important;
+}	
+
+button..navbar-toggle:clicked {
+	background-color: #ffffff !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+/* sets the 1st default link color */
+a.link-color-1 {
+	color: #C04355 !important;
+}
+
+a.link-color-1:hover {
+	
+}
+
+/* sets the 2nd default link color */
+a.link-color-2 {
+	color: #36A9AE !important;
+}
+
+/* sets the 3rd default link color */
+a.link-color-3 {
+	color: #252A2E !important;
+}
+
+/* sets the 4th default link color */
+a.link-color-4 {
+	color: #797874 !important;
+}
+
+/* sets the 5th default link color */
+a.link-color-5 {
+	color: #fcfcfc;
+}
+
+#navbar-left-toggle {
+	
+}
+
+#navbar-right-toggle {
+	
+}
+
+/* EXAMPLE 8 - Center on mobile*/
+@media only screen and (max-width : 768px){
+	.navbar-centered-logo .navbar-brand {
+		padding: 0px;
+		-webkit-transform: translateX(-50%);
+						transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+	}
+	.navbar-centered-logo .navbar-brand > img {
+		height: 80%;
+		width: auto;
+		padding: 0px 14px; 
+	}
+}
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
