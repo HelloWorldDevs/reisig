@@ -7,7 +7,7 @@ $(document).ready(function () {
 		mouseDrag: true,
 		touchDrag: true,
 		pullDrag: true,
-		nav: false,
+		nav: true,
 		dots: false,
 		autoplay: true,
 		autoHeight: false,
