@@ -311,6 +311,11 @@ button.theme-btn-1:hover {
 	padding: 40px 0px 60px 0px;
 }
 
+#location-brand {
+	width: auto;
+	max-height: 100px;
+}
+
 /* controls the associations section */
 #associations {
 	padding: 20px 0px 20px 0px;
