@@ -9,13 +9,16 @@
 			"<span class='fa-stack fa-lg'><i class='fa fa-circle fa-green fa-stack-2x'></i><i class='fa fa-arrow-right fa-inverse fa-stack-1x'></i></span>"],		
 		responsive:{
 			0:{
-					items:1
+				items:1
 			},
 			600:{
-					items:1
+				items:1
 			},
 			1000:{
-					items:1
+				items:1
+			},
+			1200: {
+				items:1
 			}
 		}
 	});
