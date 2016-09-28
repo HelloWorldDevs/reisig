@@ -22,20 +22,34 @@ nav {
   width: auto;
 }
 
-button.navbar-toggle {
-	border: none;
+.navbar-default .navbar-toggle:hover  {
+	background: none;
 }
 
-button.navbar-toggle:hover  {
-	background:none;
-}
-
-button.navbar-toggle:active {
-	background-color: #ffffff !important;
+.navbar-default .navbar-toggle:active {
+	background: none;
 }	
 
-button..navbar-toggle:clicked {
+button.navbar-toggle:focus {
+	background: none;
+}	
+
+button.navbar-toggle:clicked {
 	background-color: #ffffff !important;
+}
+
+div.navbar-header {
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+.navbar-default .navbar-collapse {
+	border-top: none;
+}
+
+
+button.navbar-toggle {
+	border: none;
 }
 
 a:hover {
