@@ -14,15 +14,19 @@
 		autoplay: false,
 		autoHeight: false,
 		autoplaySpeed: 8000,
+		margin: 20,
 		responsive:{
 			0:{
-					items:1
+				items:1
 			},
 			600:{
-					items:3
+				items:2
 			},
 			1000:{
-					items:3
+				items:3
+			},
+			1200:{
+				items:3
 			}
 		}
 	});	

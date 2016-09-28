@@ -243,6 +243,7 @@ button.theme-btn-1:hover {
 	background-image: url("/img/reviews-bkgd.jpg");
 	background-position: top center;
 	background-size: cover;	
+	padding: 0px 0px 40px 0px;
 }
 
 /* controls the 1st slide of the banner carousel */
