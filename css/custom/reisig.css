@@ -379,3 +379,83 @@ button.theme-btn-1:hover {
 	border: none;
 	border-radius: 0px;
 }
+
+/* ==============
+	Media Queries 
+============== */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+	html {
+		font-size: 16px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	html {
+		font-size: 16px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	html {
+		font-size: 14px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+		/* overrides default html settings */
+	html {
+		font-size: 14px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+	/* overrides default html settings */
+	html {
+		font-size: 12px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+
+	/* creates a huge responsive text class */
+	.text-hu {
+		font-size: 4.5rem;
+	}
+
+}
