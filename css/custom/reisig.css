@@ -258,7 +258,7 @@ button.theme-btn-1:hover {
 
 /* controls the 3rd slide of the banner carousel */
 #banner-slide-3 {
-	background-image: url(/img/reisig-slide-3.jpg);
+	background-image: url("../../reisig-slide-3.jpg");
 }
 
 /* controls the new patient hotline mobile section */
