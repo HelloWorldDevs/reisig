@@ -453,9 +453,4 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 
-	/* creates a huge responsive text class */
-	.text-hu {
-		font-size: 4.5rem;
-	}
-
 }
