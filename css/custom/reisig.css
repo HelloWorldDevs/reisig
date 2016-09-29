@@ -402,6 +402,8 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 	
+	
+	
 }
 
 /* Landscape tablets and medium desktops */
@@ -422,7 +424,7 @@ button.theme-btn-1:hover {
 @media (min-width: 768px) and (max-width: 991px) {
 	
 	html {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	
 	/* overrides default body browser settings */
@@ -451,12 +453,32 @@ button.theme-btn-1:hover {
 	
 	/* overrides default html settings */
 	html {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	/* overrides default body browser settings */
 	body {
 		font-size: 1rem;
+	}
+	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+	/* sets the 1st default theme button hover style */
+	a.theme-btn-1:hover {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
 	}
 
 }
