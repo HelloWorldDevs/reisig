@@ -98,7 +98,7 @@ p {
 
 /* sets the default serif bold weight font*/
 .serif-bold{
-	font-family: "", "Georgia", "Times New Roman", serif;
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
 	font-weight: bold;
 }
 
