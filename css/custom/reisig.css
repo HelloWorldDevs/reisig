@@ -288,19 +288,19 @@ button.theme-btn-1:hover {
 
 /* controls the team photo section */
 #team-photo {
-	padding: 40px 0px 60px 0px;
+	padding: 20px 0px 30px 0px;
 }
 
 /* controls the services section */
 #services {
-	padding: 40px 0px 60px 0px;
+	padding: 20px 0px 20px 0px;
 	border-bottom: solid 2px #cccccc;
 }
 
 
 /* controls the office tour carousel section */
 #office-tour-carousel {
-	padding: 40px 0px 60px 0px;
+	padding: 20px 0px 30px 0px;
 }
 
 /* controls the locations section */
@@ -308,7 +308,7 @@ button.theme-btn-1:hover {
 	background-image: url("/img/map-screenshot.jpg");
 	background-position: top center;
 	background-size: cover;
-	padding: 40px 0px 60px 0px;
+	padding: 40px 0px 30px 0px;
 }
 
 #location-brand {
