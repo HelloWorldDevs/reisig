@@ -6,7 +6,7 @@
     $form.submit(function(e) {
       e.preventDefault();
       var formData = $form.serialize();
-      var formAction = 'http://web-api.tysonsteele.com/v1/webprops/'+uid+'/schedule'
+      var formAction = '//web-api.tysonsteele.com/v1/webprops/'+uid+'/schedule'
       $('.form-error').remove();
       $.ajax({
         type: 'POST',
