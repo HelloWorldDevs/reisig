@@ -19,9 +19,15 @@
 ======================== */
 
 /* controls the banner carousel section */
-#banner-carousel {
+#banner-carousel  {
 	margin: 0px;
 	padding: 0px;
+	height: auto;
+}
+
+/* overrides the control display for banner carousel */
+.owl-controls {
+	display: none;
 }
 
 /* controls the first slide in the banner-carousel */
