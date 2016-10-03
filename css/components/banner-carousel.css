@@ -164,7 +164,16 @@
 }
 
 /* sets the styles for the slide arrow */
-.slide-arrow {
-	display: flex;
-	align-self: flex-end;
+.scroll-down {
+	position: absolute;
+	/* position: relative; */
+ 	z-index: 4;
+	bottom: 60px;
+	left: 50%;
+	margin-top: 0px !important;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 40px;
+	height: 40px;
+	text-align: center;
 }
