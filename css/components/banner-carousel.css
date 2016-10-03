@@ -30,17 +30,22 @@
 	display: none;
 }
 
+.owl-item {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
 /* controls the first slide in the banner-carousel */
 #banner-slide-1 {
 	background-image: url("../../img/wright-slide1.jpg");
 	background-repeat: no-repeat;	
 	background-position: top center;
 	background-size: cover;
-	margin: 0px;
 	width: auto;
+	margin: 0 auto;
+	padding-top: 150px;	
 	height: 586px;
-	max-height: 586px;
-	/* padding: 40px 200px 100px 10px; */
+	max-height: 587px;
 }
 
 /* controls the second slide in the banner-carousel */
@@ -49,8 +54,9 @@
 	background-repeat: no-repeat;	
 	background-position: top center;
 	background-size: cover;
-	width: 100%;
-	/* padding: 40px 200px 100px 10px; */
+	width: auto;
+	margin: 0 auto;
+	padding-top: 75px;
 	height: 586px;
 	max-height: 586px;	
 }
@@ -58,11 +64,13 @@
 /* controls the third slide in the banner-carousel */
 #banner-slide-3 {
 	background-image: url("../../img/wright-slide3.jpg");
-	background-position: top center;
+	background-position: top center;	
+	background-repeat: no-repeat;	
 	background-size: cover;
-	background-repeat: no-repeat;
-	/* padding: 40px 200px 100px 10px; */
+	width: auto;
+	margin: 0 auto;
 	width: 100%;
+	padding-top: 180px;	
 	height: 586px;
 	max-height: 586px;	
 }
@@ -122,14 +130,18 @@
 	color: #027D82;	
 }
 
-/* sets the default style for the slide stars */
+/* sets the default color style for the review stars */
 .fa-gold {
 	color: gold !important;
 }
 
-/* sets the default text style for the slide review */
-.slide-review {
+/* sets the default color style for the customer review */
+.customer-review {
 	color: #cccccc;
+}
+
+.call-to-action {
+	margin: 50px 0px 0px 0px;
 }
 
 /* sets the styles for the slide description */

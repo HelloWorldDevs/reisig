@@ -1,3 +1,7 @@
+/* ===========================
+	General HTML & Body Styles 
+=========================== */
+
 html {
 	margin: 0px;
 	padding: 0px;
@@ -10,82 +14,98 @@ body {
 	font-size: 1rem;
 }
 
+/* ==========================
+	Custom Type & Text Styles 
+========================== */
+
 /* overrides the default h1 class */
 .h1 {
 	font-size: 4.5rem;
-	line-height: inherit;
+	line-height: normal;
 }
 
 /* overrides the default h2 class */
 .h2 {
 	font-size: 3rem;
-	line-height: inherit;
+	line-height: normal;
 }
 
 /* overrides the default h3 class */
 .h3 {
 	font-size: 2.25rem;
-	line-height: inherit;
+	line-height: normal;
 }
 
 /* overrides the default h4 class */
 .h4 {
 	font-size: 1.75rem;
-	line-height: inherit;
+	line-height: normal;
 }
 
 /* overrides the default h5 class */
 .h5 {
 	font-size: 1.5rem;
-	line-height: inherit;	
+	line-height: normal;	
 }
 
 /* overrides the default h6 class */
 .h6 {
 	font-size: 1.2rem;
-	line-height: inherit;	
+	line-height: normal;	
 }
 
 p {
 	font-size: 1rem;
-	line-height: inherit;
+	line-height: normal;
 }
 
 .text {
 	font-size: 1rem;
 	line-height: inherit;	
-	margin: 0px 0px 10px 0px;
-	padding: 0px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding: 0px !important;
 }
 
+/* Custom Text Styles */
+
+/* creates a responsive custom text extra-small class */
 .text-xs {
 	font-size: 0.75rem;
 }
 
+
+/* creates a responsive custom text small class */
 .text-sm {
 	font-size: 0.875rem;
 }
 
+/* creates a responsive text regular class */
 .text-reg {
 	font-size: 1rem;
 }
 
+/* creates a responsive text medium class */
 .text-md {
 	font-size: 1.5rem;
 }
 
+/* creates a responsive text large class */
 .text-lg {
 	font-size: 2.25rem;
 }
 
+/* creates a responsive text extra-large class */
 .text-xl {
 	font-size: 3rem;
 }
 
+/* creates a responsive text extra-extra-large class */
 .text-xxl {
 	font-size: 4rem;
 }
 
+/*creates a responsive text huge class */
 .text-hu {
 	font-size: 4.5rem;
 }
@@ -93,25 +113,34 @@ p {
 /* sets the default serif regular weight font */
 .serif-reg {
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: normal;	
 }
 
 /* sets the default serif bold weight font*/
 .serif-bold{
 	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
-	font-weight: bold;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: normal;	
 }
 
 /* sets the default sans-serif regular weight font */
 .sans-serif-reg {
-	font-family: "Lato", "Helvetica", "Arial, sans-serif;
-	font-weight: normal;
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: normal;
 }
 
 /* sets the default sans-serif bold weight font */
 .sans-serif-bold {
 	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
-	font-weight: bold;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: normal;text
+	
 }
 
 /* sets the 1st default theme color */
@@ -235,6 +264,10 @@ button.theme-btn-1:hover {
 	text-transform: uppercase;
 }
 
+/* =====================
+	Custom Site Sections 
+===================== */
+
 /* controls the primary navigation */
 #primary-navigation {}
 
@@ -243,43 +276,67 @@ button.theme-btn-1:hover {
 	background-image: url("../../img/reviews-bkgd.jpg");
 	background-position: top center;
 	background-size: cover;	
-	padding: 0px 0px 40px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#banner-carousel {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;	
 }
 
 /* controls the 1st slide of the banner carousel */
 #banner-slide-1 {
 	background-image: url("../../img/reisig-slide-1.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
 }
 
 /* controls the 2nd slide of the banner carousel */
 #banner-slide-2 {
 	background-image: url("../../img/reisig-slide-2.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
 }
 
 /* controls the 3rd slide of the banner carousel */
 #banner-slide-3 {
 	background-image: url("../../img/reisig-slide-3.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
 }
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
-	padding: 20px 0px 20px 0px; 
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px; 
 }
 
 /* controls the new patient hotline desktop section */
 #new-patient-hotline-desktop {
+	margin: 0 auto;	
 	padding: 60px 0px 50px 0px;
+	min-height: 140px;
 }
 
 /* controls the new patient existing clients section */
 #new-patient-hotline-existing {
-	padding: 60px 0px 50px 0px;
+	margin: 0 auto;	
+	padding: 20px 0px 20px 0px;
+	min-height: 140px;	
 }
 
 
 
 /* controls the no insurance section */
 #no-insurance {
+	margin: 0 auto;	
 	padding: 40px 0px 60px 0px;	
 	background-image: url("../../img/membership-row-reisig.jpg");
 	background-position: top center;
@@ -288,11 +345,13 @@ button.theme-btn-1:hover {
 
 /* controls the team photo section */
 #team-photo {
+	margin: 0 auto;		
 	padding: 20px 0px 30px 0px;
 }
 
 /* controls the services section */
 #services {
+	margin: 0 auto;		
 	padding: 20px 0px 20px 0px;
 	border-bottom: solid 2px #cccccc;
 }
@@ -300,6 +359,7 @@ button.theme-btn-1:hover {
 
 /* controls the office tour carousel section */
 #office-tour-carousel {
+	margin: 0 auto;		
 	padding: 20px 0px 30px 0px;
 }
 
@@ -308,27 +368,36 @@ button.theme-btn-1:hover {
 	background-image: url("../../img/map-screenshot.jpg");
 	background-position: top center;
 	background-size: cover;
-	padding: 40px 0px 30px 0px;
+	max-height: 732px;
+	width: auto;
+	margin: 0 auto;	
+	padding: 60px 0px 40px 0px;	
 }
 
 #location-brand {
+	margin: 0 auto;	
+	padding: 40px 0px 30px 0px;	
+	padding: 40px 0px 30px 0px;	
 	width: auto;
 	max-height: 100px;
 }
 
 /* controls the associations section */
 #associations {
+	margin: 0 auto;		
 	padding: 20px 0px 20px 0px;
 }
 
 /* controls the primary mobile footer section */
 #primary-mobile-footer {
+	margin: 0 auto;		
 	padding: 30px 0px 20px 0px;
 	background-color: #36A9AE;
 }
 
 /* controls the primary footer section */
 #primary-footer {
+	margin: 0 auto;		
 	padding: 30px 0px 20px 0px;
 	background-color: #36A9AE;
 }
@@ -386,9 +455,9 @@ button.theme-btn-1:hover {
 	border-radius: 0px;
 }
 
-/* ==============
-	Media Queries 
-============== */
+/* ==========================
+	Media Queries and Screens 
+========================== */
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -401,9 +470,6 @@ button.theme-btn-1:hover {
 	body {
 		font-size: 1rem;
 	}
-	
-	
-	
 }
 
 /* Landscape tablets and medium desktops */
@@ -431,6 +497,7 @@ button.theme-btn-1:hover {
 	body {
 		font-size: 1rem;
 	}
+	
 }
 
 /* Landscape phones and portrait tablets */
@@ -480,5 +547,4 @@ button.theme-btn-1:hover {
 		color: #fcfcfc;
 		text-transform: uppercase;
 	}
-
 }
