@@ -11,12 +11,14 @@
   position: relative;
 }
 
+/* controls the image container */
 .img-container {
 	width: 380px;
 	height: 230px;
 	font-size: 1rem !important;	
 }
 
+/* controls the image overlay */
 .img-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
@@ -29,11 +31,13 @@
   transition: opacity .5s;
 }
 
+/* controls the image overlay hover */
 .img-overlay:hover {
   opacity: 1;
   transition: opacity .5s;
 }
 
+/* controls the owl carousel nav owl-prev, owl-next */
 .owl-carousel .owl-nav [class*=owl-] {
 	position: absolute;
 	top: 40%;
