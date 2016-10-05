@@ -1,4 +1,53 @@
 /* controls the team carousel section */
-#team-carousel {
+#teams-tour-carousel {
 	padding: 50px 0px 60px 0px;
+}
+
+.team-member-photo {
+	border: solid 2px #FCFCFC;
+	width: 380px;
+	height: 230px;
+}
+
+.img-container {
+	width: 380px;
+	height: 230px;
+}
+
+/* controls the individual team member description */
+.img-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0px;
+  transition: opacity .5s;
+	width: 380px;
+	height: 230px;
+}
+
+.img-overlay:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+	position: absolute;
+	top: 40%;
+	margin-top: 0px;
+	left: -36px;
+	zoom: 1;
+	width: 36px;
+	height: 36px;
+	line-height: 32px;
+	border: 2px solid #FCFCFC;
+	color: #FCFCFC;
+	background-color: #027D82;
+	font-size: 18px;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }

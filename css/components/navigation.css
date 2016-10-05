@@ -85,30 +85,6 @@ a.link-color-5 {
 	color: #fcfcfc;
 }
 
-#navbar-left-toggle {
-	
-}
-
-#navbar-right-toggle {
-	
-}
-
-/* EXAMPLE 8 - Center on mobile*/
-@media only screen and (max-width : 768px){
-	.navbar-centered-logo .navbar-brand {
-		padding: 0px;
-		-webkit-transform: translateX(-50%);
-						transform: translateX(-50%);
-		left: 50%;
-		position: absolute;
-	}
-	.navbar-centered-logo .navbar-brand > img {
-		height: 80%;
-		width: auto;
-		padding: 0px 14px; 
-	}
-}
-
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
  * http://geedmo.github.com/yamm3

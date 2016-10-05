@@ -1,7 +1,8 @@
+/* controls the banner carousel feature at top of site */
 $(document).ready(function () {
-	$("#owl-stage").owlCarousel({
+	$(".owl-stage").owlCarousel({
 		items: 1,
-		loop: true,
+		loop: false,
 		margin:0,
 		padding:0,
 		stagePadding:0,		
@@ -15,4 +16,4 @@ $(document).ready(function () {
 		autoplaySpeed: 1000,
 		speed: 1000
 	});
-});
+}(jQuery));

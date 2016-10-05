@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv='X-UA-Compatible' content='IE=Edge'>
-		<meta name="author" content="Tyson Steele Associates">
 		
 		<title>Salem Dentist | Salem, OR Dentistry | Sean Reisig DDS | Home</title>
 		
@@ -21,24 +20,29 @@
 					integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 					crossorigin="anonymous">
 		
+		<!-- Swiper Carousel CSS -->
+		<link rel="stylesheet"
+					href="lib/swiper-carousel/dist/css/swiper.min.css"
+					type="text/css">		
+		
 		<!-- Animate CSS dependency -->
 		<link rel="stylesheet"
 					href="lib/animate-css/animate.css"
 					type="text/css">
 		
-		<!-- Bootstrap Local dependency -->
-		<!-- <link rel="stylesheet"
-					href="lib/bootstrap-3.3.7/css/bootstrap.min.css"
-					type="text/css"> -->
-		
 		<!-- OWL Carousel CSS styles -->
 		<link rel="stylesheet"
-					href="lib/owl.carousel.2.0.0/assets/owl.carousel.css"
+					href="lib/owl.carousel.2.1.0/assets/owl.carousel.css"
 					type="text/css">		
 		
 		<!-- OWL Carousel Theme CSS -->
 		<link rel="stylesheet"
-					href="lib/owl.carousel.2.0.0/assets/theme.default.min.css"
+					href="lib/owl.carousel.2.1.0/assets/owl.theme.default.min.css"
+					type="text/css">
+		
+		<!-- Canvas Icon Fonts CSS -->
+		<link rel="stylesheet"
+					href="lib/canvas-4.1.1/css/font-icons.css"
 					type="text/css">
 		
 		<!-- Navigation Component CSS -->
@@ -49,14 +53,19 @@
 		<!-- Banner Carousel Component CSS -->
 		<link rel="stylesheet" 
 					href="css/components/banner-carousel.css"
-					type="text/css">		
+					type="text/css">
 		
 		<!-- Team Carousel Component CSS -->
 		<link rel="stylesheet" 
 					href="css/components/team-carousel.css"
 					type="text/css">		
 		
-		<!-- Offers Component CSS -->
+		<!-- Team Carousel Component CSS -->
+		<link rel="stylesheet" 
+					href="css/components/office-tour-carousel.css"
+					type="text/css">		
+		
+		<!-- New Patient Offers Component CSS -->
 		<link rel="stylesheet" 
 					href="css/components/offers.css"
 					type="text/css">			
@@ -74,7 +83,7 @@
 	</head>
 	
 	<body>
-		
+		<a id="top"></a>
     <!-- #primary-navigation -->
     <nav id="primary-navigation" class="navbar yamm navbar-default navbar-fixed-top">
       <div class="container">
@@ -85,7 +94,7 @@
 									class="navbar-toggle">
 						<i class="fa fa-bars fa-lg fa-fw"></i>
 					</button>
-					<a href="#meet-the-team" class="navbar-brand" data-target="#meet-the-team">
+					<a href="#top" class="navbar-brand" data-target="#navbar-collapse-target">
 						<img src="img/reisig-logo-website.svg" 
 								 class="img-responsive" 
 								 alt="South Salem Dental Care logo">
@@ -94,35 +103,35 @@
         <div id="navbar-collapse-target" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
 						<li><a href="#new-patient-offers" 
-									 class="serif-reg link-color-1" 
+									 class="serif-reg link-color-1 text-reg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">New Patient Offers</a></li>
 						<li><a href="#no-insurance" 
-									 class="serif-reg link-color-2" 
-									 data-target="#navbar-collapse-target" 
+									 class="serif-reg link-color-2 text-reg" 
+									 data-target="" 
 									 data-toggle="collapse">No Insurance?</a></li>
 						<li><a href="#patient-reviews" 
-									 class="serif-reg link-color-3" 
+									 class="serif-reg link-color-3 text-reg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Reviews</a></li>					
 						<li><a href="#meet-the-team" 
-									 class="serif-reg link-color-4" 
+									 class="serif-reg link-color-4 text-reg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Team</a></li>
 						<li><a href="#services" 
-									 class="serif-reg link-color-4" 
+									 class="serif-reg link-color-4 text-reg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Services</a></li>
 						<li><a href="#office-tour-carousel" 
-									 class="serif-reg link-color-4" 
+									 class="serif-reg link-color-4 text-reg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Tour</a></li>				
 						<li><a href="#mobile-location" 
-									 class="serif-reg link-color-4 hidden-md hidden-lg" 
+									 class="serif-reg link-color-4 text-reg hidden-md hidden-lg" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Location</a></li>							
 						<li><a href="#location" 
-									 class="serif-reg link-color-4 hidden-xs hidden-sm" 
+									 class="serif-reg link-color-4 text-reg hidden-xs hidden-sm" 
 									 data-target="#navbar-collapse-target" 
 									 data-toggle="collapse">Location</a></li>							
           </ul>
@@ -133,122 +142,116 @@
 		
 		<!-- #banner-mobile -->
 		<section id="banner-mobile" class="visible-xs visible-sm">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12">
-						<a href="#new-patient-offers" 
-							 data-target="#new-patient-offers">
-							<img src="img/reisig-mobile-slide.jpg" 
-									 class="img-responsive" 
-									 alt="Mobile Banner Slide">
-						</a>
-					</div>
-				</div>
-			</div>	
+			<a href="#new-patient-offers" 
+				 data-target="#new-patient-offers">
+				<img src="img/reisig-mobile-slide.jpg" 
+						 class="img-responsive" 
+						 alt="Mobile Banner Slide">
+			</a>
 		</section>
 		<!-- /#banner-mobile -->
 		
-		<!-- #banner-carousel -->
-		<section id="banner-carousel" 
-						 class="owl-carousel owl-theme owl-loaded hidden-xs hidden-sm">
-			<div class="owl-stage-outer">
-				<div id="owl-stage">
-					<div id="banner-slide-1" class="item">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 text-left">
-									<h1 class="h1 sans-serif-bold theme-color-5 text-hu">Family Dentistry</h1>
-									<h2 class="h2 serif-bold theme-color-5 text-md">by Sean Reisig, DDS</h2>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 col-lg-12 text-left text-uppercase">
-									<div class="call-to-action">
-										<p class="sans-serif-reg theme-color-5 text-md">Now welcoming new patients</p>
-										<p class="text-left">
-											<a href="#new-patient-offers"
-												 class="btn btn-lg theme-btn-1 text-left"
-												 data-target="#new-patient-offers">New patient offers</a>		
-										</p>
-									</div>
-								</div>
-							</div>
-							<a href="#meet-the-team" 
-								 data-target="#meet-the-team" class="scroll-down infinite animated bounce">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-color-2 fa-stack-2x"></i>
-									<i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
+<!-- #swiper-carousel -->
+<section id="banner-swiper-carousel" class="visible-md visible-lg">
+	<!-- Slider main container -->
+	<div class="banner-swiper-container">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div id="banner-slide-1" class="swiper-slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-left">
+							<h1 class="h1 sans-serif-bold theme-color-5 text-hu">Family Dentistry</h1>
+							<h2 class="h2 serif-bold theme-color-5 text-md">by Sean Reisig, DDS</h2>
 						</div>
 					</div>
-					<div id="banner-slide-2" class="item hidden-xs hidden-sm">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-lg-12 text-left">
-									<h2 class="h2 theme-color-5">See What Our <br> Patients Are Saying</h1>
-									<p class="review-stars">
-										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
-										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
-										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
-										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
-										<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
-									</p>
-								</div>
+					<div class="row">
+						<div class="col-md-12 col-lg-12 text-left text-uppercase">
+							<div class="call-to-action">
+								<p class="sans-serif-reg theme-color-5 text-md">Now welcoming new patients</p>
+								<p class="text-left">
+									<a href="#new-patient-offers" class="btn btn-lg theme-btn-1 text-left" data-target="#new-patient-offers">New patient offers</a>	
+								</p>
 							</div>
-							<div class="row">
-								<div class="col-md-4 col-lg-4">
-									<p class="serif-reg text-reg customer-review">
-										This is absolutely the best Dental Team <br>
-										I have ever experienced, From prompt <br>
-										scheduling, pain-free work, general <br>
-										cleaning, and follow-through."<br> </p>
-									<p class="serif-reg text-right customer-review">&#45;Eileen S.</p>
-									<p class="text-left">
-										<a href="#patient-reviews" 
-											 class="btn btn-lg theme-btn-1 text-left text-uppercase"
-											 data-target="#patient-reviews">
-											Read Our Reviews</a>			
-									</p>
-								</div>
-							</div>
-							<a href="#meet-the-team" 
-								 data-target="#meet-the-team" class="scroll-down infinite animated bounce">
-								<span class="fa-stack fa-lg">
+						</div>
+					</div>
+					<a href="#meet-the-team" 
+						 data-target="#meet-the-team" 
+						 class="scroll-down infinite animated bounce">
+						<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-color-2 fa-stack-2x"></i>
 									<i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i>
 								</span>
-							</a>
-						</div>
-					</div>		
-					<div id="banner-slide-3" class="item hidden-xs hidden-sm visible-md visible-lg">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6 col-md-offset-6 text-left">
-									<h1 class="h1 sans-serif-bold theme-color-2 text-xxl">No Insurance?</h1>
-									<p class="serif-reg theme-color-4 text-md">Start Saving Money Today!</p>
-									<p class="sans-serif-reg theme-color-4 text-md">Memberships Start at $26/mo.</p>
-									<p class="call-to-action">
-										<a href="#no-insurance" 
-											 class="btn btn-lg theme-btn-1 text-left text-uppercase"
-											 data-target="#no-insurance">
-											Join Our Membership Club</a>			
-									</p>
-								</div>
-							</div>
-							<a href="#meet-the-team" 
-								 data-target="#meet-the-team" class="scroll-down infinite animated bounce">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-color-2 fa-stack-2x"></i>
-									<i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>						
-						</div>
-					</div>				
+					</a>
+				</div>
+			</div>
+			<div id="banner-slide-2" class="swiper-slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-lg-12 text-left">
+							<h2 class="h2 theme-color-5">See What Our <br> Patients Are Saying</h1>
+													<p class="review-stars">
+														<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
+														<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
+														<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
+														<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
+														<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
+													</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-4 col-lg-4">
+													<p class="serif-reg text-reg customer-review">
+														This is absolutely the best Dental Team <br>
+														I have ever experienced, From prompt <br>
+														scheduling, pain-free work, general <br>
+														cleaning, and follow-through."<br> </p>
+													<p class="serif-reg text-right customer-review">&#45;Eileen S.</p>
+													<p class="text-left">
+														<a href="#patient-reviews" 
+															 class="btn btn-lg theme-btn-1 text-left text-uppercase"
+															 data-target="#patient-reviews">
+															Read Our Reviews</a>			
+													</p>
+												</div>
+											</div>
+											<a href="#meet-the-team" 
+												 data-target="#meet-the-team" class="scroll-down infinite animated bounce">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-circle fa-color-2 fa-stack-2x"></i>
+													<i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i>
+												</span>
+											</a>
+										</div></div>
+						<div id="banner-slide-3" class="swiper-slide">								
+							<div class="container">
+											<div class="row">
+												<div class="col-md-6 col-md-offset-6 text-left">
+													<h1 class="h1 sans-serif-bold theme-color-2 text-xxl">No Insurance?</h1>
+													<p class="serif-reg theme-color-4 text-md">Start Saving Money Today!</p>
+													<p class="sans-serif-reg theme-color-4 text-md">Memberships Start at $26/mo.</p>
+													<p class="call-to-action">
+														<a href="#no-insurance" 
+															 class="btn btn-lg theme-btn-1 text-left text-uppercase"
+															 data-target="#no-insurance">
+															Join Our Membership Club</a>			
+													</p>
+												</div>
+											</div>
+											<a href="#meet-the-team" 
+												 data-target="#meet-the-team" class="scroll-down infinite animated bounce">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-circle fa-color-2 fa-stack-2x"></i>
+													<i class="fa fa-chevron-down fa-stack-1x fa-inverse"></i>
+												</span>
+											</a>						
+										</div>
+					</div>
 				</div>
 			</div>
 		</section>
-		<!-- /#banner-carousel -->
+		<!-- /#swiper-carousel -->
 		
 		<!-- #new-patient-hotline-mobile -->
 		<section id="new-patient-hotline-mobile" class="theme-background-2 visible-xs visible-sm">
@@ -327,65 +330,132 @@
 				</div>
 			</div>
 		</section>
+		<!-- /#meet-the-team -->
 		
-		<!-- #team-carousel -->
-		<section id="team-carousel">
+		<!-- #teams-tour-carousel -->
+		<section id="teams-tour-carousel">
 			<div class="container">
-				<div id="team-carousel-items" class="owl-carousel">
-					<div class="item">
-						<a href="" class="link-color-3"  data-toggle="modal" data-target="#tonyaModal">
-							<img class="img-container" src="img/team/tonja.jpg" alt="Tonja">
-						</a>
-						<a href="" class="link-color-3"  data-toggle="modal" data-target="#tonyaModal">
-							<h5 class="h5 text-center">Tonja <br>
-								<small class="serif-reg theme-color-6">Office Manager</small>
-							</h5>
-						</a>
-					</div>
-					<div class="item">	
-						<a href="" class="link-color-3"  data-toggle="modal" data-target="#estelaModal">
-							<img src="img/team/estela.jpg" alt="Estela">
-						</a>
-						<a href="" class="link-color-3" data-toggle="modal" data-target="#estelaModal">
-							<h5 class="h5 text-center">Estela <br>  
-								<small class="serif-reg theme-color-6">Dental Assistant</small>
-							</h5>
-						</a>
-					</div>
-					<div class="item">	
-						<a href="" class="link-color-3" data-toggle="modal" data-target="#deniseModal">
-							<img src="img/team/denise.jpg" alt="Denise">
-						</a>
-						<a href="" class="link-color-3" data-toggle="modal" data-target="#deniseModal">
-							<h5 class="h5 text-center">Denise <br>
-								<small class="serif-reg theme-color-6">Dental Hygienist</small>
-							</h5>
-						</a>
-					</div>
-					<div class="item">		
-						<a href="" data-toggle="modal" data-target="#maryModal">
-							<img src="img/team/mary.jpg" alt="Mary">
-						</a>
-						<a href="" class="link-color-3" data-toggle="modal" data-target="#maryModal">
-							<h5 class="h5 text-center">Mary <br>
-								<small class="serif-reg theme-color-6">Dental Hygienist</small>
-							</h5>
-						</a>
-					</div>
-					<div class="item">		
-						<a href="" data-toggle="modal" data-target="#stephanieModal">
-							<img src="img/team/stephanie.jpg" alt="Stephanie">
-						</a>
-						<a href="" class="link-color-3" data-toggle="modal" data-target="#stephanieModal">
-							<h5 class="h5 text-center">Stephanie <br>
-								<small class="serif-reg theme-color-6">Dental Assistant</small>
-							</h5>
-						</a>
+				<div class="row hidden-xs hidden-sm hidden-md hidden-lg">
+					<div class="col-md-12">
+						<h2 class="h2 theme-color-2 text-xl text-center">Staff</h2>
 					</div>
 				</div>
+				<div class="row">
+					<div id="team-carousel-items" class="owl-carousel">
+						<div class="item">
+							<div class="team-member-photo">
+								<a href="" class="" data-toggle="modal" data-target="#tonyaModal">
+									<img class="img-container" src="img/team/tonja.jpg" alt="Tonja">
+										<div class="img-overlay">
+											<p class="text-center">
+												<i class="fa fa-plus fa-1x fa-white fa-2x fa-fw"></i>
+											</p>
+										</div>
+								</a>
+							</div>
+							<div class="team-member-description">
+								<a href="" class="" data-toggle="modal" data-target="#tonyaModal">
+									<h5 class="h5 text-center">Tonja <br>
+											<small class="serif-reg theme-color-6">Office Manager</small>
+										</h5>
+								</a>
+							</div>
+						</div>
+						<div class="item">	
+								<div class="team-member-photo">
+									<a href="" class="" data-toggle="modal" data-target="#estelaModal">
+										<img src="img/team/estela.jpg" alt="Estela">
+										<div class="img-overlay">
+											<p class="text-center">
+												<i class="fa fa-plus fa-1x fa-white fa-2x fa-fw"></i>
+											</p>
+										</div>
+									</a>
+								</div>
+								<div class="team-member-description">
+									<a href="" class="link-color-3" data-toggle="modal" data-target="#estelaModal">
+										<h5 class="h5 text-center">Estela <br>  
+												<small class="serif-reg theme-color-6">Dental Assistant</small>
+											</h5>
+									</a>
+								</div>
+						</div>
+						<div class="item">		
+								<div class="team-member-photo">
+									<a href="" class="" data-toggle="modal" data-target="#deniseModal">
+										<img src="img/team/denise.jpg" alt="Denise">
+										<div class="img-overlay">
+											<p class="text-center">
+												<i class="fa fa-plus fa-1x fa-white fa-2x fa-fw"></i>
+											</p>
+										</div>
+									</a>
+								</div>
+								<div class="team-member-description">
+									<a href="" class="link-color-3" data-toggle="modal" data-target="#deniseModal">
+										<h5 class="h5 text-center">Denise <br>
+												<small class="serif-reg theme-color-6">Dental Hygienist</small>
+											</h5>
+									</a>
+								</div>
+						</div>
+						<div class="item">		
+								<div class="team-member-photo">
+									<a href="" class="" data-toggle="modal" data-target="#maryModal">
+										<img src="img/team/mary.jpg" alt="Mary">
+										<div class="img-overlay">
+											<p class="text-center">
+												<i class="fa fa-plus fa-1x fa-white fa-2x fa-fw"></i>
+											</p>
+										</div>
+									</a>
+								</div>
+								<div class="team-member-description">
+									<a href="" class="link-color-3" data-toggle="modal" data-target="#maryModal">
+										<h5 class="h5 text-center">Mary <br>
+												<small class="serif-reg theme-color-6">Dental Hygienist</small>
+											</h5>
+									</a>
+								</div>
+						</div>
+						<div class="item">		
+								<div class="team-member-photo">
+									<a href="" class="" data-toggle="modal" data-target="#stephanieModal">
+										<img src="img/team/stephanie.jpg" alt="Stephanie">
+										<div class="img-overlay">
+											<p class="text-center">
+												<i class="fa fa-plus fa-1x fa-white fa-2x fa-fw"></i>
+											</p>
+										</div>
+									</a>
+								</div>
+								<div class="team-member-description">
+									<a href="" class="link-color-3" data-toggle="modal" data-target="#stephanieModal">
+										<h5 class="h5 text-center">Stephanie <br>
+												<small class="serif-reg theme-color-6">Dental Assistant</small>
+											</h5>
+									</a>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="owl-controls">
+					<div class="owl-nav">
+						<div class="owl-prev"></div>
+						<div class="owl-next"></div>
+					</div>
+					<div class="owl-dots">
+						<div class="owl-dot active"><span></span>
+						</div>
+						<div class="owl-dot"><span></span>
+						</div>
+						<div class="owl-dot"><span></span>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</section>
-		<!-- /#team-carousel -->
+		<!-- /#teams-tour-carousel -->		
 		
 		<!-- #team-photo -->
 		<section id="team-photo" class="theme-background-5">
@@ -718,6 +788,20 @@
 						</div>
 					</div>
 				</div>
+				<div class="owl-controls">
+					<div class="owl-nav">
+						<div class="owl-prev"></div>
+						<div class="owl-next"></div>
+					</div>
+					<div class="owl-dots">
+						<div class="owl-dot active"><span></span>
+						</div>
+						<div class="owl-dot"><span></span>
+						</div>
+						<div class="owl-dot"><span></span>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</section>
 		<!-- /#office-tour-carousel -->	
@@ -1001,7 +1085,7 @@
 											class="close" 
 											data-dismiss="modal" 
 											aria-label="Close">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title theme-color-1 text-md">Request an Appointment</h4>
 						</div>
@@ -1010,35 +1094,27 @@
 							<form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
 								<h5>YES! Please contact me to schedule an appointment or answer any questions I&nbsp;might&nbsp;still&nbsp;have:</h5>
 								<div class="row appointment_input_row form-group">
-									<div class="col-xs-2">
+									<div class="col-xs-2 col-sm-2">
 										<label for="name">Name:</label>
 									</div>
-									<div class="col-xs-10">
+									<div class="col-xs-10 col-sm-10">
 										<input type="text" name="name" id="name" class="form-control appointment_form">
 									</div>
 								</div>
-								<div class="row appointment_input_row form-group honeypot_container sr-only">
-									<div class="col-xs-2">
-										<label for="email">Leave this field blank:</label>
+								<div class="row appointment_input_row form-group">
+									<div class="col-xs-2 col-sm-2">
+										<label for="email">Email:</label>
 									</div>
-									<div class="col-xs-10">
+									<div class="col-xs-10 col-sm-10">
 										<input type="email" name="email" id="email" class="form-control appointment_form">
 									</div>
 								</div>
 								<div class="row appointment_input_row form-group">
-									<div class="col-xs-2">
-										<label for="confirmed_email">Email:</label>
-									</div>
-									<div class="col-xs-10">
-										<input type="email" name="confirmed_email" id="confirmed_email" class="form-control appointment_form">
-									</div>
-								</div>
-								<div class="row appointment_input_row form-group">
-									<div class="col-xs-2">
+									<div class="col-xs-2 col-sm-2">
 										<label for="phone">Phone:</label>
 									</div>
-									<div class="col-xs-10">
-										<input type="text" name="phone" id="phone" class="form-control appointment_form">
+									<div class="col-xs-10 col-sm-10">
+										<input type="tel" name="phone" id="phone" class="form-control appointment_form">
 									</div>
 								</div>
 								<button type="submit" class="btn btn-lg theme-btn-1">Request Appointment</button>
@@ -1057,7 +1133,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="false">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Tonja</h4>
 						</div>
@@ -1079,7 +1155,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="false">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Estela</h4>
 						</div>
@@ -1101,7 +1177,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="false">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Denise</h4>
 						</div>
@@ -1122,7 +1198,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="false">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Mary</h4>
 						</div>
@@ -1147,7 +1223,7 @@
 											class="close" 
 											data-dismiss="modal" 
 											aria-hidden="false">
-								<i class="fa fa-times fa-black fa-1x fa-fw"></i>
+								<i class="fa fa-times fa-fw"></i>
 							</button>
 							<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Stephanie</h4>
 						</div>
@@ -1170,28 +1246,37 @@
 		===================================================== -->		
 		
 		<!-- jQuery script -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+						type="text/javascript"></script>-->
+		
+		<script src="lib/jquery-1.11.2/jquery-1.11.2.min.js"
 						type="text/javascript"></script>
 		
-		<script src="lib/jquery-1.11.2/jquery-1.11.2.min.js"></script>
+		<!-- Bootstrap JS script
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+						integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+						crossorigin="anonymous"></script> -->
 		
 		<!-- Bootstrap JS script -->
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-						integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-						crossorigin="anonymous"></script>
+		<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 		
 		<!-- Font Awesome JS script -->
-		<script src="//use.fontawesome.com/e256b557ab.js"></script>
+		<script src="https://use.fontawesome.com/e256b557ab.js"></script>
+		
+		<!-- Swiper Carousel JS script -->
+		<script src="lib/swiper-carousel/dist/js/swiper.jquery.js" type="text/javascript"></script>
 		
 		<!-- OWL Carousel JS script -->
-		<script src="lib/owl.carousel.2.0.0/owl.carousel.min.js" 
-						type="text/javascript"></script>
+		<script src="lib/owl.carousel.2.1.0/owl.carousel.min.js" type="text/javascript"></script>
 		
 		<!-- Smooth Scroll Custom JS script -->
 		<script src="js/components/smooth-scroll.js" type="text/javascript"></script>
 		
 		<!-- Banner Carousel Custom JS script -->
 		<script src="js/components/banner-carousel.js" type="text/javascript"></script>
+		
+		<!-- Swiper Carousel Custom JS script -->
+		<script src="js/components/swiper-carousel.js" type="text/javascript"></script>		
 		
 		<!-- Accordion Custom JS script -->
 		<script src="js/components/accordion.js" 
@@ -1208,16 +1293,15 @@
 		<script src="js/components/office-tour-carousel.js" type="text/javascript"></script>			
 		
 		<!-- Birdseye JS script -->
-		<script src='//birdeye.com/embed/v4/144962104162272/3/1655906375' 
+		<script src='https://birdeye.com/embed/v4/144962104162272/3/1655906375' 
 						type='text/javascript'></script>
 		
 		<!-- Appointment Form JS script -->
 		<script type="text/template" id="success_msg">
     	<p class="sans-serif-reg text-reg">Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have. Thank you!</p>
     </script>
-		
 		<!-- ====================================================
-			End of JS Scripts Section
-		===================================================== -->		
+			End of JS Script Section
+		===================================================== -->	
 	</body>
 </html>

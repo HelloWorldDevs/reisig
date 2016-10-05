@@ -226,7 +226,7 @@ p {
 
 /* sets the 1st default theme button style */
 a.theme-btn-1 {
-	padding: 10px 40px 10px 40px;	
+	padding: 10px 25px 10px 25px;	
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -236,7 +236,17 @@ a.theme-btn-1 {
 
 /* sets the 1st default theme button hover style */
 a.theme-btn-1:hover {
-	padding: 10px 40px 10px 40px;	
+	padding: 10px 25px 10px 25px;	
+	background-color: #C04355;
+	border: solid 2px #fcfcfc;
+	border-radius: 15px;
+	color: #fcfcfc;
+	text-transform: uppercase;
+}
+
+/* sets the 1st default theme button hover style */
+a.theme-btn-1:focus {
+	padding: 10px 25px 10px 25px;	
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -246,7 +256,7 @@ a.theme-btn-1:hover {
 
 /* sets the default button style */
 button.theme-btn-1 {
-	padding: 10px 40px 10px 40px;	
+	padding: 10px 25px 10px 25px;	
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -256,7 +266,7 @@ button.theme-btn-1 {
 
 /* sets the default theme button hover style */
 button.theme-btn-1:hover {
-	padding: 10px 40px 10px 40px;	
+	padding: 10px 25px 10px 25px;	
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -279,7 +289,7 @@ button.theme-btn-1:hover {
 	padding: 0px 0px 0px 0px;
 }
 
-
+/* controls the banner carousel section */
 #banner-carousel {
 	margin: 0 auto;
 	padding: 0px 0px 0px 0px;	
@@ -332,7 +342,10 @@ button.theme-btn-1:hover {
 	min-height: 140px;	
 }
 
-
+/* controls the meet the team section */
+#meet-the-team {
+	padding: 20px 0px 30px 0px;
+}
 
 /* controls the no insurance section */
 #no-insurance {
@@ -355,7 +368,6 @@ button.theme-btn-1:hover {
 	padding: 20px 0px 20px 0px;
 	border-bottom: solid 2px #cccccc;
 }
-
 
 /* controls the office tour carousel section */
 #office-tour-carousel {
@@ -421,9 +433,17 @@ button.theme-btn-1:hover {
 	color: gold;
 }
 
+.fa-green {
+	color: #027D82;
+}
+
 /* creates a black font class for font awesome icons */
 .fa-black {
-	color: black !important;
+	color: #000000 !important;
+}
+
+.fa-white {
+	color: #FCFCFC !important;
 }
 
 /* creates a green font class for font awesome icons */
@@ -470,6 +490,26 @@ button.theme-btn-1:hover {
 	body {
 		font-size: 1rem;
 	}
+	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+	/* sets the 1st default theme button hover style */
+	a.theme-btn-1:hover {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}	
 }
 
 /* Landscape tablets and medium desktops */
@@ -484,41 +524,31 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+	/* sets the 1st default theme button hover style */
+	a.theme-btn-1:hover {
+		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}	
+	
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 	
-	html {
-		font-size: 16px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
-	
-}
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-		/* overrides default html settings */
-	html {
-		font-size: 14px;
-	}
-	
-	/* overrides default body browser settings */
-	body {
-		font-size: 1rem;
-	}
-	
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-	
-	/* overrides default html settings */
 	html {
 		font-size: 14px;
 	}
@@ -541,6 +571,76 @@ button.theme-btn-1:hover {
 	/* sets the 1st default theme button hover style */
 	a.theme-btn-1:hover {
 		padding: 10px 25px 10px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}	
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+		/* overrides default html settings */
+	html {
+		font-size: 14px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 10px 15px 10px 15px;
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+	/* sets the 1st default theme button hover style */
+	a.theme-btn-1:hover {
+		padding: 10px 15px 10px 15px;
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}	
+	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+	/* overrides default html settings */
+	html {
+		font-size: 12px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 10px 15px 10px 15px;
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+	/* sets the 1st default theme button hover style */
+	a.theme-btn-1:hover {
+		padding: 10px 15px 10px 15px;
 		background-color: #C04355;
 		border: solid 2px #fcfcfc;
 		border-radius: 15px;

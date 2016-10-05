@@ -1,3 +1,4 @@
+/* controls the smooth scroll for primary navigation and scroll down */
 (function (){
 	$(document).ready(function(){
 		$('a[href^="#"]').on('click',function (e) {

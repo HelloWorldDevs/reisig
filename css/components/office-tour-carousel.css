@@ -1,0 +1,19 @@
+.owl-carousel .owl-nav [class*=owl-] {
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	left: -36px;
+	zoom: 1;
+	width: 36px;
+	height: 36px;
+	line-height: 32px;
+	border: 2px solid #FCFCFC;
+	color: #FCFCFC;
+	background-color: #027D82;
+	font-size: 18px;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}

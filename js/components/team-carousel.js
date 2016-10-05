@@ -1,6 +1,6 @@
-(function(){
+$(document).ready(function () {
 	$("#team-carousel-items").owlCarousel({
-		items: 1,
+		items: 3,
 		loop: true,
 		mouseDrag: true,
 		touchDrag: true,
@@ -8,8 +8,8 @@
 		stagePadding: 0,
 		nav: true,
 		navText: [
-			"<span class='fa-stack fa-lg'><i class='fa fa-circle fa-green fa-stack-2x'></i><i class='fa fa-arrow-left fa-inverse fa-stack-1x'></i></span>", 
-			"<span class='fa-stack fa-lg'><i class='fa fa-circle fa-green fa-stack-2x'></i><i class='fa fa-arrow-right fa-inverse fa-stack-1x'></i></span>"],
+			"<i class='fa fa-arrow-left fa-inverse fa-1x'></i>", 
+			"<i class='fa fa-arrow-right fa-inverse fa-1x'></i>"],
 		dots: false,
 		autoplay: false,
 		autoHeight: false,
@@ -30,4 +30,4 @@
 			}
 		}
 	});	
-}());
+}(jQuery));
