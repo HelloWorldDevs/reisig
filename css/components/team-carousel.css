@@ -3,10 +3,12 @@
 	padding: 50px 0px 60px 0px;
 }
 
-.team-member-photo {
-	border: solid 2px #FCFCFC;
-	width: 380px;
-	height: 230px;
+/* controls the individual team member photo */
+.team-member-photo{
+  /* width: 480px; */
+  /* height: 360px; */
+  display: inline-block;
+  position: relative;
 }
 
 .img-container {
@@ -14,17 +16,16 @@
 	height: 230px;
 }
 
-/* controls the individual team member description */
 .img-overlay {
   background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
   opacity: 0;
   top: 0;
   left: 0;
   position: absolute;
-  padding: 0px;
+  padding: 70px;
   transition: opacity .5s;
-	width: 380px;
-	height: 230px;
 }
 
 .img-overlay:hover {
