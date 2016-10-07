@@ -295,6 +295,12 @@ button.theme-btn-1:hover {
 	padding: 0px 0px 0px 0px;	
 }
 
+/* controls the mobile banner image */
+#banner-mobile-img{
+	width: auto;
+	height: auto;
+}
+
 /* controls the 1st slide of the banner carousel */
 #banner-slide-1 {
 	background-image: url("../../img/reisig-slide-1.jpg");
@@ -358,7 +364,7 @@ button.theme-btn-1:hover {
 
 /* controls the no insurance mobile section */
 #no-insurance-mobile {
-	margin: 20px 0px 80px 0px;
+	margin: 20px 0px 60px 0px;
 	background-color: #FDFDFD;
 }
 
