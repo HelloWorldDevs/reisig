@@ -356,6 +356,17 @@ button.theme-btn-1:hover {
 	background-size: cover;
 }
 
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 20px 0px 80px 0px;
+	background-color: #FDFDFD;
+}
+
+/* controls the no insurance mobile banner */
+#no-insurance-banner {
+	margin-top: -90px;
+}
+
 /* controls the team photo section */
 #team-photo {
 	margin: 0 auto;		
