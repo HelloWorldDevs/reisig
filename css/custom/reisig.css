@@ -407,7 +407,6 @@ button.theme-btn-1:hover {
 	margin: 0 auto;	
 	padding: 40px 0px 30px 0px;	
 	padding: 40px 0px 30px 0px;	
-	width: auto;
 	max-height: 100px;
 }
 
@@ -417,15 +416,15 @@ button.theme-btn-1:hover {
 	padding: 20px 0px 20px 0px;
 }
 
-/* controls the primary mobile footer section */
-#primary-mobile-footer {
+/* controls the mobile footer section */
+#mobile-footer {
 	margin: 0 auto;		
 	padding: 30px 0px 20px 0px;
 	background-color: #36A9AE;
 }
 
-/* controls the primary footer section */
-#primary-footer {
+/* controls the desktop footer section */
+#desktop-footer {
 	margin: 0 auto;		
 	padding: 30px 0px 20px 0px;
 	background-color: #36A9AE;
