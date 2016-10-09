@@ -247,6 +247,24 @@ p {
 	color: #fcfcfc;
 }
 
+/* sets the small phone number link class */
+.phone-sm {
+	font-size: 0.875rem !important;
+	font-weight: 700;
+}
+
+/* sets the medium phone number link class */
+.phone-md {
+	font-size: 1.5rem !important;
+	font-weight: 700;
+}
+
+/* sets the large phone number link class */
+.phone-lg {
+	font-size: 2.5rem !important;
+	font-weight: 700;
+}
+
 /* sets the 1st default theme button style */
 a.theme-btn-1 {
 	padding: 10px 25px 10px 25px;	
@@ -426,9 +444,18 @@ button.theme-btn-1:hover {
 	background-image: url("../../img/map-screenshot.jpg");
 	background-position: top center;
 	background-size: cover;
-	max-height: 732px;
-	margin: 0 auto;	
+	max-height: 800px;
 	padding: 60px 0px 40px 0px;	
+}
+
+/* overrides the default bootstrap panel style */
+#location-panel {
+	padding: 0px 0px 0px 0px;
+	border: solid 2px #cccccc;
+}
+		
+#location-panel .panel-body {
+	padding: 0px;
 }
 
 /* controls the location brand logo */
@@ -508,10 +535,7 @@ button.theme-btn-1:hover {
 	color: #DC4A38 !important;
 }
 
-/* overrides the default bootstrap panel style */
-.panel-default {
-	border: solid 2px #cccccc;
-}
+
 
 /* overrides the default bootstrap well style */
 .well-default {
