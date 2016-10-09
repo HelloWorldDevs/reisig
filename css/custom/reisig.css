@@ -56,7 +56,8 @@ body {
 
 p {
 	font-size: 1rem;
-	line-height: normal;
+	line-height: 1.5rem;
+	padding-bottom: 10px;
 }
 
 .text {
@@ -105,9 +106,14 @@ p {
 	font-size: 4rem;
 }
 
-/*creates a responsive text huge class */
+/* creates a responsive text huge class */
 .text-hu {
 	font-size: 4.5rem;
+}
+
+/* creates a text caption class */
+.text-caption {
+	padding: 15px 0px 0px 0px;
 }
 
 /* creates a serif light weight font */
@@ -319,15 +325,17 @@ button.theme-btn-1:hover {
 	Custom Site Sections 
 ===================== */
 
-/* controls the primary navigation */
-#primary-navigation {}
-
 /* controls the patient reviews section */
-#patient-reviews {
+#reviews {
 	background-image: url("../../img/reviews-bkgd.jpg");
 	background-position: top center;
 	background-size: cover;	
-	padding: 0px 0px 0px 0px;
+	padding: 40px 0px 50px 0px;
+}
+
+/* controls the tyson steele credit link */
+#reviews p {
+	margin-top: 10px;
 }
 
 /* controls the banner carousel section */
