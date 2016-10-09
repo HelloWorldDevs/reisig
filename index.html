@@ -1047,11 +1047,10 @@
 		End of Desktop Footer Section
 	============================  -->		
 
-	<!-- ====================================================
+	<!-- ========================
 			Start of Modals Section
-		===================================================== -->
+		======================= -->
 
-	<!-- #requestAppointmentModal -->
 	<section id="requestAppointmentModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1061,7 +1060,7 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title theme-color-1 text-md">Request an Appointment</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<div class="form-error"></div>
 						<form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
@@ -1069,37 +1068,35 @@
 							<div class="row appointment_input_row form-group">
 								<div class="col-xs-2 col-sm-2">
 									<label for="name">Name:</label>
-								</div>
+								</div><!-- /.col-xs-2 .col-sm-2 -->
 								<div class="col-xs-10 col-sm-10">
 									<input type="text" name="name" id="name" class="form-control appointment_form">
-								</div>
-							</div>
+								</div><!-- /.col-xs-10 .col-sm-10 -->
+							</div><!-- /.row .appointment_input_row .form-group -->
 							<div class="row appointment_input_row form-group">
 								<div class="col-xs-2 col-sm-2">
 									<label for="email">Email:</label>
-								</div>
+								</div><!-- /.col-xs-10 .col-sm-10 -->
 								<div class="col-xs-10 col-sm-10">
 									<input type="email" name="email" id="email" class="form-control appointment_form">
-								</div>
-							</div>
+								</div><!-- /.col-xs-10 .col-sm-10 -->
+							</div><!-- /.row .appointment_input_row .form-group -->
 							<div class="row appointment_input_row form-group">
 								<div class="col-xs-2 col-sm-2">
 									<label for="phone">Phone:</label>
-								</div>
+								</div><!-- /.modal-dialog -->
 								<div class="col-xs-10 col-sm-10">
 									<input type="tel" name="phone" id="phone" class="form-control appointment_form">
-								</div>
-							</div>
+								</div><!-- /.modal-dialog -->
+							</div><!-- /.row .appointment_input_row .form-group -->
 							<button type="submit" class="btn btn-lg theme-btn-1">Request Appointment</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#requestAppointmentModal -->
+						</form><!-- /#mail-form -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#requestAppointmentModal -->
 
-	<!-- #tonyaModal -->
 	<section id="tonyaModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1109,20 +1106,18 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Tonja</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<img src="img/team/tonja.jpg" class="img-responsive" alt="Tonja">
 						<br>
 						<p class="serif-reg theme-color-6 text-reg">Tonja has been part of the team since Dr. Reisig started practicing over 18 years ago. Tonja is the first person you will likely talk to on the phone or when you walk in the door.</p>
 						<p class="serif-reg theme-color-6 text-reg">She is our office manager and is in charge of all the paperwork sent out, insurance billing, and financing options. She looks forward to meeting you and your family and makes sure everything runs as seamlessly as possible.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#tonyaModal -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#tonyaModal -->
 
-	<!-- #estelaModal -->
 	<section id="estelaModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1132,20 +1127,18 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Estela</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<img src="img/team/estela.jpg" class="img-responsive" alt="Estela">
 						<br>
 						<p class="serif-reg theme-color-6 text-reg">Estela is Dr Reisig's chair side assistant. She has been part of Dr Reisig's team for over 10 years. Her job is very important to her. She will be escorting you back to the treatment area and making sure you are comfortable.</p>
 						<p class="serif-reg theme-color-6 text-reg">If you would like a blanket or pillow all you have to do is ask. We also offer LCD televisions in all treatment areas. As for our Spanish speaking patients Estela is ready to translate.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#estelaModal -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#estelaModal -->
 
-	<!-- #deniseModal -->
 	<section id="deniseModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1155,19 +1148,17 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Denise</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<img src="img/team/denise.jpg" class="img-responsive" alt="Denise">
 						<br>
 						<p class="serif-reg theme-color-6 text-reg">Denise is Dr Reisig's dental hygienist. She has 12+ years working in the dental field. She has a very gentle touch and will make sure are comfortable. You can be confident that you are receiving the highest standard of care.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#deniseModal -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#deniseModal -->
 
-	<!-- #maryModal -->
 	<section id="maryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1177,20 +1168,18 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Mary</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<img src="img/team/mary.jpg" class="img-responsive" alt="Mary">
 						<br>
 						<p class="serif-reg theme-color-6 text-reg">Mary is the newest member of Dr. Reisig’s team. As a dental hygienist Mary’s goal is to help each of her patients achieve great oral health. She committed to providing excellent prevatative care to all and has a great deal of experience working with children.</p>
 						<p class="serif-reg theme-color-6 text-reg">Mary’s favorite part of her job is getting to know each of our patients and customizing treatment to each of their needs. When she’s not at work you can find Mary hanging out with her two young sons and volunteering around town.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#maryModal -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#maryModal -->
 
-	<!-- #stephanieModal -->
 	<section id="stephanieModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-body">
@@ -1200,25 +1189,20 @@
 							<i class="fa fa-times fa-fw"></i>
 						</button>
 						<h4 class="modal-title sans-serif-bold theme-color-4 text-md">Stephanie</h4>
-					</div>
+					</div><!-- /.modal-header -->
 					<div class="modal-body">
 						<img src="img/team/stephanie.jpg" class="img-responsive" alt="Stephanie">
 						<br>
 						<p class="serif-reg theme-color-6 text-reg">Bio Coming soon.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#stephanieModal -->
+					</div><!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-body -->
+		</div><!-- /.modal-dialog -->
+	</section><!-- /#stephanieModal -->
 
-	<!-- ====================================================
+	<!-- ======================
 			End of Modals Section
-		===================================================== -->
-
-	<!-- ====================================================
-			Start of JS Script Section
-		===================================================== -->
+	======================= -->
 	
 	<!-- ===============================
 		Start of JS Library Dependencies
