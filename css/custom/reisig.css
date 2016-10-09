@@ -434,8 +434,8 @@ button.theme-btn-1:hover {
 /* controls the location brand logo */
 #location-brand-logo {
 	padding: 40px 0px 30px 0px;	
-	padding: 40px 0px 30px 0px;	
-	max-height: 80px;
+	width: 260px;
+	height: auto;
 }
 
 /* controls the associations section */
