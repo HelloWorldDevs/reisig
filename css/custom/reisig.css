@@ -392,13 +392,18 @@ button.theme-btn-1:hover {
 	padding: 20px 0px 30px 0px;
 }
 
+/* controls the mobile-location section */
+#mobile-location {
+	margin: 0 auto;	
+	padding: 60px 0px 40px 0px;	
+}
+
 /* controls the locations section */
-#location {
+#desktop-location {
 	background-image: url("../../img/map-screenshot.jpg");
 	background-position: top center;
 	background-size: cover;
 	max-height: 732px;
-	width: auto;
 	margin: 0 auto;	
 	padding: 60px 0px 40px 0px;	
 }
@@ -424,10 +429,11 @@ button.theme-btn-1:hover {
 }
 
 /* controls the desktop footer section */
-#desktop-footer {
-	margin: 0 auto;		
-	padding: 30px 0px 20px 0px;
+#desktop-footer {	
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
 	background-color: #36A9AE;
+	max-height: 80px;
 }
 
 /* creates a class for the birdeye patient reviews widget */
