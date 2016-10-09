@@ -421,7 +421,7 @@ button.theme-btn-1:hover {
 	padding: 60px 0px 40px 0px;	
 }
 
-/* controls the locations section */
+/* controls the desktop location section */
 #desktop-location {
 	background-image: url("../../img/map-screenshot.jpg");
 	background-position: top center;
@@ -431,11 +431,11 @@ button.theme-btn-1:hover {
 	padding: 60px 0px 40px 0px;	
 }
 
-#location-brand {
-	margin: 0 auto;	
+/* controls the location brand logo */
+#location-brand-logo {
 	padding: 40px 0px 30px 0px;	
 	padding: 40px 0px 30px 0px;	
-	max-height: 100px;
+	max-height: 80px;
 }
 
 /* controls the associations section */
