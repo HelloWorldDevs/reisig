@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	margin-top: 80px;
+	margin-top: 100px;
 	padding: 0px;	
 	font-size: 1rem;
 }
@@ -338,45 +338,6 @@ button.theme-btn-1:hover {
 	margin-top: 10px;
 }
 
-/* controls the banner carousel section */
-#banner-carousel {
-	margin: 0 auto;
-	padding: 0px 0px 0px 0px;	
-}
-
-/* controls the mobile banner image */
-#banner-mobile-img{
-	width: auto;
-	height: auto;
-}
-
-/* controls the 1st slide of the banner carousel */
-#banner-slide-1 {
-	background-image: url("../../img/reisig-slide-1.jpg");
-	background-position: top center;
-	background-repeat: no-repeat; 
-	width: auto;
-	max-height: 587px;
-}
-
-/* controls the 2nd slide of the banner carousel */
-#banner-slide-2 {
-	background-image: url("../../img/reisig-slide-2.jpg");
-	background-position: top center;
-	background-repeat: no-repeat; 
-	width: auto;
-	max-height: 587px;
-}
-
-/* controls the 3rd slide of the banner carousel */
-#banner-slide-3 {
-	background-image: url("../../img/reisig-slide-3.jpg");
-	background-position: top center;
-	background-repeat: no-repeat; 
-	width: auto;
-	max-height: 587px;
-}
-
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
 	margin: 0 auto;
@@ -405,10 +366,11 @@ button.theme-btn-1:hover {
 /* controls the no insurance section */
 #no-insurance {
 	margin: 0 auto;	
-	padding: 40px 0px 60px 0px;	
+	padding: 60px 0px 60px 0px;	
 	background-image: url("../../img/membership-row-reisig.jpg");
 	background-position: top center;
 	background-size: cover;
+	height: auto;
 }
 
 /* controls the no insurance mobile section */

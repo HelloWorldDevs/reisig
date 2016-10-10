@@ -24,14 +24,54 @@
 	padding: 0px;
 }
 
-/* overrides the control display for banner carousel */
-.owl-controls {
-	display: ;
+/* controls the swiper container */
+.swiper-container {
+	width: auto;
+	height: 578px;
 }
 
 .owl-item {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+/* controls the banner carousel section */
+#banner-carousel {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;	
+}
+
+/* controls the mobile banner image */
+#banner-mobile-img{
+	width: auto;
+	height: auto;
+}
+
+/* controls the 1st slide of the banner carousel */
+#banner-slide-1 {
+	background-image: url("../../img/reisig-slide-1.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
+}
+
+/* controls the 2nd slide of the banner carousel */
+#banner-slide-2 {
+	background-image: url("../../img/reisig-slide-2.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
+}
+
+/* controls the 3rd slide of the banner carousel */
+#banner-slide-3 {
+	background-image: url("../../img/reisig-slide-3.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+	width: auto;
+	max-height: 587px;
 }
 
 /* controls the first slide in the banner-carousel */
@@ -71,10 +111,7 @@
 	max-height: 540px;	
 }
 
-/* sets the default color style for the review stars */
-.fa-gold {
-	color: gold !important;
-}
+
 
 /* sets the default color style for the customer review */
 .customer-review {
@@ -83,6 +120,11 @@
 
 .call-to-action {
 	margin: 50px 0px 0px 0px;
+}
+
+/* sets the default color style for the review stars */
+.fa-gold {
+	color: gold !important;
 }
 
 /* sets the styles for the slide arrow */
@@ -100,7 +142,8 @@
 	text-align: center;
 }
 
-.swiper-container {
-	width: auto;
-	height: 578px;
+/* creates a dark icon class for scroll down */
+.dark-icon {
+	color: #333333; 
+	border: solid 2px #333333 !important;
 }

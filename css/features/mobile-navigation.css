@@ -1,0 +1,75 @@
+nav {
+	margin: 0px !important; 
+	padding: 0px 0px 0px 0px !important;
+}
+
+.navbar.navbar-right {
+	height: 100px;
+}
+
+a:hover {
+	text-decoration: underline !important;
+}
+
+/* sets the 1st default link color */
+a.link-color-1 {
+	color: #C04355 !important;
+}
+
+a.link-color-1:hover {
+	
+}
+
+/* sets the 2nd default link color */
+a.link-color-2 {
+	color: #36A9AE !important;
+}
+
+/* sets the 3rd default link color */
+a.link-color-3 {
+	color: #252A2E !important;
+}
+
+/* sets the 4th default link color */
+a.link-color-4 {
+	color: #797874 !important;
+}
+
+/* sets the 5th default link color */
+a.link-color-5 {
+	color: #fcfcfc;
+}
+
+.navbar .navbar-right {
+	margin-top: 20px;
+}
+
+#mobile-navigation {
+	height: 100px;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+	height: 100px;
+}
+
+@media screen and (min-width:768px){
+	.navbar-brand-centered {
+		position: absolute;
+		left: 50%;
+		display: block;
+		width: 160px;
+		height: 100px;
+		text-align: center;
+		background: none;
+	}
+	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 0%;
+		margin-left: 0px;
+		display: block;
+		height: 100px;
+	}
+}	

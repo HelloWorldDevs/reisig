@@ -4,7 +4,7 @@
 
 nav {
 	margin: 0px !important; 
-	padding: 20px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;
 }
 
 .navbar-default {
@@ -14,13 +14,14 @@ nav {
 }
 
 .navbar-brand {
-  padding: 0px;
-	height: 80px;
+	position: absolute;
+	left: 0%;
+	top: 5%;
 }
 
 .navbar-brand > img {
+	width: 160px;
   height: 80px;
-  padding: 0px;
 }
 
 .navbar-default .navbar-toggle:hover  {
@@ -42,6 +43,11 @@ button.navbar-toggle:clicked {
 div.navbar-header {
 	padding: 0px 0px 0px 0px;
 	border: 0px;
+}
+
+.navbar .navbar-right {
+	position: absolute;
+	margin-top: 20px;
 }
 
 .navbar-default .navbar-collapse {
@@ -110,4 +116,69 @@ a.link-color-5 {
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 0;
   right: 0;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.navbar-brand {
+		position: absolute;
+		display: block;
+		top: 5%;
+		left: 0%;
+		margin-top: -10px;
+		padding-bottom: 20px;
+		height: 80px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-brand {
+		position: absolute;
+		display: block;
+		top: 5%;
+		left: 0%;
+		margin-top: -10px;
+		padding-bottom: 20px;
+		height: 80px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand {
+		position: absolute;
+		display: block;
+		top: 5%;
+		left: 0%;
+		margin-top: -10px;
+		padding-bottom: 20px;
+		height: 80px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.navbar-brand {
+		position: absolute;
+		top: 5%;
+		left: 0%;
+		margin-top: -10px;
+		margin-left: -80px;
+		display: block;
+		height: 80px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.navbar-brand {
+		position: absolute;
+		top: 5%;
+		left: 50%;
+		margin-top: -10px;
+		margin-left: -80px;
+		display: block;
+		height: 80px;
+	}
 }

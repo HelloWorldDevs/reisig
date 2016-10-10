@@ -49,22 +49,25 @@
 		Start of Custom CSS 
 	=================== -->	
 	
-	<!-- Navigation Component CSS -->
-	<link rel="stylesheet" href="css/features/navigation.css" type="text/css">
+	<!-- Navigation Custom CSS
+	<link rel="stylesheet" href="css/features/navigation.css" type="text/css"> -->
+	
+	<!-- Mobile Navigation Custom CSS -->
+	<link rel="stylesheet" href="css/features/mobile-navigation.css" type="text/css">
 
-	<!-- Banner Carousel Component CSS -->
-	<link rel="stylesheet" href="css/features/banner-carousel.css" type="text/css">
+	<!-- Banner Swiper Carousel Custom CSS -->
+	<link rel="stylesheet" href="css/features/banner-swiper-carousel.css" type="text/css">
 
-	<!-- Team Carousel Component CSS -->
+	<!-- Team OWL Carousel Custom CSS -->
 	<link rel="stylesheet" href="css/features/team-carousel.css" type="text/css">
 
-	<!-- Office Tour Carousel Component CSS -->
+	<!-- Office Tour Carousel Custom CSS -->
 	<link rel="stylesheet" href="css/features/office-tour-carousel.css" type="text/css">
 
-	<!-- New Patient Offers Component CSS -->
+	<!-- New Patient Offers Custom CSS -->
 	<link rel="stylesheet" href="css/features/offers.css" type="text/css">
 
-	<!-- Accordion Component CSS -->
+	<!-- Accordion Custom CSS -->
 	<link rel="stylesheet" href="css/features/accordion.css" type="text/css">
 
 	<!-- Reisig Custom CSS styles -->
@@ -77,8 +80,83 @@
 </head>
 
 <body>
+	
+	<!-- ==========================
+		Start of Navigation Section
+	=========================== -->	
+	
 	<a id="top"></a>
-	<!-- #primary-navigation -->
+	
+	<nav id="mobile-navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-brand navbar-brand-centered"><img src="img/reisig-logo-website.svg"></div>
+			</div><!-- /.navbar-header -->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-brand-centered">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#new-patient-offers" 
+							 class="serif-reg link-color-1 text-reg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">New Patient Offers</a>
+					</li>
+					<li>
+						<a href="#no-insurance" 
+							 class="serif-reg link-color-2 text-reg" 
+							 data-target="" 
+							 data-toggle="collapse">No Insurance?</a></li>
+					<li>
+						<a href="#reviews" 
+							 class="serif-reg link-color-3 text-reg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Reviews</a></li>
+					<li>
+						<a href="#meet-the-team" 
+							 class="serif-reg link-color-4 text-reg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Team</a></li>
+					<li>
+						<a href="#services" 
+							 class="serif-reg link-color-4 text-reg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Services</a></li>
+					<li>
+						<a href="#office-tour-carousel" 
+							 class="serif-reg link-color-4 text-reg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Tour</a>
+					</li>		
+					<li>
+						<a href="#mobile location" 
+							 class="serif-reg link-color-4 text-reg hidden-md hidden-lg" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Location</a>
+					</li>	
+					<li>
+						<a href="#desktop-location" 
+							 class="serif-reg link-color-4 text-reg hidden-xs hidden-sm" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Location</a>					
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav><!-- /#navigation -->
+
+	<!-- ==========================
+		Start of Navigation Section
+	=========================== -->		
+
+	
+	<!-- #primary-navigation
 	<nav id="primary-navigation" class="navbar yamm navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -103,15 +181,18 @@
 					</li>
 					<li><a href="#office-tour-carousel" class="serif-reg link-color-4 text-reg" data-target="#navbar-collapse-target" data-toggle="collapse">Tour</a>
 					</li>
-					<li><a href="#mobile-location" class="serif-reg link-color-4 text-reg hidden-md hidden-lg" data-target="#navbar-collapse-target" data-toggle="collapse">Location</a>
+					<li><a href="#mobile location" class="serif-reg link-color-4 text-reg hidden-md hidden-lg" data-target="#navbar-collapse-target" data-toggle="collapse">Location</a>
 					</li>
 					<li><a href="#location" class="serif-reg link-color-4 text-reg hidden-xs hidden-sm" data-target="#navbar-collapse-target" data-toggle="collapse">Location</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</nav>
-	<!-- /#primary-navigation -->
+	</nav><!-- /#primary-navigation -->
+	
+	<!-- ========================
+		End of Navigation Section
+	========================= -->	
 
 	<!-- #banner-mobile -->
 	<section id="banner-mobile" class="visible-xs-block visible-sm-block">
@@ -124,7 +205,9 @@
 	</section>
 	<!-- /#banner-mobile -->
 
-	<!-- #swiper-carousel -->
+	<!-- ======================================
+		Start of Banner Swiper Carousel Section
+	======================================= -->
 	<section id="banner-swiper-carousel" class="visible-md-block visible-lg-block">
 		<!-- Slider main container -->
 		<div class="banner-swiper-container">
@@ -153,7 +236,7 @@
 							 data-target="#meet-the-team" 
 							 class="scroll-down infinite animated fadeInDown">
 							<span class="theme-color-1">
-								<i class="dark-icon icon-arrow-down" style="color: #333333; !important"></i>
+								<i class="dark-icon icon-arrow-down"></i>
 							</span>
 						</a>
 					</div>
@@ -221,8 +304,11 @@
 							</div>
 						</div>
 					</div>
-		</section>
-		<!-- /#swiper-carousel -->
+		</section><!-- /#banner-swiper-carousel -->
+	
+		<!-- ======================================
+			Start of Banner Swiper Carousel Section
+		======================================= -->	
 		
 		<!-- #new-patient-hotline-mobile -->
 		<section id="new-patient-hotline-mobile" 
@@ -474,7 +560,7 @@
 						<div class="specials-bottom">
 							<span class="specials-save specials-color-1">SAVE $165</span>
 							<p>Includes comprehensive exam by the doctor and necessary x‑rays.</p>
-							<span class="specials-label">(D0150, D0330)</span>
+							<span class="specials-label">(D0150, D0210)</span>
 						</div>
 					</div>
 				</div>
@@ -504,7 +590,7 @@
 						<div class="specials-bottom">
 							<span class="specials-save specials-color-3">SAVE $161</span>
 							<p>Patients 12 and under receive a professional dental cleaning, fluoride treatment, needed x‑rays, and a comprehensive exam.</p>
-							<span class="specials-label">(D1120, D1208, D0272, D0150)</span>
+							<span class="specials-label">(D1120, D1203, D0272, D0150)</span>
 						</div>
 					</div>
 				</div>
@@ -582,6 +668,10 @@
 	<!-- =============================
 		End of Patient Reviews Section 
 	============================== -->	
+	
+	<!-- ============================
+		Start of No Insurance Section 
+	============================= -->	
 
 	<!-- #no-insurance-mobile -->
 	<section id="no-insurance-mobile" class="hidden-md hidden-lg">
@@ -616,26 +706,32 @@
 	</section>
 	<!-- /#no-insurance-banner -->
 
-	<!-- #no-insurance -->
-	<section id="no-insurance" class="hidden-xs">
+	<!-- ============================
+		Start of No Insurance Section 
+	============================= -->	
+	
+	<section id="no-insurance" class="visible-sm-block visible-md-block visible-lg-block">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6">
-					<h2 class="h2 sans-serif-bold theme-color-1 text-uppercase text-lg text-center">No insurance?</h2>
+				<div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+					<h2 class="h2 sans-serif-black theme-color-1 text-uppercase text-xl text-center">No insurance?</h2>
 					<p class="serif-reg text-reg text-center">Join the South Salem Dental Care
 						<br>Membership Club and Start Saving Today!</p>
-					<h4 class="h4 theme-color-1 text-uppercase text-center text-md">MEMBERSHIPS START <br> AT $25/mo.</h4>
+					<h4 class="h4 sans-serif-bold theme-color-1 text-uppercase text-center text-md">MEMBERSHIPS START <br> AT $25/mo.</h4>
 					<p class="serif-reg text-reg text-center">Easy Monthly Payments with Plans for All Family Members</p>
 					<p class="serif-reg text-reg text-center">No Exclusions for Cosmetic or Elective Care</p>
 					<p class="serif-reg text-reg text-center">No Yearly Maximum Benefits, and No Deductibles!</p>
 					<p class="serif-reg text-reg text-center">Up to 15% Discount on Needed Treatments</p>
 					<p class="text-center"><a href="https://south-salem-dental-care.illumitrac.com/#programs" class="btn btn-lg theme-btn-1" target="_blank">Learn more</a>
 					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /#no-insurance -->
+				</div><!-- /.col-sm-6 .col-sm-offset-6 .col-md-6 .col-md-offset-6 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /#no-insurance -->
+	
+	<!-- ==========================
+		End of No Insurance Section 
+	=========================== -->
 
 	<!-- #services -->
 	<section id="services" class="section-padding theme-background-4">
