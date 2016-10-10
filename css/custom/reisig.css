@@ -347,8 +347,8 @@ button.theme-btn-1:hover {
 /* controls the new patient hotline desktop section */
 #new-patient-hotline-desktop {
 	margin: 0 auto;	
-	padding: 60px 0px 50px 0px;
-	min-height: 140px;
+	padding: 30px 0px 30px 0px;
+	min-height: 100px;
 }
 
 /* controls the new patient existing clients section */

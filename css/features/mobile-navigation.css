@@ -7,6 +7,20 @@ nav {
 	height: 100px;
 }
 
+button.navbar-toggle {
+	background: none;
+	border: none !important;
+	height: 40px;
+}
+
+button.navbar-toggle:hover {
+	background-color: #FCFCFC;
+}
+
+button.navbar-toggle:focus {
+	background: none;
+}	
+
 a:hover {
 	text-decoration: underline !important;
 }
@@ -54,15 +68,59 @@ a.link-color-5 {
 	height: 100px;
 }
 
-@media screen and (min-width:768px){
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
 	.navbar-brand-centered {
 		position: absolute;
-		left: 50%;
+		left: 0%;
 		display: block;
 		width: 160px;
 		height: 100px;
 		text-align: center;
-		background: none;
+		background-color: #FCFCFC:;
+	}
+	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 0%;
+		margin-left: 0px;
+		display: block;
+		height: 100px;
+		background-color: #FCFCFC;		
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 900px) and (max-width: 1199px) {
+	.navbar-brand-centered {
+		position: absolute;
+		left: 0%;
+		display: block;
+		width: 160px;
+		height: 100px;
+		text-align: center;
+		background-color: #FCFCFC;
+	}
+	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 0%;
+		margin-left: 0px;
+		display: block;
+		height: 100px;
+		background-color: #FCFCFC;		
+	}
+}
+
+@media screen (min-width: 800px) and (max-width:900px){
+	.navbar-brand-centered {
+		position: absolute;
+		left: 0%;
+		display: block;
+		width: 160px;
+		height: 100px;
+		text-align: center;
+		background-color: #FCFCFC;
 	}
 	.navbar>.container .navbar-brand-centered, 
 	.navbar>.container-fluid .navbar-brand-centered {
@@ -72,4 +130,54 @@ a.link-color-5 {
 		display: block;
 		height: 100px;
 	}
+	.navbar-collapse {
+		position: relative;
+		top: 0px;
+		margin-top: 40px;
+		border-top: solid 2px #CCCCCC;
+		background-color: #FCFCFC;
+	}
+}	
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 799px) {
+	.navbar-brand {
+		position: absolute;
+		top: 5%;
+		left: 0%;
+		margin-top: -10px;
+		margin-left: -80px;
+		display: block;
+		height: 80px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (min-width: 481px) and (max-width: 798px) {
+	.navbar-brand-centered {
+		position: absolute;
+		left: 50%;
+		display: block;
+		width: 160px;
+		height: 100px;
+		text-align: center;
+		background-color: #FCFCFC;
+	}
+	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 50%;
+		margin-left: -80px;
+		display: block;
+		height: 100px;
+		background-color: #FCFCFC;		
+	}
+	.navbar-collapse {
+		position: relative;
+		top: 0px;
+		margin-top: 40px;
+		border-top: solid 2px #CCCCCC;
+		background-color: #FCFCFC;
+	}
+	
 }	

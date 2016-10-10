@@ -52,7 +52,8 @@
 	background-image: url("../../img/reisig-slide-1.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
-	width: auto;
+	background-size: cover;
+	min-height: 440px;
 	max-height: 587px;
 }
 
@@ -61,7 +62,8 @@
 	background-image: url("../../img/reisig-slide-2.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
-	width: auto;
+	background-size: cover;
+	min-height: 440px;
 	max-height: 587px;
 }
 
@@ -70,48 +72,10 @@
 	background-image: url("../../img/reisig-slide-3.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
-	width: auto;
+	background-size: cover;
+	min-height: 440px;
 	max-height: 587px;
 }
-
-/* controls the first slide in the banner-carousel */
-#banner-slide-1 {
-	background-image: url("../../img/wright-slide1.jpg");
-	background-repeat: no-repeat;	
-	background-position: top center;
-	background-size: contain;
-	padding: 60px 0px 60px 0px;
-	height: 578px;
-}
-
-/* controls the second slide in the banner-carousel */
-#banner-slide-2 {
-	background-image: url("../../img/wright-slide2.jpg");
-	background-repeat: no-repeat;	
-	background-position: top center;
-	background-size: cover;
-	width: auto;
-	margin: 0 auto;
-	padding-top: 75px;
-	height: 537px;
-	max-height: 540px;	
-}
-
-/* controls the third slide in the banner-carousel */
-#banner-slide-3 {
-	background-image: url("../../img/wright-slide3.jpg");
-	background-position: top center;	
-	background-repeat: no-repeat;	
-	background-size: cover;
-	width: auto;
-	margin: 0 auto;
-	width: 100%;
-	padding-top: 180px;	
-	height: 537px;
-	max-height: 540px;	
-}
-
-
 
 /* sets the default color style for the customer review */
 .customer-review {
