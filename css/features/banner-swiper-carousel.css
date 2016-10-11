@@ -25,7 +25,7 @@
 
 /* controls the swiper container */
 .swiper-container {
-	width: auto;
+	/* width: auto; */
 	height: 578px;
 }
 

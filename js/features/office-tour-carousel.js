@@ -9,8 +9,8 @@ $(document).ready(function () {
 		nav: true,
 		dots: false,
 		navText: [
-			"<i class='fa fa-arrow-left fa-inverse fa-1x'></i>", 
-			"<i class='fa fa-arrow-right fa-inverse fa-1x'></i>"],
+			"<i class='fa fa-chevron-left fa-inverse fa-1x'></i>", 
+			"<i class='fa fa-chevron-right fa-inverse fa-1x'></i>"],
 		dots: false,
 		autoplay: false,
 		autoHeight: false,

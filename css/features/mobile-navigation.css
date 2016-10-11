@@ -1,5 +1,5 @@
 nav {
-	margin: 0px !important; 
+	margin: 0px !important;
 	padding: 0px 0px 0px 0px !important;
 }
 
@@ -19,7 +19,7 @@ button.navbar-toggle:hover {
 
 button.navbar-toggle:focus {
 	background: none;
-}	
+}
 
 a:hover {
 	text-decoration: underline !important;
@@ -79,8 +79,13 @@ a.link-color-5 {
 
 .navbar-default {
 	background-color: #ffffff;
-	border-bottom: solid 2px #cccccc;
+	border-bottom: solid 2px #CCCCCC;
 	height: 100px;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #CCCCCC;
 }
 
 /* Large desktops and laptops */
@@ -92,16 +97,14 @@ a.link-color-5 {
 		width: 160px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC:;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
 		left: 0%;
 		margin-left: 0px;
 		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 }
 
@@ -114,16 +117,14 @@ a.link-color-5 {
 		width: 160px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
 		left: 0%;
 		margin-left: 0px;
 		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 }
 
@@ -135,9 +136,8 @@ a.link-color-5 {
 		width: 160px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
 		left: 0%;
@@ -150,9 +150,9 @@ a.link-color-5 {
 		top: 0px;
 		margin-top: 40px;
 		border-top: solid 2px #CCCCCC;
-		background-color: #FCFCFC;
+		background-color: #FFFFFF;
 	}
-}	
+}
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 799px) {
@@ -176,22 +176,47 @@ a.link-color-5 {
 		width: 160px;
 		height: 100px;
 		text-align: center;
-		background-color: #FCFCFC;
 	}
-	.navbar>.container .navbar-brand-centered, 
+	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
 		left: 50%;
 		margin-left: -80px;
 		display: block;
 		height: 100px;
-		background-color: #FCFCFC;		
 	}
 	.navbar-collapse {
 		position: relative;
 		top: 0px;
 		margin-top: 40px;
 		border-top: solid 2px #CCCCCC;
-		background-color: #FCFCFC;
+		background-color: #FFFFFF;
 	}
-}	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.navbar-brand-centered {
+		position: absolute;
+		left: 50%;
+		display: block;
+		width: 160px;
+		height: 100px;
+		text-align: center;
+	}
+	.navbar>.container .navbar-brand-centered,
+	.navbar>.container-fluid .navbar-brand-centered {
+		position: absolute;
+		left: 50%;
+		margin-left: -80px;
+		display: block;
+		height: 100px;
+	}
+	.navbar-collapse {
+		position: relative;
+		top: 0px;
+		margin-top: 40px;
+		border-top: solid 2px #CCCCCC;
+		background-color: #FFFFFF;
+	}
+}
