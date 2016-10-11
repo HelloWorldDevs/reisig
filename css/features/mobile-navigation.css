@@ -31,11 +31,16 @@ a.link-color-1 {
 }
 
 a.link-color-1:hover {
-	
+	color: #C04355 !important;
 }
 
 /* sets the 2nd default link color */
 a.link-color-2 {
+	color: #36A9AE !important;
+}
+
+/* sets the 2nd default link hover color */
+a.link-color-2:hover {
 	color: #36A9AE !important;
 }
 
@@ -44,8 +49,18 @@ a.link-color-3 {
 	color: #252A2E !important;
 }
 
+/* sets the 3rd default link hover color */
+a.link-color-3:hover {
+	color: #252A2E !important;
+}
+
 /* sets the 4th default link color */
 a.link-color-4 {
+	color: #797874 !important;
+}
+
+/* sets the 4th default link hover color */
+a.link-color-4:hover {
 	color: #797874 !important;
 }
 
@@ -179,5 +194,4 @@ a.link-color-5 {
 		border-top: solid 2px #CCCCCC;
 		background-color: #FCFCFC;
 	}
-	
 }	
