@@ -26,7 +26,7 @@
 /* controls the swiper container */
 .swiper-container {
 	/* width: auto; */
-	height: 578px;
+	height: 500px;
 }
 
 .owl-item {
@@ -52,8 +52,10 @@
 	background-position: top center;
 	background-repeat: no-repeat; 
 	background-size: cover;
+	padding-top: 100px;
 	min-height: 440px;
-	max-height: 587px;
+	max-height: 500px;
+	
 }
 
 /* controls the 2nd slide of the banner carousel */
@@ -62,8 +64,9 @@
 	background-position: top center;
 	background-repeat: no-repeat; 
 	background-size: cover;
+	padding-top: 80px;		
 	min-height: 440px;
-	max-height: 587px;
+	max-height: 500px;
 }
 
 /* controls the 3rd slide of the banner carousel */
@@ -72,8 +75,9 @@
 	background-position: top center;
 	background-repeat: no-repeat; 
 	background-size: cover;
+	padding-top: 100px;	
 	min-height: 440px;
-	max-height: 587px;
+	max-height: 500px;
 }
 
 /* sets the default color style for the customer review */
@@ -95,7 +99,7 @@
 	position: absolute;
 	/* position: relative; */
  	z-index: 4;
-	bottom: 60px;
+	bottom: 40px;
 	left: 50%;
 	margin-top: 0px !important;
 	margin-left: auto;
