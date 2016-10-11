@@ -8,7 +8,11 @@ nav {
 }
 
 button.navbar-toggle {
-	background: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	left: 0%;
+	background: none !important;
 	border: none !important;
 	height: 40px;
 }
@@ -19,6 +23,11 @@ button.navbar-toggle:hover {
 
 button.navbar-toggle:focus {
 	background: none;
+}
+
+#navbar-brand-img {
+	width: 160px !important;
+	height: 80px !important;
 }
 
 a:hover {
@@ -94,7 +103,7 @@ a.link-color-5 {
 		position: absolute;
 		left: 0%;
 		display: block;
-		width: 160px;
+		width: 180px;
 		height: 100px;
 		text-align: center;
 	}
@@ -114,7 +123,7 @@ a.link-color-5 {
 		position: absolute;
 		left: 0%;
 		display: block;
-		width: 160px;
+		width: 180px;
 		height: 100px;
 		text-align: center;
 	}
@@ -214,9 +223,7 @@ a.link-color-5 {
 	}
 	.navbar-collapse {
 		position: relative;
-		top: 0px;
-		margin-top: 40px;
-		border-top: solid 2px #CCCCCC;
+		margin-top: 100px;
 		background-color: #FFFFFF;
 	}
 }

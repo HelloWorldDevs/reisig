@@ -38,7 +38,7 @@
 }
 
 /* controls the owl carousel nav owl-prev, owl-next */
-.owl-carousel .owl-nav [class*=owl-] {
+#team-controls .owl-carousel .owl-nav [class*=owl-] {
 	position: absolute;
 	top: 40%;
 	margin-top: 0px;
@@ -56,4 +56,71 @@
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+/* controls the owl carousel nav owl-prev, owl-next */
+	.owl-prev .owl-next {
+		position: absolute;
+		bottom: 50%;
+		margin-top: 0px;
+		left: -36px;
+		zoom: 1;
+		width: 36px;
+		height: 36px;
+		line-height: 32px;
+		border: 2px solid #FCFCFC;
+		color: #FCFCFC;
+		background-color: #027D82;
+		font-size: 18px;
+		border-radius: 50%;
+		opacity: 0;
+		-webkit-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 900px) and (max-width: 1199px) {
+	/* controls the owl carousel nav owl-prev, owl-next */
+	.owl-carousel .owl-nav [class*=owl-] {
+		position: absolute;
+		top: 40%;
+		margin-top: 0px;
+		left: -36px;
+		zoom: 1;
+		width: 36px;
+		height: 36px;
+		line-height: 32px;
+		border: 2px solid #FCFCFC;
+		color: #FCFCFC;
+		background-color: #027D82;
+		font-size: 18px;
+		border-radius: 50%;
+		opacity: 0;
+		-webkit-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+	}
+}
+
+@media screen (min-width: 800px) and (max-width:900px){
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 799px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (min-width: 481px) and (max-width: 798px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }

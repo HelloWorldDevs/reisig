@@ -88,19 +88,19 @@
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
 					<span class="sr-only">Toggle navigation</span>
 					<i class="fa fa-bars fa-2x fa-fw"></i>
 				</button>
 				<div class="navbar-brand navbar-brand-centered">
 					<a href="#top">
-						<img src="img/reisig-logo-website.svg">
+						<img id="navbar-brand-img" src="img/reisig-logo-website.svg">
 					</a>
 				</div><!-- /.navbar-brand .navbar-brand-centered -->
 			</div><!-- /.navbar-header -->
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-brand-centered">
+			<div class="collapse navbar-collapse" id="navbar-collapse-target">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="#new-patient-offers"
@@ -111,7 +111,7 @@
 					<li>
 						<a href="#no-insurance"
 							 class="serif-reg link-color-2 text-reg"
-							 data-target=""
+							 data-target="#navbar-collapse-target"
 							 data-toggle="collapse">No Insurance?</a></li>
 					<li>
 						<a href="#reviews"

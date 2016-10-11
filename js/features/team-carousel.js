@@ -8,8 +8,8 @@ $(document).ready(function () {
 		stagePadding: 0,
 		nav: true,
 		navText: [
-			"<i class='fa fa-arrow-left fa-inverse fa-1x'></i>", 
-			"<i class='fa fa-arrow-right fa-inverse fa-1x'></i>"],
+			"<i class='fa fa-arrow-left fa-1x'></i>", 
+			"<i class='fa fa-arrow-right fa-1x'></i>"],
 		dots: false,
 		autoplay: false,
 		autoHeight: false,
