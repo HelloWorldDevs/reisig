@@ -333,9 +333,15 @@ button.theme-btn-1:hover {
 	padding: 40px 0px 50px 0px;
 }
 
-/* controls the tyson steele credit link */
+/* controls the reviews h2 heading */
+#reviews .h2 {
+	text-shadow: 2px 2px #FCFCFC;
+}
+
+/* controls the reviews p */
 #reviews p {
 	margin-top: 10px;
+	text-shadow: 2px 2px #FCFCFC;
 }
 
 /* controls the new patient hotline mobile section */
