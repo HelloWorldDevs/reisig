@@ -27,7 +27,7 @@ button.navbar-toggle:focus {
 
 #navbar-brand-img {
 	width: 160px !important;
-	height: 80px !important;
+	margin-top: -5px;
 }
 
 a:hover {
@@ -101,8 +101,8 @@ a.link-color-5 {
 @media (min-width: 1200px) {
 	.navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
-		display: block;
 		width: 180px;
 		height: 100px;
 		text-align: center;
@@ -110,9 +110,9 @@ a.link-color-5 {
 	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
 		margin-left: 0px;
-		display: block;
 		height: 100px;
 	}
 }
@@ -121,8 +121,8 @@ a.link-color-5 {
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
-		display: block;
 		width: 180px;
 		height: 100px;
 		text-align: center;
@@ -130,9 +130,9 @@ a.link-color-5 {
 	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 0%;
 		margin-left: 0px;
-		display: block;
 		height: 100px;
 	}
 }
@@ -212,11 +212,10 @@ a.link-color-5 {
 		width: 160px !important;
 		height: 80px !important;
 	}	
-
 	.navbar-brand-centered {
 		position: absolute;
-		left: 50%;
 		display: block;
+		left: 50%;
 		width: 180px;
 		height: 100px;
 		text-align: center;
@@ -224,9 +223,9 @@ a.link-color-5 {
 	.navbar>.container .navbar-brand-centered,
 	.navbar>.container-fluid .navbar-brand-centered {
 		position: absolute;
+		display: block;		
 		left: 50%;
 		margin-left: -80px;
-		display: block;
 		height: 100px;
 	}
 	.navbar-collapse {

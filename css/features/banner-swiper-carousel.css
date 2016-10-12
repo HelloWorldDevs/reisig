@@ -109,8 +109,7 @@
 	text-align: center;
 }
 
-/* creates a dark icon class for scroll down */
-.dark-icon {
-	color: #333333; 
-	border: solid 2px #333333 !important;
+/* controls the icon for the scroll down */
+.icon-angle-down {
+	font-size: 2rem;
 }
