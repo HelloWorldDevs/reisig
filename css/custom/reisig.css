@@ -686,6 +686,11 @@ button.theme-btn-1:hover {
 		text-transform: uppercase;
 	}	
 	
+	/* hides the image on mobile and tablet */
+	.modal-body img {
+		display: none;
+	}
+	
 }
 
 /* Portrait phones and smaller */
