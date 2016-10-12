@@ -75,7 +75,6 @@ p {
 	font-size: 0.75rem;
 }
 
-
 /* creates a responsive custom text small class */
 .text-sm {
 	font-size: 0.875rem;
@@ -410,8 +409,13 @@ button.theme-btn-1:hover {
 
 /* controls the mobile-location section */
 #mobile-location {
-	margin: 0 auto;	
-	padding: 60px 0px 40px 0px;	
+	margin: 0px 0px 0px 0px ;	
+	padding: 60px 0px 0px 0px;	
+}
+
+#mobile-location-map {
+	margin: 0px;
+	padding: 0px;
 }
 
 /* controls the desktop location section */
@@ -434,10 +438,10 @@ button.theme-btn-1:hover {
 }
 
 /* controls the location brand logo */
-#location-brand-logo {
-	padding: 40px 0px 30px 0px;	
-	width: 260px;
-	height: auto;
+#location-brand {
+	padding: 0px 0px 30px 0px;	
+	width: 240px;
+	height: 150px;
 }
 
 /* controls the associations section */
@@ -456,9 +460,16 @@ button.theme-btn-1:hover {
 /* controls the desktop footer section */
 #desktop-footer {	
 	margin: 0px;
-	padding: 20px 0px 20px 0px;
+	padding: 0px;
 	background-color: #36A9AE;
-	max-height: 100px;
+}
+
+#copyright-notice {
+	margin-top:50px;
+}
+
+.social-icon {
+	margin-top:40px;
 }
 
 /* creates a class for the birdeye patient reviews widget */
@@ -664,7 +675,7 @@ button.theme-btn-1:hover {
 	
 	/* overrides default html settings */
 	html {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	/* overrides default body browser settings */
