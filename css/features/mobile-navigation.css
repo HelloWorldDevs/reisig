@@ -208,6 +208,11 @@ a.link-color-5 {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+	#navbar-brand-img {
+		width: 160px !important;
+		height: 80px !important;
+	}	
+
 	.navbar-brand-centered {
 		position: absolute;
 		left: 50%;
