@@ -80,6 +80,14 @@
 	max-height: 500px;
 }
 
+#banner-slide-3 h1 {
+	text-shadow: 2px 2px #FFFFFF;
+}
+
+#banner-slide-3 p {
+	text-shadow: 1px 1px #FFFFFF;
+}
+
 /* sets the default color style for the customer review */
 .customer-review {
 	color: #cccccc;
