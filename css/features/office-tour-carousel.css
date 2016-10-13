@@ -1,8 +1,8 @@
-.owl-carousel .owl-nav [class*=owl-] {
+ #office-tour-carousel .owl-nav .owl-prev {
 	position: absolute;
 	top: 50%;
 	margin-top: -18px;
-	left: -36px;
+	left: -20px;
 	zoom: 1;
 	width: 36px;
 	height: 36px;
@@ -16,4 +16,32 @@
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
+}
+
+ #office-tour-carousel .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	right: -20px;
+	zoom: 1;
+	width: 36px;
+	height: 36px;
+	line-height: 32px;
+	border: 2px solid #FCFCFC;
+	color: #FCFCFC;
+	background-color: #027D82;
+	font-size: 18px;
+	border-radius: 50%;
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#office-tour-carousel .owl-nav .owl-prev .fa-chevron-left {
+	padding-left: 7px;
+}
+
+#office-tour-carousel .owl-nav .owl-next .fa-chevron-right {
+	padding-left: 9px;
 }
