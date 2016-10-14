@@ -14,6 +14,10 @@ body {
 	font-size: 1rem;
 }
 
+a {
+	color: none;
+}
+
 /* ==========================
 	Custom Type & Text Styles 
 ========================== */
@@ -241,9 +245,19 @@ p {
 	color: #C04355;
 }
 
+.link-color-1:hover {
+	color: #C04355;
+	text-decoration: underline !important;
+}
+
 /* sets the 2nd default link color */
 .link-color-2 {
 	color: #36A9AE;
+}
+
+.link-color-2:hover {
+	color: #36A9AE;
+	text-decoration: underline !important;	
 }
 
 /* sets the 3rd default link color */
@@ -251,14 +265,29 @@ p {
 	color: #252A2E;
 }
 
+.link-color-3:hover {
+	color: #252A2E;
+	text-decoration: underline !important;	
+}
+
 /* sets the 4th default link color */
 .link-color-4 {
 	color: #797874;
 }
 
+.link-color-4:hover {
+	color: #797874;
+	text-decoration: underline !important;	
+}
+
 /* sets the 5th default link color */
 .link-color-5 {
 	color: #fcfcfc;
+}
+
+.link-color-5:hover {
+	color: #fcfcfc;
+	text-decoration: underline !important;	
 }
 
 /* sets the small phone number link class */
@@ -468,6 +497,11 @@ button.theme-btn-1:hover {
 /* controls the location brand logo */
 #location-brand-logo {
 	width: 180px;
+}
+
+/* creates a map link */
+#map-link {
+	text-decoration: underline !important;
 }
 
 /* controls the associations section */
