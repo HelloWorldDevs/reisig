@@ -539,8 +539,14 @@ button.theme-btn-1:hover {
 	margin-top:50px;
 }
 
+/* controls the social icon class */
 .social-icon {
 	margin-top:40px;
+}
+
+/* controls the social icon links */
+.social-icon:hover {
+	text-decoration: none !important;
 }
 
 /* creates a class for the birdeye patient reviews widget */
