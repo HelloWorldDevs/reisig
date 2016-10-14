@@ -391,8 +391,14 @@ button.theme-btn-1:hover {
 	padding: 20px 0px 30px 0px;
 }
 
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 20px 0px 60px 0px;
+	background-color: #FDFDFD;
+}
+
 /* controls the no insurance section */
-#no-insurance {
+#no-insurance-desktop {
 	margin: 0 auto;	
 	padding: 60px 0px 60px 0px;	
 	background-image: url("../../img/membership-row-reisig.jpg");
@@ -401,10 +407,8 @@ button.theme-btn-1:hover {
 	height: auto;
 }
 
-/* controls the no insurance mobile section */
-#no-insurance-mobile {
-	margin: 20px 0px 60px 0px;
-	background-color: #FDFDFD;
+#no-insurance-desktop .h3 {
+	padding-bottom: 15px;
 }
 
 /* controls the no insurance mobile banner */
