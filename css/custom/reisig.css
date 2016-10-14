@@ -505,6 +505,11 @@ button.theme-btn-1:hover {
 	margin-bottom: 20px;
 }
 
+#location-hours {
+	margin-top: 10px;
+	margin-top: 10px;
+}
+
 /* creates a map link */
 #map-link {
 	text-decoration: underline !important;
