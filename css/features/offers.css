@@ -28,12 +28,13 @@
 	color: #DC9C1E
 }
 
+/* controls the specials-card */
 .specials-card {
   padding-bottom: 20px;	
   background-color: white;
   border-radius: 8px;
 	border: solid 2px #fcfcfc;
-  height: 100%;
+  height: 480px;
 }
 
 .specials-row p {
