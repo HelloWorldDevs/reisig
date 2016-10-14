@@ -29,7 +29,8 @@
 	height: 500px;
 }
 
-.owl-item {
+/* controls the swiper slide visibiblity */
+.swiper-slide {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
@@ -55,7 +56,6 @@
 	padding-top: 100px;
 	min-height: 440px;
 	max-height: 500px;
-	
 }
 
 /* controls the 2nd slide of the banner carousel */
