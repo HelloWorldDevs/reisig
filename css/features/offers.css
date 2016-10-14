@@ -38,6 +38,7 @@
 }
 
 .specials-row p {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
   font-size:18px;
   color:#797F8C;
   margin-bottom:0px;
@@ -93,13 +94,16 @@
 	padding-bottom: 12.5px;
 }
 .specials-save {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
   font-size:18px;
 }
 .price {
-  font-size:88px;
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
+  font-size:80px;
   color:#FFF;
 }
 .dollar {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
   font-size:36px;
   color:#FFF;
   top:-18px;
