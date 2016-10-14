@@ -196,7 +196,7 @@ p {
 
 /* sets the 4th default theme color */
 .theme-color-4 {
-	color: #212528;
+	color: #58595B;
 }
 
 /* sets the 5th default theme color */
@@ -486,7 +486,7 @@ button.theme-btn-1:hover {
 
 /* overrides the default bootstrap panel style */
 #location-panel {
-	padding: 0px 0px 0px 0px;
+	padding: 10px 0px 20px 0px;
 	border: solid 2px #cccccc;
 }
 		
@@ -497,6 +497,12 @@ button.theme-btn-1:hover {
 /* controls the location brand logo */
 #location-brand-logo {
 	width: 180px;
+}
+
+/* creates spacing for call to action */
+#location-call-to-action {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /* creates a map link */
