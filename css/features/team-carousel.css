@@ -46,46 +46,52 @@
 	height: 40px;
 }
 
-/* controls the owl carousel nav owl-prev */
- #team-carousel .owl-nav .owl-prev {
-	position: absolute;
-	top: 50%;
-	margin-top: -50px;
-	left: -20px;
-	zoom: 1;
-	width: 36px;
-	height: 36px;
-	line-height: 32px;
-	border: 2px solid #FCFCFC;
-	color: #FCFCFC;
-	background-color: #027D82;
-	font-size: 18px;
-	border-radius: 50%;
-	opacity: 1;
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
+#team-carousel .owl-nav .owl-prev {
+	position: absolute !important;
+	top: 50% !important;
+	margin-top: -50px !important;
+	left: -20px !important;
+	zoom: 1 !important;
+	width: 36px !important;
+	height: 36px !important;
+	line-height: 32px !important;
+	border: 2px solid #FCFCFC !important;
+	color: #FCFCFC !important;
+	background-color: #027D82 !important;
+	font-size: 18px !important;
+	border-radius: 50% !important;
+	opacity: 1 !important;
+	-webkit-transition: all .3s ease !important;
+	-o-transition: all .3s ease !important;
+	transition: all .3s ease !important;
 }
 
-/* controls the owl carousel nav owl-prev */
- #team-carousel .owl-nav .owl-next {
+#team-carousel .owl-nav .owl-next {
 	position: absolute;
 	top: 50%;
 	margin-top: -50px;
-	right: -20px;
-	zoom: 1;
-	width: 36px;
-	height: 36px;
-	line-height: 32px;
-	border: 2px solid #FCFCFC;
-	color: #FCFCFC;
-	background-color: #027D82;
-	font-size: 18px;
-	border-radius: 50%;
-	opacity: 1;
-	-webkit-transition: all .3s ease;
-	-o-transition: all .3s ease;
-	transition: all .3s ease;
+	right: -20px !important;
+	zoom: 1 !important;
+	width: 36px !important;
+	height: 36px !important;
+	line-height: 32px !important;
+	border: 2px solid #FCFCFC !important;
+	color: #FCFCFC !important;
+	background-color: #027D82 !important;
+	font-size: 18px !important;
+	border-radius: 50% !important;
+	opacity: 1 !important; 
+	-webkit-transition: all .3s ease!important;
+	-o-transition: all .3s ease !important;
+	transition: all .3s ease !important;
+}
+
+#office-tour-carousel .owl-nav .owl-prev .fa-chevron-left {
+	padding-left: 7px;
+}
+
+#office-tour-carousel .owl-nav .owl-next .fa-chevron-right {
+	padding-left: 9px;
 }
 
 #team-carousel .owl-nav .owl-prev .fa-chevron-left {
