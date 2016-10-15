@@ -312,7 +312,7 @@ p {
 a.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300 !important;
-	padding: 10px 25px 10px 25px;	
+	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -325,7 +325,7 @@ a.theme-btn-1 {
 a.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300 !important;	
-	padding: 10px 25px 10px 25px;	
+	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -338,7 +338,7 @@ a.theme-btn-1:hover {
 a.theme-btn-1:focus {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300 !important;	
-	padding: 10px 25px 10px 25px;	
+	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -351,7 +351,7 @@ a.theme-btn-1:focus {
 button.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300 !important;	
-	padding: 10px 25px 10px 25px;	
+	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -364,7 +364,7 @@ button.theme-btn-1 {
 button.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-weight: 300 !important;	
-	padding: 10px 25px 10px 25px;	
+	padding: 10px 35px 10px 35px !important;	
 	background-color: #C04355;
 	border: solid 2px #fcfcfc;
 	border-radius: 15px;
@@ -518,7 +518,7 @@ button.theme-btn-1:hover {
 /* controls the associations section */
 #associations {
 	margin: 0 auto;		
-	padding: 20px 0px 20px 0px;
+	padding: 30px 0px 0px 0px;
 }
 
 /* controls the mobile footer section */
@@ -598,8 +598,6 @@ button.theme-btn-1:hover {
 	color: #DC4A38 !important;
 }
 
-
-
 /* overrides the default bootstrap well style */
 .well-default {
 	background: transparent;
@@ -622,26 +620,7 @@ button.theme-btn-1:hover {
 	body {
 		font-size: 1rem;
 	}
-	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
 
-	/* sets the 1st default theme button hover style */
-	a.theme-btn-1:hover {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}	
 }
 
 /* Landscape tablets and medium desktops */
@@ -656,26 +635,6 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
-
-	/* sets the 1st default theme button hover style */
-	a.theme-btn-1:hover {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}	
-	
 }
 
 /* Portrait tablets and small desktops */
@@ -688,26 +647,6 @@ button.theme-btn-1:hover {
 	/* overrides default body browser settings */
 	body {
 		font-size: 1rem;
-	}
-	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
-
-	/* sets the 1st default theme button hover style */
-	a.theme-btn-1:hover {
-		padding: 10px 25px 10px 25px;	
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
 	}	
 	
 }
@@ -725,25 +664,6 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 10px 15px 10px 15px;
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}
-
-	/* sets the 1st default theme button hover style */
-	a.theme-btn-1:hover {
-		padding: 10px 15px 10px 15px;
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-	}	
 	
 	/* hides the image on mobile and tablet */
 	.modal-body img {
@@ -765,25 +685,4 @@ button.theme-btn-1:hover {
 		font-size: 1rem;
 	}
 	
-	/* sets the 1st default theme button style */
-	a.theme-btn-1 {
-		padding: 10px 15px 10px 15px;
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-		text-decoration: none !important;
-	}
-
-	/* sets the 1st default theme button hover style */
-	a.theme-btn-1:hover {
-		padding: 10px 15px 10px 15px;
-		background-color: #C04355;
-		border: solid 2px #fcfcfc;
-		border-radius: 15px;
-		color: #fcfcfc;
-		text-transform: uppercase;
-		text-decoration: none !important;
-	}
 }
