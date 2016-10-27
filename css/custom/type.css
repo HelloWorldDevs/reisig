@@ -1,0 +1,105 @@
+/* ===================
+	Custom Type Styles 
+=================== */
+
+/* overrides the default h1 class */
+h1, .h1 {
+	font-size: 72px;
+	/* font-size: 4.5rem; */
+	line-height: normal;
+	margin: 0 !important;
+}
+
+/* overrides the default h2 class */
+h2, .h2 {
+	font-size: 3rem;
+	line-height: normal;
+	margin: 0 !important;	
+}
+
+/* overrides the default h3 class */
+h3, .h3 {
+	font-size: 2.25rem;
+	line-height: normal;
+	margin: 0 !important;	
+}
+
+/* overrides the default h4 class */
+h4, .h4 {
+	font-size: 1.75rem;
+	line-height: normal;
+	margin: 0 !important;	
+}
+
+/* overrides the default h5 class */
+h5, .h5 {
+	font-size: 1.5rem;
+	line-height: normal;	
+	margin: 0 !important;	
+}
+
+/* overrides the default h6 class */
+.h6, h6 {
+	font-size: 1.2rem;
+	line-height: normal;	
+	margin: 0 !important;	
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.375rem;
+	padding-bottom: 10px;
+}
+
+/* Custom Text Styles */
+
+/* creates a responsive custom text extra-small class */
+.text-xs {
+	font-size: 0.75rem;
+}
+
+/* creates a responsive custom text small class */
+.text-sm {
+	font-size: 0.875rem;
+}
+
+/* creates a responsive text regular class */
+.text-reg {
+	font-size: 1rem;
+}
+
+/* creates a responsive text medium class */
+.text-md {
+	font-size: 1.5rem;
+}
+
+/* creates a responsive text large class */
+.text-lg {
+	font-size: 2.25rem;
+}
+
+/* creates a responsive text extra-large class */
+.text-xl {
+	font-size: 3rem;
+	margin-bottom: 20px !important;
+}
+
+/* creates a responsive text extra-extra-large class */
+.text-xxl {
+	font-size: 4rem;
+}
+
+/* creates a responsive text huge class */
+.text-hu {
+	font-size: 4.5rem;
+}
+
+/* creates a text caption class */
+.text-caption {
+	padding: 15px 0px 0px 0px;
+}
+
+/* creates a text margin class */
+.text-margin {
+	margin-bottom: 10px;
+}

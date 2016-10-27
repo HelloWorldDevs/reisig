@@ -1,0 +1,55 @@
+/* creates a serif light weight font class */
+.serif-light {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: normal;	
+}
+
+/* creates a serif regular weight font class */
+.serif-reg {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: normal;	
+}
+
+/* sets the default serif bold weight font class */
+.serif-bold{
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: normal;	
+}
+
+/* creates a san serif light weight font class */
+.sans-serif-light {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+/* creates a sans serif regular weight font class */
+.sans-serif-reg {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+/* creates a sans serif bold weight class */
+.sans-serif-bold {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+/* creates a sans serif bold weight class */
+.sans-serif-black {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: normal;
+}

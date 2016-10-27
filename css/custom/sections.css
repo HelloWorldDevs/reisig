@@ -1,0 +1,210 @@
+/* ===========================
+	CUSTOM SITE SECTION STYLES
+=========================== */
+
+
+/* ===============================
+	SWIPER CAROUSEL SECTION STYLES
+=============================== */
+
+
+/* height: 800px */
+/* height: 700px */
+/* height: 640px */
+/* height: 568px or 560px */
+
+#swiper-carousel {
+
+}
+
+#banner-slide-1 {
+	
+}
+
+#banner-slide-2 {
+	
+}
+
+#banner-slide-3 {
+
+}
+
+/* ===================================
+	NEW PATIENT HOTLINE SECTION STYLES
+=================================== */
+
+#new-patient-hotline {
+	
+}
+
+#new-patient-hotline-mobile .border-right {
+	border-right: solid 2px #FFFFFF;
+}
+
+#new-patient-hotline-desktop .border-right {
+	border-right: solid 2px #FFFFFF;
+}
+
+#new-patient-hotline-existing {
+
+}
+
+/* creates the border right for the new patient hotline section */
+.border-right {
+	border-right: solid 1px #FFFFFF;
+}
+
+/* =============================
+	MEET THE TEAM SECTION STYLES
+============================= */
+
+#meet-the-team {
+	
+}
+
+#meet-the-team-dentist {
+	
+}
+
+/* =============================
+	TEAM CAROUSEL SECTION STYLES
+============================= */
+
+#team-carousel {
+	
+}
+
+/* ==========================
+	TEAM PHOTO SECTION STYLES
+========================== */
+
+#team-photo {
+	
+}
+
+/* ==================================
+	NEW PATIENT OFFERS SECTION STYLES
+================================== */
+
+#new-patient-offers {
+	
+}
+
+/* ===========================================
+	NEW PATIENT HOTLINE DESKTOP SECTION STYLES
+=========================================== */
+
+#new-patient-hotline {
+	
+}
+
+#new-patient-hotline-mobile {
+	
+}
+
+#new-patient-hotline-desktop {
+	
+}
+
+#right-border {
+	border: solid 1px #FFFFFF;
+}
+
+/* ===============================
+	PATIENT REVIEWS SECTION STYLES
+=============================== */
+
+#patient-reviews {
+	
+}
+
+/* ==================================
+	MEMBERSHIP SAVINGS SECTION STYLES
+================================== */
+
+#membership-savings {
+
+}
+
+#membership-savings-mobile {
+	
+}
+
+#membership-savings-banner {
+	
+}
+
+#membership-savings-desktop {
+	
+}
+
+/* ========================
+	SERVICES SECTION STYLES
+======================== */
+
+#services {
+	
+}
+
+/* ====================================
+	OFFICE TOUR CAROUSEL SECTION STYLES
+==================================== */
+
+#office-tour-carousel {
+	
+}
+
+/* ========================
+	LOCATION SECTION STYLES
+======================== */
+
+#location {
+	
+}
+
+#mobile-location {
+	
+}
+
+#mobile-location-map {
+	
+}
+
+#desktop-location {
+	
+}
+
+/* ==========================
+	ASSOCATION SECTION STYLES
+========================== */
+
+#associations {
+	
+}
+
+#associations-mobile {
+	
+}
+
+#associations-desktop {
+	
+}
+
+/* ======================
+	FOOTER SECTION STYLES
+====================== */
+
+#footer {
+	margin: 0 auto;
+	padding: ;
+}
+
+#mobile-footer {
+	margin:;
+	padding:;
+}
+
+#desktop-footer {
+	margin: ;
+	padding:;
+}
