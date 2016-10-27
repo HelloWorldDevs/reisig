@@ -104,8 +104,23 @@
 	PATIENT REVIEWS SECTION STYLES
 =============================== */
 
+/* controls the patient reviews section */
 #patient-reviews {
-	
+	background-image: url("../../img/reviews-bkgd.jpg");
+	background-position: top center;
+	background-size: cover;	
+	padding: 40px 0px 50px 0px;
+}
+
+/* controls the reviews h2 heading */
+#patient-reviews .h2 {
+	margin-top: 0px;
+	text-shadow: 2px 2px #FCFCFC;
+}
+
+/* controls the reviews p */
+#patient-reviews p {
+	margin-top: 10px;
 }
 
 /* ==================================
@@ -197,23 +212,7 @@
 	Custom Site Sections 
 ===================== */
 
-/* controls the patient reviews section */
-#reviews {
-	background-image: url("../../img/reviews-bkgd.jpg");
-	background-position: top center;
-	background-size: cover;	
-	padding: 40px 0px 50px 0px;
-}
 
-/* controls the reviews h2 heading */
-#reviews .h2 {
-	text-shadow: 2px 2px #FCFCFC;
-}
-
-/* controls the reviews p */
-#reviews p {
-	margin-top: 10px;
-}
 
 /* controls the new patient existing clients section */
 #new-patient-hotline-existing {
