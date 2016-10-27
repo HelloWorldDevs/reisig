@@ -75,21 +75,14 @@
 	padding: 20px;
 }
 
-/* ==========================
-	TEAM PHOTO SECTION STYLES
-========================== */
-
-#team-photo {
-	
-}
-
 /* ==================================
 	NEW PATIENT OFFERS SECTION STYLES
 ================================== */
 
-#new-patient-offers {
-	
+#new-patient-offers-heading > h2, h3 {
+	margin-bottom: 0px !important;
 }
+
 
 /* ===========================================
 	NEW PATIENT HOTLINE DESKTOP SECTION STYLES
@@ -140,14 +133,6 @@
 ======================== */
 
 #services {
-	
-}
-
-/* ====================================
-	OFFICE TOUR CAROUSEL SECTION STYLES
-==================================== */
-
-#office-tour-carousel {
 	
 }
 
@@ -276,7 +261,7 @@
 /* controls the services section */
 #services {
 	margin: 0 auto;		
-	padding: 20px 0px 20px 0px;
+	padding: 0px 0px 20px 0px;
 	border-bottom: solid 2px #cccccc;
 }
 

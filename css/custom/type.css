@@ -1,39 +1,47 @@
 /* ===================
 	Custom Type Styles 
 =================== */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	margin-bottom: 0px;
+}
 
-/* overrides the default h1 class */
-h1, .h1 {
+/* creates an h1 heading class */
+.h1 {
 	font-size: 72px;
 	line-height: normal;
 }
 
-/* overrides the default h2 class */
-h2, .h2 {
+/* creates an h2 heading class */
+.h2 {
 	font-size: 48px;
 	line-height: normal;	
 }
 
-/* overrides the default h3 class */
-h3, .h3 {
+/* creates an h3 heading class */
+.h3 {
 	font-size: 36px;
 	line-height: normal;
 }
 
-/* overrides the default h4 class */
-h4, .h4 {
+/* creates an h4 heading class */
+.h4 {
 	font-size: 21px;
 	line-height: normal;
 }
 
-/* overrides the default h5 class */
-h5, .h5 {
+/* creates an h5 heading class */
+.h5 {
 	font-size: 18px;
 	line-height: normal;	
 }
 
-/* overrides the default h6 class */
-.h6, h6 {
+/* creates an h6 heading class */
+.h6 {
 	font-size: 1.2rem;
 	line-height: normal;		
 }

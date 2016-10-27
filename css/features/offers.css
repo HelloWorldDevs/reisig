@@ -1,13 +1,21 @@
-/* ===============================
-	New Patient Offers Component 
-=============================== */
+/* ==================================
+	NEW PATIENT OFFERS FEATURE STYLES
+================================== */
 
 /* controls the new patient specials section */
 #new-patient-offers {
 	background-position: top center;
 	background-size: cover;
 	background-color: #797874;
-	padding: 40px 0px 50px 0px;
+	padding: 20px 0px 50px 0px;
+}
+
+#new-patient-offers-heading > h2 {
+	margin-bottom: 0px;
+}
+
+#new-patient-offers-heading > span {
+	margin-top: 0px;
 }
 
 /* controls the specials section-1 background color */
@@ -116,12 +124,12 @@
   color:#FFF;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1200px) {
   .specials-row p {
     margin-top:10px;
   }
 }
-@media (max-width:991px) {
+@media (max-width:990px) {
   .specials-row {
     display:inherit;
   }
