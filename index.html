@@ -482,7 +482,6 @@
 	<!-- ==========================
 		START OF TEAM PHOTO SECTION
 	=========================== -->
-
 	<section id="team-photo" class="theme-background-5">
 		<div class="container">
 			<div class="row">
@@ -502,7 +501,6 @@
 	<!-- ==================================
 		Start of New Patient Offers Section 
 	=================================== -->
-
 	<section id="new-patient-offers" class="section-padding bg-medium">
 
 		<div id="new-patient-offers-heading">
@@ -593,7 +591,8 @@
 	</section>
 	<!-- /#new-patient-offers -->
 
-	<section id="new-patient-hotline-mobile" class="theme-background-2 visible-xs-block-block visible-sm-block">
+	<section id="new-patient-hotline-mobile" 
+					 class="theme-background-2 visible-xs-block-block visible-sm-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -773,35 +772,36 @@
 		</div>
 		<!-- /#membership-savings-desktop -->
 
-		<!-- ========================
+	<!-- ========================
 		START OF SERVICES SECTION
 	========================= -->
-
-		<section id="services" class="section-padding theme-background-4">
+	<section id="services" class="section-padding theme-background-4">
+			
+		<div id="services-heading">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
 						<h2 class="h2 sans-serif-black theme-color-2 text-xl">Our Services</h2>
 					</div>
-				</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /#services-heading -->
+
+		<div id="services-description">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<p class="serif-reg text-reg">By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, we’ll partner with you to maintain your healthy, beautiful smile. Prevention is always better than treatment, so if it’s been a while since you’ve seen a dentist, please give us a call or <a href="#" class="text-underline" data-toggle="modal" data-target="#requestAppointmentModal">click to request an appointment</a>.</p>
-					</div>
-				</div>
-				<div class="row hidden-xs">
-					<div class="col-sm-4 col-md-4">
-						<img src="img/services/cosmetic.jpg" class="img-responsive" alt="Cosmetic Dentistry image">
-					</div>
-					<div class="col-sm-4 col-md-4">
-						<img src="img/services/apnea.jpg" class="img-responsive" alt="Sleep Apnea image">
-					</div>
-					<div class="col-sm-4 col-md-4">
-						<img src="img/services/family.jpg" class="img-responsive" alt="Family Service image">
-					</div>
-				</div>
+					</div><!-- /.col-md-12 col-lg-12 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /#services-description -->
+					
+		<div class="services-list">
+				<div class="container">					
 				<div class="row">
 					<div class="col-sm-4">
+						<img src="img/services/cosmetic.jpg" class="img-responsive" alt="Cosmetic Dentistry image">
 						<div class="service-accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
 							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="false" aria-expanded="false" tabindex="-1">
 										<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
@@ -832,6 +832,7 @@
 						</div>
 					</div>
 					<div class="col-sm-4">
+						<img src="img/services/apnea.jpg" class="img-responsive" alt="Sleep Apnea image">
 						<div class="service-accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
 							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-9" aria-controls="ui-id-10" aria-selected="false" aria-expanded="false" tabindex="-1">
 										<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i class="icon-check"></i> Sleep Apnea Treatment</h4>
@@ -857,6 +858,7 @@
 						</div>
 					</div>
 					<div class="col-sm-4">
+						<img src="img/services/family.jpg" class="img-responsive" alt="Family Service image">
 						<div class="service-accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
 							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" id="ui-id-17" aria-controls="ui-id-18" aria-selected="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span><i class="icon-check"></i> Family-friendly care</h4>
 							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-18" aria-labelledby="ui-id-17" role="tabpanel" aria-hidden="false">
@@ -877,55 +879,56 @@
 								</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
+					</div><!-- /.col-sm-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /#services-list -->
+		
 		</section>
 		<!-- /#services -->
 
-		<!-- ====================================
+	<!-- ====================================
 		START OF OFFICE TOUR CAROUSEL SECTION 
 	===================================== -->
-
-		<section id="office-tour-carousel">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="h2 theme-color-2 sans-serif-black text-xl text-center">Office Tour</h2>
-					</div>
-					<!-- /.col-md-12 -->
+	<section id="office-tour-carousel">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="h2 theme-color-2 sans-serif-black text-xl text-center">Office Tour</h2>
 				</div>
-				<!-- /.row -->
-				<div class="row">
-					<div id="office-carousel-items" class="owl-carousel">
-						<div class="item">
-							<img src="img/tour/tour-1.jpg" alt="South Salem Dental Care office">
-						</div>
-						<!-- /.item -->
-						<div class="item">
-							<img src="img/tour/tour-2.jpg" alt="South Salem Dental Care office">
-						</div>
-						<!-- /.item -->
-						<div class="item">
-							<img src="img/tour/tour-3.jpg" alt="South Salem Dental Care office">
-						</div>
-						<!-- /.item -->
-						<div class="item">
-							<img src="img/tour/tour-4.jpg" alt="South Salem Dental Care office">
-						</div>
-						<!-- /.item -->
-						<div class="item">
-							<img src="img/tour/tour-5.jpg" alt="South Salem Dental Care office">
-						</div>
-						<!-- /.item -->
-					</div>
-					<!-- /#office-carousel-items -->
-				</div>
-				<!-- /.row -->
+				<!-- /.col-md-12 -->
 			</div>
-			<!-- /.container -->
-		</section>
-		<!-- /#office-tour-carousel -->
+			<!-- /.row -->
+			<div class="row">
+				<div id="office-carousel-items" class="owl-carousel">
+					<div class="item">
+						<img src="img/tour/tour-1.jpg" alt="South Salem Dental Care office">
+					</div>
+					<!-- /.item -->
+					<div class="item">
+						<img src="img/tour/tour-2.jpg" alt="South Salem Dental Care office">
+					</div>
+					<!-- /.item -->
+					<div class="item">
+						<img src="img/tour/tour-3.jpg" alt="South Salem Dental Care office">
+					</div>
+					<!-- /.item -->
+					<div class="item">
+						<img src="img/tour/tour-4.jpg" alt="South Salem Dental Care office">
+					</div>
+					<!-- /.item -->
+					<div class="item">
+						<img src="img/tour/tour-5.jpg" alt="South Salem Dental Care office">
+					</div>
+					<!-- /.item -->
+				</div>
+				<!-- /#office-carousel-items -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /#office-tour-carousel -->
 
 		<!-- ===============================
 		Start of Mobile Location Section
