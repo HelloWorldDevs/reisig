@@ -83,7 +83,6 @@
 	margin-bottom: 0px !important;
 }
 
-
 /* ===========================================
 	NEW PATIENT HOTLINE DESKTOP SECTION STYLES
 =========================================== */
@@ -123,24 +122,40 @@
 	margin-top: 10px;
 }
 
-/* ==================================
-	MEMBERSHIP SAVINGS SECTION STYLES
-================================== */
+/* ============================
+	NO INSURANCE SECTION STYLES
+============================ */
 
-#membership-savings {
-
+/* controls the no insurance section */
+#no-insurance {
+	background-image: url("/../../img/membership-row-reisig.jpg");
+	background-position: top center;
+	background-size: cover;
 }
 
-#membership-savings-mobile {
-	
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 20px 0px 60px 0px;
+	background-color: #FDFDFD;
 }
 
-#membership-savings-banner {
-	
+/* controls the no insurance section */
+#no-insurance-desktop {
+	margin: 0 auto;	
+	padding: 60px 0px 60px 0px;	
+	background-image: url("../../img/membership-row-reisig.jpg");
+	background-position: top center;
+	background-size: cover;
+	height: auto;
 }
 
-#membership-savings-desktop {
-	
+#no-insurance-desktop .h3 {
+	padding-bottom: 15px;
+}
+
+/* controls the no insurance mobile banner */
+#no-insurance-banner {
+	margin-top: -90px;
 }
 
 /* ========================
@@ -189,6 +204,15 @@
 	
 }
 
+.img-link {
+	text-decoration: none;
+}
+
+.img-link:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 /* ======================
 	FOOTER SECTION STYLES
 ====================== */
@@ -224,31 +248,6 @@
 /* controls the meet the team section */
 #meet-the-team {
 	padding: 20px 0px 30px 0px;
-}
-
-/* controls the no insurance mobile section */
-#no-insurance-mobile {
-	margin: 20px 0px 60px 0px;
-	background-color: #FDFDFD;
-}
-
-/* controls the no insurance section */
-#no-insurance-desktop {
-	margin: 0 auto;	
-	padding: 60px 0px 60px 0px;	
-	background-image: url("../../img/membership-row-reisig.jpg");
-	background-position: top center;
-	background-size: cover;
-	height: auto;
-}
-
-#no-insurance-desktop .h3 {
-	padding-bottom: 15px;
-}
-
-/* controls the no insurance mobile banner */
-#no-insurance-banner {
-	margin-top: -90px;
 }
 
 /* controls the team photo section */
