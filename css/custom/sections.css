@@ -33,25 +33,26 @@
 	NEW PATIENT HOTLINE SECTION STYLES
 =================================== */
 
-#new-patient-hotline {
-	
+/* controls the new patient hotline mobile section */
+#new-patient-hotline-mobile {
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px; 
 }
 
-#new-patient-hotline-mobile .border-right {
+/* controls the new patient hotline desktop section */
+#new-patient-hotline-desktop {
+	margin: 0 auto;	
+	padding: 15px 0px 0px 0px;
+	min-height: 100px;
+}
+
+.patient-hotline .right-border {
+	padding-right: 30px;
 	border-right: solid 2px #FFFFFF;
 }
 
-#new-patient-hotline-desktop .border-right {
-	border-right: solid 2px #FFFFFF;
-}
-
-#new-patient-hotline-existing {
-
-}
-
-/* creates the border right for the new patient hotline section */
-.border-right {
-	border-right: solid 1px #FFFFFF;
+#new-patient-hotline-mobile .existing-patients {
+	margin-top: 0px;
 }
 
 /* =============================
@@ -104,10 +105,6 @@
 
 #new-patient-hotline-desktop {
 	
-}
-
-#right-border {
-	border: solid 1px #FFFFFF;
 }
 
 /* ===============================

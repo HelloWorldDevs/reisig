@@ -54,8 +54,6 @@
 	background-repeat: no-repeat; 
 	background-size: cover;
 	padding-top: 100px;
-	min-height: 440px;
-	max-height: 700px;
 }
 
 /* controls the 2nd slide of the banner carousel */
@@ -65,8 +63,6 @@
 	background-repeat: no-repeat; 
 	background-size: cover;
 	padding-top: 80px;		
-	min-height: 440px;
-	max-height: 700px;
 }
 
 /* controls the 3rd slide of the banner carousel */
@@ -76,8 +72,6 @@
 	background-repeat: no-repeat; 
 	background-size: cover;
 	padding-top: 100px;	
-	min-height: 440px;
-	max-height: 700px;
 }
 
 #banner-slide-3 h1 {
@@ -91,10 +85,6 @@
 /* sets the default color style for the customer review */
 .customer-review {
 	color: #cccccc;
-}
-
-.call-to-action {
-	margin: 10px 0px 10px 0px;
 }
 
 /* sets the default color style for the review stars */
@@ -120,4 +110,36 @@
 /* controls the icon for the scroll down */
 .icon-angle-down {
 	font-size: 2rem;
+}
+
+.slide-cta {
+	margin-top: 50px;
+}
+
+/* Large desktops and laptops */
+@media (max-width: 1400px) {
+	.swiper-slide {
+		max-height: 800px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1200px) {
+	.swiper-slide {
+		max-height: 700px;
+	}
+}
+
+/* Portrait phones and larger tablets */
+@media (max-width: 780px) {
+	.swiper-slide {
+		max-height: 580px;
+	}	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.swiper-slide {
+		max-height: 580px;
+	}		
 }
