@@ -63,8 +63,8 @@
 	
 }
 
-#meet-the-team-dentist {
-	
+#meet-the-dentist > .h5{
+	margin-top: 10px;
 }
 
 /* =============================
@@ -72,7 +72,7 @@
 ============================= */
 
 #team-carousel {
-	
+	padding: 20px;
 }
 
 /* ==========================
@@ -171,12 +171,14 @@
 	
 }
 
-/* ==========================
-	ASSOCATION SECTION STYLES
-========================== */
+/* ============================
+	ASSOCIATIONS SECTION STYLES
+============================ */
 
+/* controls the associations section */
 #associations {
-	
+	margin: 0 auto;		
+	padding: 10px 0px 0px 0px;
 }
 
 #associations-mobile {
@@ -204,4 +206,161 @@
 #desktop-footer {
 	margin: ;
 	padding:;
+}
+
+/* =====================
+	Custom Site Sections 
+===================== */
+
+/* controls the patient reviews section */
+#reviews {
+	background-image: url("../../img/reviews-bkgd.jpg");
+	background-position: top center;
+	background-size: cover;	
+	padding: 40px 0px 50px 0px;
+}
+
+/* controls the reviews h2 heading */
+#reviews .h2 {
+	text-shadow: 2px 2px #FCFCFC;
+}
+
+/* controls the reviews p */
+#reviews p {
+	margin-top: 10px;
+}
+
+/* controls the new patient existing clients section */
+#new-patient-hotline-existing {
+	margin: 0 auto;	
+	padding: 20px 0px 20px 0px;
+	min-height: 140px;	
+}
+
+/* controls the meet the team section */
+#meet-the-team {
+	padding: 20px 0px 30px 0px;
+}
+
+/* controls the no insurance mobile section */
+#no-insurance-mobile {
+	margin: 20px 0px 60px 0px;
+	background-color: #FDFDFD;
+}
+
+/* controls the no insurance section */
+#no-insurance-desktop {
+	margin: 0 auto;	
+	padding: 60px 0px 60px 0px;	
+	background-image: url("../../img/membership-row-reisig.jpg");
+	background-position: top center;
+	background-size: cover;
+	height: auto;
+}
+
+#no-insurance-desktop .h3 {
+	padding-bottom: 15px;
+}
+
+/* controls the no insurance mobile banner */
+#no-insurance-banner {
+	margin-top: -90px;
+}
+
+/* controls the team photo section */
+#team-photo {
+	margin: 0 auto;		
+	padding: 20px 0px 30px 0px;
+}
+
+/* controls the services section */
+#services {
+	margin: 0 auto;		
+	padding: 20px 0px 20px 0px;
+	border-bottom: solid 2px #cccccc;
+}
+
+/* controls the office tour carousel section */
+#office-tour-carousel {
+	margin: 0 auto;		
+	padding: 20px 0px 30px 0px;
+}
+
+/* controls the mobile-location section */
+#mobile-location {
+	margin: 0px 0px 0px 0px ;	
+	padding: 60px 0px 0px 0px;	
+}
+
+#mobile-location-map {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* controls the desktop location section */
+#desktop-location {
+	background-image: url("../../img/map-screenshot.jpg");
+	background-position: top center;
+	background-size: cover;
+	max-height: 800px;
+	padding: 60px 0px 40px 0px;	
+}
+
+/* overrides the default bootstrap panel style */
+#location-panel {
+	padding: 10px 0px 20px 0px;
+	border: solid 2px #cccccc;
+}
+		
+#location-panel .panel-body {
+	padding: 0px;
+}
+
+/* controls the location brand logo */
+#location-brand-logo {
+	width: 180px;
+}
+
+/* creates spacing for call to action */
+#location-call-to-action {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#location-hours {
+	margin-top: 10px;
+	margin-top: 10px;
+}
+
+/* creates a map link */
+#map-link {
+	text-decoration: underline !important;
+}
+
+/* controls the mobile footer section */
+#mobile-footer {
+	margin: 0 auto;		
+	padding: 30px 0px 20px 0px;
+	background-color: #36A9AE;
+}
+
+/* controls the desktop footer section */
+#desktop-footer {	
+	margin: 0px;
+	padding: 0px;
+	background-color: #36A9AE;
+}
+
+#copyright-notice {
+	margin-top:50px;
+}
+
+/* controls the social icon class */
+.social-icon {
+	margin-top:40px;
+}
+
+/* controls the social icon links */
+.social-icon:hover {
+	text-decoration: none !important;
 }

@@ -1,0 +1,60 @@
+/* sets the 1st default theme color */
+.theme-color-1 {
+	color: #D64C60;
+}
+
+/* sets the 2nd default theme color */
+.theme-color-2 {
+	color: #027D82;
+}
+
+/* sets the 3rd default theme color */
+.theme-color-3 {
+	color: #DC9C1E;
+}
+
+/* sets the 4th default theme color */
+.theme-color-4 {
+	color: #58595B;
+}
+
+/* sets the 5th default theme color */
+.theme-color-5 {
+	color: #fcfcfc;
+}
+
+/* sets the 6th default theme color */
+.theme-color-6 {
+	color: #6F6D6A;
+}
+
+/* sets the 7th default theme color */
+.theme-color-7 {
+	color: #767676;
+}
+
+/* sets the 1st default theme background */
+.theme-background-1 {
+	background-color: #D64C60;
+}
+
+/* sets the 2nd default theme background */
+.theme-background-2 {
+	background-color: #36A9AE;
+
+}
+
+/* sets the 3rd default theme background */
+.theme-background-3 {
+	background-color: #797874;
+}
+
+/* sets the 4th default theme background */
+.theme-background-4 {
+	background-color: #EFEFE9;
+}
+
+/* sets the 5th default theme background */
+.theme-background-5 {
+	background-color: #F5F5F5;
+}

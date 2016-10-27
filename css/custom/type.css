@@ -5,44 +5,37 @@
 /* overrides the default h1 class */
 h1, .h1 {
 	font-size: 72px;
-	/* font-size: 4.5rem; */
 	line-height: normal;
-	margin: 0 !important;
 }
 
 /* overrides the default h2 class */
 h2, .h2 {
-	font-size: 3rem;
-	line-height: normal;
-	margin: 0 !important;	
+	font-size: 48px;
+	line-height: normal;	
 }
 
 /* overrides the default h3 class */
 h3, .h3 {
-	font-size: 2.25rem;
+	font-size: 36px;
 	line-height: normal;
-	margin: 0 !important;	
 }
 
 /* overrides the default h4 class */
 h4, .h4 {
-	font-size: 1.75rem;
+	font-size: 21px;
 	line-height: normal;
-	margin: 0 !important;	
 }
 
 /* overrides the default h5 class */
 h5, .h5 {
-	font-size: 1.5rem;
+	font-size: 18px;
 	line-height: normal;	
-	margin: 0 !important;	
 }
 
 /* overrides the default h6 class */
 .h6, h6 {
 	font-size: 1.2rem;
-	line-height: normal;	
-	margin: 0 !important;	
+	line-height: normal;		
 }
 
 p {
