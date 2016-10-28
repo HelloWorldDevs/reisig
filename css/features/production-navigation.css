@@ -1,0 +1,224 @@
+/* =====================================
+	PRODUCTION NAVIGATION FEATURE STYLES
+===================================== */
+
+/* sets the 1st link color */
+a.link-color-1 {
+	color: #C04355 !important;
+	text-decoration: none;
+}
+
+/* sets the 1st link color hover */
+a.link-color-1:hover {
+	color: #C04355 !important;
+	text-decoration: underline !important;	
+}
+
+/* sets the 2nd link color */
+a.link-color-2 {
+	color: #36A9AE !important;
+	text-decoration: none;
+}
+
+/* sets the 2nd link color hover */
+a.link-color-2:hover {
+	color: #36A9AE !important;
+	text-decoration: underline !important;		
+}
+
+/* sets the 3rd link color */
+a.link-color-3 {
+	color: #252A2E !important;
+	text-decoration: none;
+}
+
+/* sets the 3rd link color */
+a.link-color-3:hover {
+	color: #252A2E !important;
+	text-decoration: underline !important;	
+}
+
+/* sets the 4th link color */
+a.link-color-4 {
+	color: #797874 !important;
+	text-decoration: none;
+}
+
+/* sets the 4th link color hover */
+a.link-color-4:hover {
+	color: #797874 !important;
+	text-decoration: underline !important;	
+}
+
+#production-navigation .navbar {
+	height: 100px;
+}
+
+#production-navigation .navbar-default {
+	background-color: #FFFFFF;
+	border-bottom: solid 2px #CCCCCC;
+	height: 100px;
+}
+
+#production-navigation .navbar-header {
+	background-color: #FFFFFF;	
+	height: 100px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 100px;
+}
+
+#navbar-brand-img {
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 100px;
+}
+
+#production-navigation .container, .container-fluid {
+	background-color: #FFFFFF;
+}
+
+#production-navigation a.navbar-brand {
+  height: 100px;
+}
+
+#production-navigation .navbar-brand > img {
+	height: 100px;
+  margin: -15px;
+}
+
+#production-navigation .navbar-right {
+	margin-top: 20px;
+}
+
+#production-navigation .nav > li > a {
+	font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+	font-size: 16px;
+}
+
+#production-navigation .navbar-toggle {
+	float: left;
+  padding: 10px;
+  margin: 25px 15px 25px 15px;
+	border: none;
+	height: 50px;
+	width: 50px;
+}
+
+#production-navigation .navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFFFFF;
+}
+
+button.navbar-toggle {
+	background-color: #FFFFFF;
+}
+
+.navbar-collapse {
+	background-color: #FFFFFF;
+}
+
+/* Navigation Production - Tablet and Small Laptop */
+	@media only screen and (max-width: 1200px){
+	#production-navigation .navbar-brand {
+		position: absolute;	
+		margin-left: 0px;
+		padding: 0px;
+		left: 0%;
+	}
+		
+	#production-navigation .navbar-brand > img {
+		height: 100px;
+		margin: 0;
+	}
+		
+	#production-navigation .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 15px;
+		margin-right: 0px;
+		padding-right: 5px;
+	}
+		
+}
+	.navbar-right {
+		height: 100px;
+		margin-top: 25px;	
+	}
+
+	.navbar-right > li > a {
+		font-size: 18px;
+	}		
+	.navbar-right > li > a:hover {
+		font-size: 18px;
+		text-decoration: underline;
+	}		
+
+/* Navigation Production - Tablet and Small Laptop */
+	@media only screen and (max-width: 990px){
+	#production-navigation .navbar-brand {
+		position: absolute;	
+		margin-left: 0px;
+		padding: 0px;
+		left: 0%;
+	}
+		
+	#production-navigation .navbar-brand > img {
+		/* max-width: 200px; */
+		height: 100px;
+		margin: 0;
+	}
+		
+	#production-navigation .container-fluid {
+		padding-right: 15px;
+	}
+		
+	#production-navigation .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 13px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+		
+}
+
+/* Navigation Production - Center Logo on Tablet */
+	@media only screen and (max-width: 767px){
+	#production-navigation .navbar-brand {
+		position: absolute;
+		margin-left: 25px;		
+		padding: 0px;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+		
+	#production-navigation .navbar-brand > img {
+		height: 100px;
+	}
+		
+	#production-navigation .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 12px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}		
+		
+}
+
+/* Navigation Production - Center Logo on Mobile */
+	@media only screen and (max-width : 481px){
+	#production-navigation .navbar-brand {
+		position: absolute;
+		margin-left: 25px;
+		padding: 0px;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	#production-navigation .navbar-brand > img {
+		height: 100px;
+	}
+}

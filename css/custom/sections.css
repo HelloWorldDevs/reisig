@@ -34,11 +34,6 @@
 	min-height: 100px;
 }
 
-.patient-hotline .right-border {
-	padding-right: 30px;
-	border-right: solid 2px #FFFFFF;
-}
-
 #new-patient-hotline-mobile .existing-patients {
 	margin-top: 0px;
 }
@@ -57,9 +52,7 @@
 	TEAM CAROUSEL SECTION STYLES
 ============================= */
 
-#team-carousel {
-	padding: 20px;
-}
+/* CONTROLLED BY PRODUCTION-OFFICE-TEAM-CAROUSEL.CSS */
 
 /* ==================================
 	NEW PATIENT OFFERS SECTION STYLES
@@ -141,28 +134,70 @@
 	SERVICES SECTION STYLES
 ======================== */
 
+/* controls the services section */
 #services {
-	
+	margin: 0 auto;		
+	padding: 0px 0px 20px 0px;
+	border-bottom: solid 2px #cccccc;
 }
 
 /* ========================
 	LOCATION SECTION STYLES
 ======================== */
 
-#location {
-	
-}
-
+/* controls the mobile-location section */
 #mobile-location {
-	
+	margin: 0px 0px 0px 0px ;	
+	padding: 60px 0px 0px 0px;	
 }
 
 #mobile-location-map {
-	
+	margin: 0px;
+	padding: 0px;
 }
 
+/* controls the desktop location section */
 #desktop-location {
-	
+	background-image: url("../../img/map-screenshot.jpg");
+	background-position: top center;
+	background-size: cover;
+	max-height: 800px;
+	padding: 60px 0px 40px 0px;	
+}
+
+/* overrides the default bootstrap panel style */
+#location-panel {
+	padding: 10px 0px 20px 0px;
+	border: solid 2px #cccccc;
+}
+		
+#location-panel .panel-body {
+	padding: 0px;
+}
+
+/* controls the location brand logo */
+#location-brand-mobile {
+	width: 180px;
+}
+
+#location-brand-desktop {
+	width: 210px;
+}
+
+/* creates spacing for call to action */
+#location-call-to-action {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#location-hours {
+	margin-top: 10px;
+	margin-top: 10px;
+}
+
+/* creates a map link */
+#map-link {
+	text-decoration: underline !important;
 }
 
 /* ============================
@@ -175,13 +210,9 @@
 	padding: 10px 0px 0px 0px;
 }
 
-#associations-mobile {
-	
-}
+#associations-mobile {}
 
-#associations-desktop {
-	
-}
+#associations-desktop {}
 
 .img-link {
 	text-decoration: none;
@@ -248,70 +279,6 @@
 #team-photo {
 	margin: 0 auto;		
 	padding: 20px 0px 30px 0px;
-}
-
-/* controls the services section */
-#services {
-	margin: 0 auto;		
-	padding: 0px 0px 20px 0px;
-	border-bottom: solid 2px #cccccc;
-}
-
-/* controls the office tour carousel section */
-#office-tour-carousel {
-	margin: 0 auto;		
-	padding: 20px 0px 30px 0px;
-}
-
-/* controls the mobile-location section */
-#mobile-location {
-	margin: 0px 0px 0px 0px ;	
-	padding: 60px 0px 0px 0px;	
-}
-
-#mobile-location-map {
-	margin: 0px;
-	padding: 0px;
-}
-
-/* controls the desktop location section */
-#desktop-location {
-	background-image: url("../../img/map-screenshot.jpg");
-	background-position: top center;
-	background-size: cover;
-	max-height: 800px;
-	padding: 60px 0px 40px 0px;	
-}
-
-/* overrides the default bootstrap panel style */
-#location-panel {
-	padding: 10px 0px 20px 0px;
-	border: solid 2px #cccccc;
-}
-		
-#location-panel .panel-body {
-	padding: 0px;
-}
-
-/* controls the location brand logo */
-#location-brand-logo {
-	width: 180px;
-}
-
-/* creates spacing for call to action */
-#location-call-to-action {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#location-hours {
-	margin-top: 10px;
-	margin-top: 10px;
-}
-
-/* creates a map link */
-#map-link {
-	text-decoration: underline !important;
 }
 
 /* controls the mobile footer section */

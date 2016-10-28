@@ -1,13 +1,60 @@
-/* ===============================================
-	PRODUCTION OFFICE TOUR CAROUSEL FEATURE STYLES
-=============================================== */
+/* ========================================
+	PRODUCTION TEAM CAROUSEL FEATURE STYLES
+======================================== */
 
-.owl-stage-outer {}
+/* controls the team carousel section */
+#team-carousel {
+	margin: 0 auto;
+	padding: 20px 0px 20px 0px;
+}
 
-#office-tour-carousel .owl-nav .owl-prev {
+/* controls the individual team member photo */
+.team-member-photo{
+  /* width: 480px; */
+  /* height: 360px; */
+  display: inline-block;
+  position: relative;
+}
+
+/* controls the image container */
+.img-container {
+	width: 380px;
+	height: 230px;
+	font-size: 1rem !important;	
+}
+
+/* controls the image overlay */
+.img-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 70px;
+  transition: opacity .5s;
+}
+
+/* controls the image overlay hover */
+.img-overlay:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+#img-overlay-plus {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	margin-top: -30px;
+	width: 40px;
+	height: 40px;
+}
+
+#team-carousel .owl-nav .owl-prev {
 	position: absolute !important;
 	top: 50% !important;
-	margin-top: -18px !important;
+	margin-top: -50px !important;
 	left: -20px !important;
 	zoom: 1 !important;
 	width: 36px !important;
@@ -19,27 +66,27 @@
 	font-size: 18px !important;
 	border-radius: 50% !important;
 	opacity: 1 !important;
-	-webkit-transition: all .3s ease !important; 
+	-webkit-transition: all .3s ease !important;
 	-o-transition: all .3s ease !important;
 	transition: all .3s ease !important;
 }
 
- #office-tour-carousel .owl-nav .owl-next {
-	position: absolute !important;
-	top: 50% !important;
-	margin-top: -18px!important;
+#team-carousel .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
 	right: -20px !important;
 	zoom: 1 !important;
 	width: 36px !important;
 	height: 36px !important;
 	line-height: 32px !important;
 	border: 2px solid #FCFCFC !important;
-	color: #FCFCFC !important;  
+	color: #FCFCFC !important;
 	background-color: #027D82 !important;
-	font-size: 18px !important; 
+	font-size: 18px !important;
 	border-radius: 50% !important;
-	opacity: 1 !important;
-	-webkit-transition: all .3s ease !important;
+	opacity: 1 !important; 
+	-webkit-transition: all .3s ease!important;
 	-o-transition: all .3s ease !important;
 	transition: all .3s ease !important;
 }
@@ -52,55 +99,22 @@
 	padding-left: 9px;
 }
 
-/* Tablets */
-@media (max-width: 760px) {
-	#office-tour-carousel .owl-nav .owl-prev {
-		position: absolute !important;
-		top: 50% !important;
-		margin-top: -18px !important;
-		left: 0px !important;
-		zoom: 1 !important;
-		width: 36px !important;
-		height: 36px !important;
-		line-height: 32px !important;
-		border: 2px solid #FCFCFC !important;
-		color: #FCFCFC !important;
-		background-color: #027D82 !important;
-		font-size: 18px !important;
-		border-radius: 50% !important;
-		opacity: 1 !important;
-		-webkit-transition: all .3s ease !important; 
-		-o-transition: all .3s ease !important;
-		transition: all .3s ease !important;
-	}
-	
-	#office-tour-carousel .owl-nav .owl-next {
-		position: absolute !important;
-		top: 50% !important;
-		margin-top: -18px!important;
-		right: 0px !important;
-		zoom: 1 !important;
-		width: 36px !important;
-		height: 36px !important;
-		line-height: 32px !important;
-		border: 2px solid #FCFCFC !important;
-		color: #FCFCFC !important;  
-		background-color: #027D82 !important;
-		font-size: 18px !important; 
-		border-radius: 50% !important;
-		opacity: 1 !important;
-		-webkit-transition: all .3s ease !important;
-		-o-transition: all .3s ease !important;
-		transition: all .3s ease !important;
-	}
+#team-carousel .owl-nav .owl-prev .fa-chevron-left {
+	padding-left: 7px;
 }
-	
-/* Phones */
-@media (max-width: 480px) {
-	#office-tour-carousel .owl-nav .owl-prev {
+
+#team-carousel .owl-nav .owl-next .fa-chevron-right {
+	padding-left: 9px;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 760px) {
+
+	/* controls the owl carousel nav owl-prev */
+	#team-carousel .owl-nav .owl-prev {
 		position: absolute !important;
 		top: 50% !important;
-		margin-top: -18px !important;
+		margin-top: -50px !important;
 		left: 0px !important;
 		zoom: 1 !important;
 		width: 36px !important;
@@ -110,29 +124,75 @@
 		color: #FCFCFC !important;
 		background-color: #027D82 !important;
 		font-size: 18px !important;
-		border-radius: 50% !important;
-		opacity: 1 !important;
-		-webkit-transition: all .3s ease !important; 
-		-o-transition: all .3s ease !important;
-		transition: all .3s ease !important;
-	}
-	#office-tour-carousel .owl-nav .owl-next {
-		position: absolute !important;
-		top: 50% !important;
-		margin-top: -18px!important;
-		right: 0px !important;
-		zoom: 1 !important;
-		width: 36px !important;
-		height: 36px !important;
-		line-height: 32px !important;
-		border: 2px solid #FCFCFC !important;
-		color: #FCFCFC !important;  
-		background-color: #027D82 !important;
-		font-size: 18px !important; 
 		border-radius: 50% !important;
 		opacity: 1 !important;
 		-webkit-transition: all .3s ease !important;
 		-o-transition: all .3s ease !important;
 		transition: all .3s ease !important;
 	}	
+	#team-carousel .owl-nav .owl-next {
+		position: absolute;
+		top: 50%;
+		margin-top: -50px;
+		right: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;
+		background-color: #027D82 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important; 
+		-webkit-transition: all .3s ease!important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}		
+	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+	/* controls the owl carousel nav owl-prev */
+	#team-carousel .owl-nav .owl-prev {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -50px !important;
+		left: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;
+		background-color: #027D82 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}	
+	#team-carousel .owl-nav .owl-next {
+		position: absolute;
+		top: 50%;
+		margin-top: -50px;
+		right: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;
+		background-color: #027D82 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important; 
+		-webkit-transition: all .3s ease!important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}	
+
 }

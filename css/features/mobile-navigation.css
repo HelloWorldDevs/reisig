@@ -71,8 +71,6 @@ button.navbar-toggle:focus {
 	background: none;
 }
 
-.navbar-collapse {}
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #CCCCCC;
 }
@@ -189,7 +187,7 @@ a.link-color-5 {
 }
 
 /* Portrait phones and larger tablets */
-@media (min-width: 481px) and (max-width: 990px) {
+@media (max-width: 990px) {
   .navbar-header {
 		float: none;
 	}
@@ -224,9 +222,12 @@ a.link-color-5 {
 			float: none;
 			margin: 15px 0;
 	}
+	.navbar-collapse {
+		background-color: #FFFFFF;
+	}
 	/* since 3.1.0 */
 	.navbar-collapse.collapse.in { 
-    display: block!important;
+    display: block !important;
     width: 1000px;
     left: 0%;
     margin-top: 100px;
