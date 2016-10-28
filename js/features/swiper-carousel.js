@@ -1,7 +1,11 @@
+/* ==========================================
+	PRODUCTION SWIPER CAROUSEL FEATURE SCRIPT
+========================================== */
+
 /* controls the swiper carousel feature at the top of site */
 $(document).ready(function () {
 	//initialize swiper when document ready  
-	var bannerSwiper = new Swiper ('#banner-swiper-container', {
+	var bannerSwiper = new Swiper ('#swiper-carousel-container', {
 		// Optional parameters
 		direction: 'horizontal',
 		speed: 1000,

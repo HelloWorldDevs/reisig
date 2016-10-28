@@ -2,32 +2,19 @@
 	CUSTOM SITE SECTION STYLES
 =========================== */
 
+/* Controlled by
 
-/* ===============================
-	SWIPER CAROUSEL SECTION STYLES
-=============================== */
+/* ==========================================
+	PRODUCTION SWIPER CAROUSEL FEATURE STYLES
+========================================== */
 
+/* CONTROLLED BY PRODUCTION-SWIPER-CAROUSEL.CSS */
 
-/* height: 800px */
-/* height: 700px */
-/* height: 640px */
-/* height: 568px or 560px */
+/* =====================================
+	PRODUCTION NAVIGATION FEATURE STYLES
+===================================== */
 
-#swiper-carousel {
-
-}
-
-#banner-slide-1 {
-	
-}
-
-#banner-slide-2 {
-	
-}
-
-#banner-slide-3 {
-
-}
+/* CONTROLLED BY PRODUCTION-NAVIGATION.CSS */
 
 /* ===================================
 	NEW PATIENT HOTLINE SECTION STYLES
@@ -219,17 +206,34 @@
 
 #footer {
 	margin: 0 auto;
-	padding: ;
+	padding: 0;
 }
 
 #mobile-footer {
-	margin:;
-	padding:;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#mobile-footer #copyright-notice {
+	margin-top: 0px;
+	font-size: 11px;
+}
+
+#mobile-footer #social-media {
+	margin-top: -15px;
 }
 
 #desktop-footer {
-	margin: ;
-	padding:;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#desktop-footer #copyright-notice {
+	margin-top: 35px;
+}
+
+#desktop-footer #social-media {
+	margin-top: -15px;
 }
 
 /* =====================

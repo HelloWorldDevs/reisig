@@ -51,6 +51,7 @@
 /* sets the 1st default theme button style */
 a.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px !important;
 	font-weight: 300 !important;
 	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
@@ -64,6 +65,7 @@ a.theme-btn-1 {
 /* sets the 1st default theme button hover style */
 a.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px !important;	
 	font-weight: 300 !important;	
 	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
@@ -77,6 +79,7 @@ a.theme-btn-1:hover {
 /* sets the 1st default theme button hover style */
 a.theme-btn-1:focus {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px !important;	
 	font-weight: 300 !important;	
 	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
@@ -90,6 +93,7 @@ a.theme-btn-1:focus {
 /* sets the default button style */
 button.theme-btn-1 {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px !important;	
 	font-weight: 300 !important;	
 	padding: 10px 35px 10px 35px !important;
 	background-color: #C04355;
@@ -103,6 +107,7 @@ button.theme-btn-1 {
 /* sets the default theme button hover style */
 button.theme-btn-1:hover {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-size: 20px !important;	
 	font-weight: 300 !important;	
 	padding: 10px 35px 10px 35px !important;	
 	background-color: #C04355;
@@ -115,19 +120,19 @@ button.theme-btn-1:hover {
 
 /* sets the extra-small phone number link class */
 .phone-xs {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
 }
 
 /* sets the small phone number link class */
 .phone-sm {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 }
 
 /* sets the medium phone number link class */
 .phone-md {
-	font-size: 21px;
+	font-size: 32px;
 	font-weight: 700;
 }
 

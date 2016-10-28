@@ -1,54 +1,56 @@
-/* ========================
-	Swiper Carousel Feature
-======================== */
+/* ==========================================
+	PRODUCTION SWIPER CAROUSEL FEATURE STYLES
+========================================== */
 
-/* ========================
-	Mobile Swiper Carousel
-======================== */
+/* max-width: 1400, height: 800px */
+/* max-width: 1200, height: 700px */
+/* max-width: 760 height: 640px */
+/* max-width: 580 height: 568px or 560px */
+
+/* ====================
+	MOBILE SWIPER SLIDE
+==================== */
 
 /* controls the mobile banner */
 #swiper-mobile {
 	margin: 0px;
 	padding: 0px;
-	max-height: 586px;	
+	max-height: 500px;	
+}
+
+/* controls the mobile banner image */
+#swiper-mobile-img{
+	width: auto;
+	height: auto;
 }
 
 /* ========================
-	Desktop Banner Carousel
+	DESKTOP SWIPER CAROUSEL
 ======================== */
 
-/* controls the banner carousel section */
+#swiper-carousel-container {
+	/* NEEDED FOR SWIPER SLIDER SCRIPT */
+}
+
+/* controls the banner swiper carousel section */
 #swiper-carousel  {
-	margin: 0px;
-	padding: 0px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
 }
 
 /* controls the swiper container */
 .swiper-container {
-	/* width: auto; */
-	height: 500px;
+	height: 800px;
 }
 
-/* controls the swiper slide visibiblity */
+/* controls the swiper slide visibility */
 .swiper-slide {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
-/* controls the banner carousel section */
-#banner-carousel {
-	margin: 0 auto;
-	padding: 0px 0px 0px 0px;	
-}
-
-/* controls the mobile banner image */
-#banner-mobile-img{
-	width: auto;
-	height: auto;
-}
-
-/* controls the 1st slide of the banner carousel */
-#banner-slide-1 {
+/* controls the 1st slide of the swiper carousel */
+#swiper-slide-1 {
 	background-image: url("../../img/reisig-slide-1.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
@@ -56,8 +58,22 @@
 	padding-top: 100px;
 }
 
-/* controls the 2nd slide of the banner carousel */
-#banner-slide-2 {
+#swiper-slide-1 .h1 {
+	font-size: 68px;
+	margin-bottom: 0px;
+}
+
+#swiper-slide-1 .h3 {
+	font-size: 26px;
+	margin-top: 0px;
+}
+
+#swiper-slide-1 a {
+	margin-top: 20px;
+}
+
+/* controls the 2nd slide of the swiper carousel */
+#swiper-slide-2 {
 	background-image: url("../../img/reisig-slide-2.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
@@ -65,8 +81,17 @@
 	padding-top: 80px;		
 }
 
+#swiper-slide-2 #customer-review {
+	font-size: 18px;
+}
+
+#swiper-slide-2 #customer {
+	font-size: 18px;
+	margin-left: 130px;
+}
+
 /* controls the 3rd slide of the banner carousel */
-#banner-slide-3 {
+#swiper-slide-3 {
 	background-image: url("../../img/reisig-slide-3.jpg");
 	background-position: top center;
 	background-repeat: no-repeat; 
@@ -74,17 +99,12 @@
 	padding-top: 100px;	
 }
 
-#banner-slide-3 h1 {
+#swiper-slide-3 h1 {
 	text-shadow: 2px 2px #FFFFFF;
 }
 
-#banner-slide-3 p {
+#swiper-slide-3 p {
 	text-shadow: 1px 1px #FFFFFF;
-}
-
-/* sets the default color style for the customer review */
-.customer-review {
-	color: #cccccc;
 }
 
 /* sets the default color style for the review stars */
@@ -97,7 +117,7 @@
 	position: absolute;
 	/* position: relative; */
  	z-index: 4;
-	bottom: 30px;
+	bottom: 20px;
 	left: 50%;
 	margin-top: 0px !important;
 	margin-left: auto;
@@ -116,30 +136,40 @@
 	margin-top: 50px;
 }
 
+/* =======================================
+	PRODUCTION SWIPER SLIDER MEDIA QUERIES 
+======================================= */
+
 /* Large desktops and laptops */
 @media (max-width: 1400px) {
 	.swiper-slide {
-		max-height: 800px;
+		max-height: 600px;
 	}
+	.swiper-container {
+		height: 600px;
+	}		
 }
 
-/* Portrait tablets and small desktops */
+/* Small laptops */
 @media (max-width: 1200px) {
 	.swiper-slide {
-		max-height: 700px;
+		height: 500px;
 	}
-}
-
-/* Portrait phones and larger tablets */
-@media (max-width: 780px) {
-	.swiper-slide {
-		max-height: 580px;
+	.swiper-container {
+		height: 500px;
 	}	
 }
 
-/* Portrait phones and smaller */
+/* Tablets */
+@media (max-width: 780px) {
+	.swiper-slide {
+		max-height: 500px;
+	}	
+}
+
+/* Phones */
 @media (max-width: 480px) {
 	.swiper-slide {
-		max-height: 580px;
+		max-height: 500px;
 	}		
 }

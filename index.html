@@ -20,6 +20,9 @@
 
 	<!-- Bootstrap CSS Dependency -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	
+		<!-- Bootstrap CSS Dependency -->
+	<link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css" type="text/css">
 
 	<!-- Animate CSS Dependency -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css">
@@ -113,36 +116,45 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="#new-patient-offers" 
-							 class="serif-bold link-color-1 text-reg" 
+							 class="serif-bold link-color-1" 
 							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">New Patient Offers</a>
 					</li>
 					<li>
 						<a href="#membership-savings" 
-							 class="serif-bold link-color-2 text-reg" 
+							 class="serif-bold link-color-2" 
 							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">Membership Savings</a>
 					</li>
 					<li>
 						<a href="#patient-reviews" 
-							 class="serif-bold link-color-3 text-reg" 
+							 class="serif-bold link-color-3" 
 							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">Reviews</a>
 					</li>
 					<li>
-						<a href="#meet-the-team" class="serif-reg link-color-4 text-reg" data-target="#navbar-collapse-target" data-toggle="collapse">Team</a>
+						<a href="#meet-the-team" 
+							 class="serif-reg link-color-4" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Team</a>
 					</li>
 					<li>
-						<a href="#services" class="serif-reg link-color-4 text-reg" data-target="#navbar-collapse-target" data-toggle="collapse">Services</a>
+						<a href="#services" 
+							 class="serif-reg link-color-4" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Services</a>
 					</li>
 					<li>
-						<a href="#office-tour-carousel" class="serif-reg link-color-4 text-reg" data-target="#navbar-collapse-target" data-toggle="collapse">Tour</a>
+						<a href="#office-tour-carousel" 
+							 class="serif-reg link-color-4" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Tour</a>
 					</li>
 					<li>
-						<a href="#mobile-location" class="serif-reg link-color-4 text-reg hidden-md hidden-lg" data-target="#navbar-collapse-target" data-toggle="collapse">Location</a>
-					</li>
-					<li>
-						<a href="#desktop-location" class="serif-reg link-color-4 text-reg hidden-xs hidden-sm" data-target="#navbar-collapse-target" data-toggle="collapse">Location</a>
+						<a href="location" 
+							 class="serif-reg link-color-4" 
+							 data-target="#navbar-collapse-target" 
+							 data-toggle="collapse">Location</a>
 					</li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
@@ -152,28 +164,46 @@
 	<!-- ===============================
 		START OF SWIPER CAROUSEL SECTION
 	================================ -->
-	<section id="banner-swiper-carousel" class="hidden-xs hidden-sm">
-		<div id="banner-swiper-container" class="swiper-container">
+	<section id="swiper-carousel">
+		
+		<div id="swiper-mobile" 
+				 class="hidden-md hidden-lg">
+			<a href="#new-patient-offers" 
+				 data-target="#new-patient-offers">
+				<img id="swiper-mobile-img" 
+						 class="img-responsive" 
+						 src="img/reisig-mobile-slide-v2.jpg" 
+						 alt="Swiper Carousel Mobile Slide">
+			</a>
+		</div>
+		<!-- /#swiper-mobile -->
+		
+		<div id="swiper-carousel-container" class="swiper-container hidden-xs hidden-sm">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper">
-				<div id="banner-slide-1" class="swiper-slide">
+				<div id="swiper-slide-1" class="swiper-slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12 col-lg-12 text-left">
 								<h1 class="h1 sans-serif-black theme-color-5">Family Dentistry</h1>
 								<h3 class="h3 serif-reg theme-color-5">by Sean Reisig, DDS</h3>
-							</div><!-- /.col-md-12 .text-left -->
-						</div><!-- /.row -->
+							</div>
+							<!-- /.col-md-12 .text-left -->
+						</div>
+						<!-- /.row -->
 						<div class="row">
 							<div class="col-md-12 col-lg-12 text-left text-uppercase">
 								<div class="slide-cta">
-									<p class="sans-serif-light theme-color-5 text-md">Now welcoming new patients</p>
+									<h4 class="sans-serif-light theme-color-5">Now welcoming new patients</h4>
 									<p class="text-left">
 										<a href="#new-patient-offers" class="btn btn-lg theme-btn-1 serif-light text-left" data-target="#new-patient-offers">New patient offers</a>
 									</p>
-								</div><!-- /.call-to-action -->
-							</div><!-- /.col-md-12 col-lg-12 .text-left .text-uppercase -->
-						</div><!-- /.row -->
+								</div>
+								<!-- /.call-to-action -->
+							</div>
+							<!-- /.col-md-12 col-lg-12 .text-left .text-uppercase -->
+						</div>
+						<!-- /.row -->
 						<a href="#meet-the-team" 
 							 data-target="#meet-the-team" 
 							 class="scroll-down infinite animated fadeInDown">
@@ -181,12 +211,14 @@
 								<i class="dark-icon icon-angle-down"></i>
 							</span>
 						</a>
-					</div><!-- /.container -->
-				</div><!-- /.swiper-slide -->
-				<div id="banner-slide-2" class="swiper-slide">
+					</div>
+					<!-- /.container -->
+				</div>
+				<!-- /.swiper-slide -->
+				<div id="swiper-slide-2" class="swiper-slide">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12 col-lg-12 text-left">
+							<div class="col-md-6 col-lg-6 text-left">
 								<h2 class="h2 sans-serif-black theme-color-5">See What Our <br> Patients Are Saying</h2>
 								<p class="review-stars">
 									<i class="fa fa-star fa-gold fa-2x fa-fw"></i>
@@ -199,28 +231,32 @@
 						</div><!-- /.row -->
 						<div class="row">
 							<div class="col-md-5 col-lg-5">
-								<p class="serif-reg text-reg customer-review">
+								<p id="customer-review" class="serif-reg theme-color-5 text-reg">
 									This is absolutely the best Dental team <br>
-									I have ever experienced, from prompt
-									<br>scheduling, pain-free work, general
-									<br>cleaning, and follow-through."
-									<br>
+									I have ever experienced, from prompt <br>
+									scheduling, pain-free work, general <br>
+									cleaning, and follow-through."
 								</p>
-								<p class="serif-reg text-left customer-review" style="margin-left: 20px;">&#45;Eileen S.</p>
+								<p id="customer" 
+									 class="serif-reg theme-color-5 text-left">&#45;Eileen S.</p>
 								<p class="text-left">
-									<a href="#reviews" class="btn btn-lg theme-btn-1 serif-light text-left text-uppercase" data-target="#reviews">
+									<a href="#reviews" 
+										 class="btn btn-lg theme-btn-1 serif-light text-left text-uppercase" 
+										 data-target="#reviews">
 										Read Our Reviews</a>
 								</p>
 							</div><!-- /.col-md-4 col-lg-4 -->
 						</div><!-- /.row -->
-						<a href="#meet-the-team" data-target="#meet-the-team" class="scroll-down infinite animated fadeInDown">
+						<a href="#meet-the-team" 
+							 data-target="#meet-the-team" 
+							 class="scroll-down infinite animated fadeInDown">
 							<span class="theme-color-4">
 								<i class="dark-icon icon-angle-down"></i>
 							</span>
 						</a>
 					</div><!-- /.container -->
 				</div><!-- /.swiper-slide -->
-				<div id="banner-slide-3" class="swiper-slide">
+				<div id="swiper-slide-3" class="swiper-slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-6 text-left">
@@ -245,12 +281,8 @@
 			</div><!-- /.swipper-wrapper -->
 		</div><!-- /.swiper-container -->
 
-		<div id="banner-mobile" class="visible-xs-block visible-sm-block">
-			<a href="#new-patient-offers" data-target="#new-patient-offers">
-				<img id="banner-mobile-img" class="img-responsive" src="img/reisig-mobile-slide.jpg" alt="Mobile Banner Slide">
-			</a>
-		</div><!-- /#banner-mobile -->
-	</section><!-- /#banner-swiper-carousel -->
+	</section>
+	<!-- /#banner-swiper-carousel -->
 
 	<!-- ==========================
 		NEW PATIENT HOTLINE SECTION
@@ -821,7 +853,8 @@
 					<div class="col-sm-4">
 						<img src="img/services/cosmetic.jpg" class="img-responsive" alt="Cosmetic Dentistry image">
 						<div class="service-accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
-							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="false" aria-expanded="false" tabindex="-1">
+							
+							<h4 class="h4 sans-serif-bold theme-color-6 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-1" aria-controls="ui-id-2" aria-selected="false" aria-expanded="false" tabindex="-1">
 										<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
 										<i class="icon-check"></i> Cosmetic Dentistry</h4>
 							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-2" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="true">
@@ -830,7 +863,7 @@
 								</p>
 							</div>
 
-							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1">
+							<h4 class="h4 sans-serif-bold theme-color-6 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-3" aria-controls="ui-id-4" aria-selected="false" aria-expanded="false" tabindex="-1">
 										<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
 										<i class="icon-check"></i> Implant Dentistry</h4>
 							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-4" aria-labelledby="ui-id-3" role="tabpanel" aria-hidden="true">
@@ -842,7 +875,7 @@
 								</p>
 							</div>
 
-							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i class="icon-check"></i> Invisalign &reg; Orthodontics</h4>
+							<h4 class="h4 sans-serif-bold theme-color-6 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-5" aria-controls="ui-id-6" aria-selected="false" aria-expanded="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i class="icon-check"></i> Invisalign &reg; Orthodontics</h4>
 							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom folded" id="ui-id-6" aria-labelledby="ui-id-5" role="tabpanel" aria-hidden="true">
 								<p class="serif-reg text">These "invisible" aligners are the latest in orthodontic technology for adults and teens. Straight teeth and a revitalized smile no longer need to come from a mouth full of unattractive wire and bracket braces. Enhancing self-esteem and physical confidence, invisible braces offer an esthetic and barely visible alternative to conventional wire/bracket&nbsp;braces.</p>
 								<p class="serif-reg text">Get the smile you've always wanted with Invisalign&nbsp;&reg;&nbsp;Orthodontics.</p>
@@ -852,7 +885,8 @@
 					<div class="col-sm-4">
 						<img src="img/services/apnea.jpg" class="img-responsive" alt="Sleep Apnea image">
 						<div class="service-accordion ui-accordion ui-widget ui-helper-reset" role="tablist">
-							<h4 class="h4 sans-serif-bold theme-color-4 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-9" aria-controls="ui-id-10" aria-selected="false" aria-expanded="false" tabindex="-1">
+							
+							<h4 class="h4 sans-serif-bold theme-color-6 text-md ui-accordion-header ui-state-default ui-accordion-icons ui-corner-all" role="tab" id="ui-id-9" aria-controls="ui-id-10" aria-selected="false" aria-expanded="false" tabindex="-1">
 										<span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i class="icon-check"></i> Sleep Apnea Treatment</h4>
 							<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" id="ui-id-10" aria-labelledby="ui-id-9" role="tabpanel" aria-hidden="true">
 								<p class="serif-reg text">Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. We offer effective, nonsurgical relief from the sleep apnea and other sleep-related disorders--including snoring. Ask us how you can get the restful, healthy sleep you've been missing.</p>
@@ -1180,32 +1214,24 @@
 	======================= -->
 	<footer id="footer">
 
-		<div id="footer-mobile" class="hidden-md hidden-lg">
+		<div id="mobile-footer" class="hidden-md hidden-lg">
 			<div class="container">
 				<div class="row">
-					<p id="copyright-notice" class="serif-light theme-color-5 text-left text-sm">
-						Copyright &copy; 2016. All rights reserved by
-						<a href="http://www.tysonsteele.com" class="link-color-5" target="_blank">Tyson Steele Associates</a>
-					</p>
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</div><!-- /#footer-mobile -->
-
-		<div id="desktop-footer" class="hidden-xs hidden-sm">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-12">
 						<p id="copyright-notice" 
-							 class="serif-light theme-color-5 text-left text-sm">
+							 class="serif-light theme-color-5 text-center">
 							Copyright &copy; 2016. All rights reserved by
 							<a href="http://www.tysonsteele.com" 
 								 class="link-color-5" 
 								 target="_blank">Tyson Steele Associates</a>
 						</p>
-					</div><!-- /.col-md-6 col-lg-6 -->
-					<!-- /.col-md-6 .col-lg-6 -->
-					<div class="col-md-6 col-lg-6">
-						<ul class="list-inline text-right">
+					</div>
+					<!-- /.col-xs-12 .col-sm-12 -->
+				</div>
+				<!-- /.row -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<ul id="social-media" class="list-inline text-center">
 							<li>
 								<a href="https://www.facebook.com/South-Salem-Dental-Care-104482159607111/"
 									 class="social-icon si-colored si-facebook"
@@ -1223,12 +1249,59 @@
 								</a>
 							</li>
 						</ul>
-					</div><!-- /.col-md-6 .col-lg-6 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</div><!-- /#desktop-footer -->
-
-	</footer><!-- /#footer -->
+					</div>
+					<!-- /.col-xs-12 .col-sm-12 -->
+				</div>
+				<!-- /.row -->				
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /#footer-mobile -->
+		
+		<div id="desktop-footer" class="hidden-xs hidden-sm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<p id="copyright-notice" 
+							 class="serif-light theme-color-5 text-left text-sm">
+							Copyright &copy; 2016. All rights reserved by
+							<a href="http://www.tysonsteele.com" 
+								 class="link-color-5" 
+								 target="_blank">Tyson Steele Associates</a>
+						</p>
+					</div>
+					<!-- /.col-md-6 col-lg-6 -->
+					
+					<div class="col-md-6 col-lg-6">
+						<ul id="social-media" class="list-inline text-right">
+							<li>
+								<a href="https://www.facebook.com/South-Salem-Dental-Care-104482159607111/"
+									 class="social-icon si-colored si-facebook"
+									 target="_blank">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://plus.google.com/+Southsalemdentalcare" 
+									 class="social-icon si-colored si-gplus" 
+									 target="_blank">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.col-md-6 .col-lg-6 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /#desktop-footer -->
+		
+	</footer>
+	<!-- /#footer -->
 
 	<!-- ======================
 		START OF MODALS SECTION
@@ -1430,12 +1503,11 @@
 			</div>
 			<!-- /#stephanieModal -->
 
-		</section>
-		<!-- /#modals -->
+		</section><!-- /#modals -->
 
 		<!-- ===============================
-		Start of JS Library Dependencies
-	================================ -->
+			START OF JS LIBRARY DEPENDENCIES
+		================================ -->
 
 		<!-- jQuery JS script -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
@@ -1450,8 +1522,8 @@
 		<script src="lib/owl.carousel.2.1.0/owl.carousel.min.js" type="text/javascript"></script>
 
 		<!-- =========================
-		START OF CUSTOM JS SCRIPTS 
-	========================== -->
+			START OF CUSTOM JS SCRIPTS 
+		========================== -->
 
 		<!-- Smooth Scroll Custom JS script -->
 		<script src="js/features/smooth-scroll.js" type="text/javascript"></script>
@@ -1472,16 +1544,15 @@
 		<script src="js/features/office-tour-carousel.js" type="text/javascript"></script>
 
 		<!-- Birdseye Custom JS script -->
-		<script src='http://birdeye.com/embed/v4/144962104162272/3/1655906375' type='text/javascript'></script>
+		<script src='http://birdeye.com/embed/v4/144962104162272/3/1655906375' 
+						type='text/javascript'></script>
 
 		<!-- Appointment Form JS script -->
 		<script type="text/template" id="success_msg">
-			< p class = "sans-serif-reg text-reg" >
-				Congratulations!Dentistry is a big part of a healthy life, and we 're excited to be a part of yours. 			We will contact you in the next 2 business days to schedule your appointment and to answer any 		questions you may still have. Thank you!</p>
+			<p class="sans-serif-reg">
+				Congratulations!Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will contact you in the next 2 business days to schedule your appointment and to answer any questions you may still have. Thank you!</p>
 		</script>
-		<!-- =======================
-		End of Custom JS Scripts
-	======================== -->
-</body>
+
+	</body>
 
 </html>
