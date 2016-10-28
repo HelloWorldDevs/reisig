@@ -93,7 +93,7 @@
 
 	<a id="top"></a>
 
-	<!-- =====================================
+	<!-- =================================
 		Start of Production Navigation Section
 	====================================== -->
 	<nav id="production-navigation" class="navbar navbar-default navbar-fixed-top">
@@ -115,7 +115,7 @@
 			<!-- /.navbar-header -->
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-collapse-target">
+			<div id="navbar-collapse-target" class="collapse navbar-collapse" >
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="#new-patient-offers" 
@@ -126,7 +126,7 @@
 					<li>
 						<a href="#no-insurance" 
 							 class="serif-bold link-color-2" 
-							 data-target="#no-insurance" 
+							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">Membership Savings</a>
 					</li>
 					<li>
@@ -156,7 +156,7 @@
 					<li>
 						<a href="#location" 
 							 class="serif-reg link-color-4" 
-							 data-target="#location" 
+							 data-target="#navbar-collapse-target" 
 							 data-toggle="collapse">Location</a>
 					</li>
 				</ul>
@@ -238,10 +238,10 @@
 									This is absolutely the best Dental team <br>
 									I have ever experienced, from prompt <br>
 									scheduling, pain-free work, general <br>
-									cleaning, and follow-through."
+									cleaning, and follow-through."<br>
+									<span id="customer" 
+									 class="serif-reg theme-color-5 text-left">&#45;Eileen S.</span>
 								</p>
-								<p id="customer" 
-									 class="serif-reg theme-color-5 text-left">&#45;Eileen S.</p>
 								<p class="text-left">
 									<a href="#patient-reviews" 
 										 class="btn btn-lg theme-btn-1 serif-light text-left text-uppercase" 
@@ -1036,9 +1036,11 @@
 								<div class="row">
 									<div class="col-xs-12 col-sm-12">
 										<p class="text-center">
-											<img id="location-brand-mobile" 
-													 src="img/reisig-logo-website.svg" 
-													 alt="South Salem Dental Care logo">
+											<a href="#top">
+												<img id="location-brand-mobile" 
+														 src="img/reisig-logo-website.svg" 
+														 alt="South Salem Dental Care logo">
+											</a>
 										</p>
 										<address class="text-center">
 											128 Friendship Ave SE <br>
@@ -1129,9 +1131,11 @@
 									<div class="row">
 										<div class="col-md-12 col-lg-12">
 											<p class="text-center">
-												<img id="location-brand-desktop" 
-														 src="img/reisig-logo-website.svg" 
-														 alt="South Salem Dental Care logo">
+												<a href="#top">
+													<img id="location-brand-desktop" 
+															 src="img/reisig-logo-website.svg" 
+															 alt="South Salem Dental Care logo">
+												</a>
 											</p>
 										</div>
 									</div>

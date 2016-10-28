@@ -50,6 +50,10 @@ a.link-color-4:hover {
 	text-decoration: underline !important;	
 }
 
+#production-navigation {
+	height: 100px;
+}
+
 #production-navigation .navbar {
 	height: 100px;
 }
@@ -71,8 +75,8 @@ a.link-color-4:hover {
 }
 
 #navbar-brand-img {
-	margin-top: 0px;
-	margin-left: 0px;
+	margin-top: -5px;
+	margin-left: -10px;
 	height: 100px;
 }
 
@@ -86,16 +90,29 @@ a.link-color-4:hover {
 
 #production-navigation .navbar-brand > img {
 	height: 100px;
-  margin: -15px;
+  margin-top: -15px;
 }
 
+#navbar-brand-img {
+	margin-top: -15px;
+	margin-left: -15px;
+	height: 100px;
+}	
+
 #production-navigation .navbar-right {
-	margin-top: 20px;
+	padding-top: 20px;
+	margin-top: 0px;
 }
 
 #production-navigation .nav > li > a {
 	font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
-	font-size: 16px;
+	font-size: 18px;
+}
+
+#production-navigation .nav > li > a:hover {
+	font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+	font-size: 18px;
+	text-decoration: underline;
 }
 
 #production-navigation .navbar-toggle {
@@ -123,20 +140,26 @@ button.navbar-toggle {
 	background-color: #FFFFFF;
 }
 
+/* Desktops and large laptops */
+@media (max-width: 1400px) {
+	.navbar-right > li > a {
+		font-size: 18px;
+	}		
+	.navbar-right > li > a:hover {
+		font-size: 18px;
+		text-decoration: underline;
+	}	
+}
+
 /* Navigation Production - Tablet and Small Laptop */
-	@media only screen and (max-width: 1200px){
+@media (max-width: 1200px) {
 	#production-navigation .navbar-brand {
 		position: absolute;	
 		margin-left: 0px;
 		padding: 0px;
 		left: 0%;
 	}
-		
-	#production-navigation .navbar-brand > img {
-		height: 100px;
-		margin: 0;
-	}
-		
+
 	#production-navigation .nav > li > a {
 		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 15px;
@@ -144,19 +167,24 @@ button.navbar-toggle {
 		padding-right: 5px;
 	}
 		
-}
+	#navbar-brand-img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100px;
+	}	
+		
 	.navbar-right {
-		height: 100px;
-		margin-top: 25px;	
-	}
+		height: 100px;	
+	}	
 
 	.navbar-right > li > a {
-		font-size: 18px;
+		font-size: 17px;
 	}		
 	.navbar-right > li > a:hover {
-		font-size: 18px;
+		font-size: 17px;
 		text-decoration: underline;
-	}		
+	}	
+}
 
 /* Navigation Production - Tablet and Small Laptop */
 	@media only screen and (max-width: 990px){
@@ -165,12 +193,6 @@ button.navbar-toggle {
 		margin-left: 0px;
 		padding: 0px;
 		left: 0%;
-	}
-		
-	#production-navigation .navbar-brand > img {
-		/* max-width: 200px; */
-		height: 100px;
-		margin: 0;
 	}
 		
 	#production-navigation .container-fluid {
@@ -183,6 +205,12 @@ button.navbar-toggle {
 		margin-right: 0px;
 		padding-right: 0px;
 	}
+	
+	#navbar-brand-img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100px;
+	}					
 		
 }
 
@@ -202,15 +230,38 @@ button.navbar-toggle {
 		
 	#production-navigation .nav > li > a {
 		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
-		font-size: 12px;
+		font-size: 14px;
 		margin-right: 0px;
 		padding-right: 0px;
-	}		
+	}	
 		
+	#production-navigation .nav > li > a:hover {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 14px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}				
+		
+	.navbar-collapse.collapse.in { 
+    display: block !important;
+    width: 1000px;
+		height: 320px;
+    left: 0%;
+    margin-top: 0px;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;		
+	}	
+		
+	#navbar-brand-img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100px;
+	}				
 }
 
 /* Navigation Production - Center Logo on Mobile */
-	@media only screen and (max-width : 481px){
+	@media only screen and (max-width : 480px){
 	#production-navigation .navbar-brand {
 		position: absolute;
 		margin-left: 25px;
@@ -220,5 +271,30 @@ button.navbar-toggle {
 	}
 	#production-navigation .navbar-brand > img {
 		height: 100px;
+	}
+		
+	#production-navigation .nav > li > a {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 14px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}	
+		
+	#production-navigation .nav > li > a:hover {
+		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
+		font-size: 14px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}	
+		
+	.navbar-collapse.collapse.in { 
+    display: block !important;
+    width: 1000px;
+		height: 320px;
+    left: 0%;
+    margin-top: 0px;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;		
 	}
 }
