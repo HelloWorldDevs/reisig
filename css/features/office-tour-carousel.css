@@ -1,4 +1,10 @@
- #office-tour-carousel .owl-nav .owl-prev {
+/* ===============================================
+	PRODUCTION OFFICE TOUR CAROUSEL FEATURE STYLES
+=============================================== */
+
+.owl-stage-outer {}
+
+#office-tour-carousel .owl-nav .owl-prev {
 	position: absolute !important;
 	top: 50% !important;
 	margin-top: -18px !important;
@@ -44,4 +50,89 @@
 
 #office-tour-carousel .owl-nav .owl-next .fa-chevron-right {
 	padding-left: 9px;
+}
+
+/* Tablets */
+@media (max-width: 760px) {
+	#office-tour-carousel .owl-nav .owl-prev {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -18px !important;
+		left: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;
+		background-color: #027D82 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important; 
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}
+	
+	#office-tour-carousel .owl-nav .owl-next {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -18px!important;
+		right: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;  
+		background-color: #027D82 !important;
+		font-size: 18px !important; 
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}
+}
+	
+/* Phones */
+@media (max-width: 480px) {
+	#office-tour-carousel .owl-nav .owl-prev {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -18px !important;
+		left: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;
+		background-color: #027D82 !important;
+		font-size: 18px !important;
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important; 
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}
+	#office-tour-carousel .owl-nav .owl-next {
+		position: absolute !important;
+		top: 50% !important;
+		margin-top: -18px!important;
+		right: 0px !important;
+		zoom: 1 !important;
+		width: 36px !important;
+		height: 36px !important;
+		line-height: 32px !important;
+		border: 2px solid #FCFCFC !important;
+		color: #FCFCFC !important;  
+		background-color: #027D82 !important;
+		font-size: 18px !important; 
+		border-radius: 50% !important;
+		opacity: 1 !important;
+		-webkit-transition: all .3s ease !important;
+		-o-transition: all .3s ease !important;
+		transition: all .3s ease !important;
+	}	
 }

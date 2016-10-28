@@ -114,6 +114,10 @@
 	background-color: #FDFDFD;
 }
 
+#no-insurance-mobile .no-insurance-details {
+	margin-top: 10px;
+}
+
 /* controls the no insurance section */
 #no-insurance-desktop {
 	margin: 0 auto;	
@@ -227,8 +231,6 @@
 /* =====================
 	Custom Site Sections 
 ===================== */
-
-
 
 /* controls the new patient existing clients section */
 #new-patient-hotline-existing {
