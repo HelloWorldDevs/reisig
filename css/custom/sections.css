@@ -2,8 +2,6 @@
 	CUSTOM SITE SECTION STYLES
 =========================== */
 
-/* Controlled by
-
 /* ==========================================
 	PRODUCTION SWIPER CAROUSEL FEATURE STYLES
 ========================================== */
@@ -19,6 +17,9 @@
 /* ===================================
 	NEW PATIENT HOTLINE SECTION STYLES
 =================================== */
+
+/* controls the new patient hotline section */
+#new-patient-hotline {}
 
 /* controls the new patient hotline mobile section */
 #new-patient-hotline-mobile {
@@ -46,9 +47,7 @@
 	MEET THE TEAM SECTION STYLES
 ============================= */
 
-#meet-the-team {
-	
-}
+#meet-the-team {}
 
 #meet-the-dentist > .h5{
 	margin-top: 10px;
@@ -68,22 +67,6 @@
 
 #new-patient-offers-heading > h2, h3 {
 	margin-bottom: 0px !important;
-}
-
-/* ===========================================
-	NEW PATIENT HOTLINE DESKTOP SECTION STYLES
-=========================================== */
-
-#new-patient-hotline {
-	
-}
-
-#new-patient-hotline-mobile {
-	
-}
-
-#new-patient-hotline-desktop {
-	
 }
 
 /* ===============================
@@ -107,6 +90,11 @@
 /* controls the reviews p */
 #patient-reviews p {
 	margin-top: 10px;
+}
+
+/* controls the height of the birdseye widget */
+.birdseye-widget {
+	max-height: 640px;
 }
 
 /* ============================
