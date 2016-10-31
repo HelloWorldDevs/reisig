@@ -265,7 +265,7 @@
 	font-size: 11px;
 }
 
-#mobile-footer #social-media {
+#mobile-footer .social-media {
 	margin-top: -15px;
 }
 
@@ -280,7 +280,7 @@
 	margin-top: 35px;
 }
 
-#desktop-footer #social-media {
+#desktop-footer .social-media {
 	margin-top: -15px;
 }
 
