@@ -217,7 +217,7 @@
 }
 
 /* creates a map link */
-#map-link {
+.map-link {
 	text-decoration: underline !important;
 }
 
