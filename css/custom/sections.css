@@ -260,7 +260,7 @@
 	background-color: #36A9AE;
 }
 
-#mobile-footer #copyright-notice {
+#mobile-footer .copyright-notice {
 	margin-top: 0px;
 	font-size: 11px;
 }
@@ -276,7 +276,7 @@
 	background-color: #36A9AE;
 }
 
-#desktop-footer #copyright-notice {
+#desktop-footer .copyright-notice {
 	margin-top: 35px;
 }
 
