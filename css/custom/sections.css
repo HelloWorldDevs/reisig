@@ -187,12 +187,12 @@
 }
 
 /* overrides the default bootstrap panel style */
-#location-panel {
+.location-panel {
 	padding: 10px 0px 20px 0px;
 	border: solid 2px #cccccc;
 }
 		
-#location-panel .panel-body {
+ .panel-body .location-panel {
 	padding: 0px;
 }
 
