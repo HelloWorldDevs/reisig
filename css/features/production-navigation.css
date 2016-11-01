@@ -52,6 +52,9 @@ a.link-color-4:hover {
 
 #production-navigation {
 	height: 100px;
+	-webkit-box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
+	-moz-box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
+	box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
 }
 
 #production-navigation .navbar {
@@ -60,7 +63,6 @@ a.link-color-4:hover {
 
 #production-navigation .navbar-default {
 	background-color: #FFFFFF;
-	border-bottom: solid 2px #CCCCCC;
 	height: 100px;
 }
 

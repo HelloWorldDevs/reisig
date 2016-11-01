@@ -1,3 +1,7 @@
+/* ==================
+	LINK COLOR STYLES
+================== */
+
 /* sets the 1st default link color */
 .link-color-1 {
 	color: #C04355;
@@ -47,6 +51,10 @@
 	color: #fcfcfc;
 	text-decoration: underline !important;	
 }
+
+/* =============
+	BUTTON LINKS
+============= */
 
 /* sets the 1st default theme button style */
 a.theme-btn-1 {
@@ -118,26 +126,34 @@ button.theme-btn-1:hover {
 	text-decoration: none !important;	
 }
 
+/* ===================
+	PHONE NUMBER LINKS
+=================== */
+
 /* sets the extra-small phone number link class */
 .phone-xs {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 }
 
 /* sets the small phone number link class */
 .phone-sm {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
 	font-size: 20px;
 	font-weight: 700;
 }
 
 /* sets the medium phone number link class */
 .phone-md {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
 	font-size: 32px;
 	font-weight: 700;
 }
 
 /* sets the large phone number link class */
 .phone-lg {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;	
 	font-size: 36px;
 	font-weight: 700;
 }

@@ -114,6 +114,7 @@
 /* controls the height of the birdseye widget */
 .birdseye-widget {
 	max-height: 640px;
+	overflow: hidden;
 }
 
 /* ============================
