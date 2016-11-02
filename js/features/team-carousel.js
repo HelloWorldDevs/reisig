@@ -14,7 +14,6 @@ $(document).ready(function () {
 		autoplay: false,
 		autoHeight: false,
 		autoplaySpeed: 8000,
-		margin: 20,
 		responsive:{
 			0:{
 				items:1

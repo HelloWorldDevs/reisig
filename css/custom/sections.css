@@ -174,10 +174,14 @@
 	LOCATION SECTION STYLES
 ======================== */
 
+#location {
+	margin: 0 auto;	
+}
+
 /* controls the mobile-location section */
 #mobile-location {
 	margin: 0px 0px 0px 0px ;	
-	padding: 60px 0px 0px 0px;	
+	padding: 0px 0px 0px 0px;	
 }
 
 #mobile-location-map {
@@ -187,11 +191,21 @@
 
 /* controls the desktop location section */
 #desktop-location {
-	background-image: url("../../img/map-screenshot.jpg");
-	background-position: top center;
-	background-size: cover;
-	max-height: 800px;
-	padding: 60px 0px 40px 0px;	
+	background-color: #cccccc;
+	height: 700px;
+	padding: 0px 0px 0px 0px;	
+}
+
+#desktop-location-info {
+	position: relative;
+	margin-top: -660px;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+#desktop-location-map {
+	height: 100%;
 }
 
 /* overrides the default bootstrap panel style */

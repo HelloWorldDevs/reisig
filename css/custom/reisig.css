@@ -14,61 +14,6 @@ body {
 	font-size: 1rem;
 }
 
-a {
-	color: none;
-}
-
-/* creates a class for the birdeye patient reviews widget */
-.birdeye-widget {
-	padding: 0; 
-	background: transparent; 
-	max-height: 600px !important; 
-	overflow: scroll;	
-	-webkit-overflow-scrolling:touch;
-}
-
-/* creates a gold font class for font awesome icons */
-.fa-gold {
-	color: gold;
-}
-
-.fa-green {
-	color: #027D82;
-}
-
-/* creates a black font class for font awesome icons */
-.fa-black {
-	color: #000000 !important;
-}
-
-.fa-white {
-	color: #FCFCFC !important;
-}
-
-/* creates a green font class for font awesome icons */
-.fa-color-2 {
-	color: #027D82;
-	margin: 0;
-	padding:0;
-}
-
-/* creates the facebook brand class for font awesome icon */
-.facebook-blue {
-	color: #3B5998 !important;
-}
-
-./* creates the google plus brand class for font awesome icon */
-.google-red {
-	color: #DC4A38 !important;
-}
-
-/* overrides the default bootstrap well style */
-.well-default {
-	background: transparent;
-	border: none;
-	border-radius: 0px;
-}
-
 /* ==========================
 	Media Queries and Screens 
 ========================== */
