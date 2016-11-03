@@ -47,9 +47,12 @@
 	MEET THE TEAM SECTION STYLES
 ============================= */
 
-#meet-the-team {}
+/* controls the meet the team section */
+#meet-the-team {
+	padding: 20px 0px 30px 0px;
+}
 
-#meet-the-dentist > .h5{
+#meet-the-dentist > .h5 {
 	margin-top: 10px;
 }
 
@@ -305,13 +308,6 @@
 #desktop-footer .social-media {
 	margin-top: -15px;
 }
-
-/* controls the meet the team section */
-#meet-the-team {
-	padding: 20px 0px 30px 0px;
-}
-
-
 
 /* controls the social icon class */
 .social-icon {

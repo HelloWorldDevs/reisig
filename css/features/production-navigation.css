@@ -55,6 +55,7 @@ a.link-color-4:hover {
 	-webkit-box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
 	-moz-box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
 	box-shadow: 1px 5px 5px 0px rgba(88,89,91,0.85);
+  -webkit-backface-visibility: hidden;
 }
 
 #production-navigation .navbar {
@@ -73,12 +74,6 @@ a.link-color-4:hover {
 
 .navbar-brand {
 	float: left;
-	height: 100px;
-}
-
-#navbar-brand-img {
-	margin-top: -5px;
-	margin-left: -10px;
 	height: 100px;
 }
 
@@ -140,24 +135,29 @@ button.navbar-toggle {
 	background-color: #FFFFFF;
 }
 
+.navbar-collapse.collapse.in { 
+		display: hidden;
+}
+
 /* Desktops and large laptops */
 @media (max-width: 1400px) {
 	#production-navigation .navbar-right > li > a {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 18px;
 	}		
+	
 	#production-navigation .navbar-right > li > a:hover {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 18px;
+		text-decoration: underline;
 	}
 }
 
 /* Navigation Production - Tablet and Small Laptop */
 @media (max-width: 1200px) {
 	#production-navigation .navbar-brand {
-		position: absolute;	
+		position: absolute;
 		margin-left: 0px;
 		padding: 0px;
+		transform: translateX(0%);
 		left: 0%;
 	}
 		
@@ -172,22 +172,23 @@ button.navbar-toggle {
 	}	
 
 	#production-navigation .navbar-right > li > a {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 16px;
 	}
+	
 	#production-navigation .navbar-right > li > a:hover {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 16px;
+		text-decoration: underline;
 	}
 }
 
 /* Laptop */
 @media (max-width: 1024px){
 	#production-navigation .navbar-brand {
-		position: absolute;	
+		position: absolute;
 		margin-left: 0px;
 		padding: 0px;
-		left: 0%;
+		transform: translateX(0%);
+		left: 0%;		
 	}
 		
 	#production-navigation .container-fluid {
@@ -201,10 +202,11 @@ button.navbar-toggle {
 	}	
 	
 	#production-navigation .navbar-right > li > a {
-		font-size: 15px;
+		font-size: 14px;
 	}
 	
 	#production-navigation .navbar-right > li > a:hover {
+		font-size: 14px;		
 		text-decoration: underline;
 	}		
 }
@@ -212,14 +214,15 @@ button.navbar-toggle {
 /* Navigation Production - Tablet and Small Laptop */
 @media (max-width: 990px){
 	#production-navigation .navbar-brand {
-		position: absolute;	
+		position: absolute;
 		margin-left: 0px;
 		padding: 0px;
+		transform: translateX(0%);
 		left: 0%;
-	}
+	}	
 		
 	#production-navigation .container-fluid {
-		padding-right: 15px;
+		padding-right: 5px;
 	}
 		
 	#navbar-brand-img {
@@ -229,9 +232,15 @@ button.navbar-toggle {
 	}	
 	
 	#production-navigation .navbar-right > li > a {
-		font-size: 15px;
+		font-size: 12px;
+		margin-right: 0px;
+		padding-right: 5px;
 	}
-	#production-navigation .navbar-right > li > a {
+	
+	#production-navigation .navbar-right > li > a:hover {
+		font-size: 12px;
+		margin-right: 0px;
+		padding-right: 5px;		
 		text-decoration: underline;
 	}
 		
@@ -240,11 +249,12 @@ button.navbar-toggle {
 /* Tablet */
 @media (max-width: 768px){
 	#production-navigation .navbar-brand {
-		position: absolute;	
-		margin-left: 0px;
+		position: absolute;
+		margin-left: 25px;
 		padding: 0px;
-		left: 0%;
-	}
+		transform: translateX(-50%);
+		left: 50%;
+	}	
 		
 	#production-navigation .navbar-brand > img {
 		height: 100px;
@@ -256,34 +266,52 @@ button.navbar-toggle {
     height: 100px;
 	}		
 	
+	#production-navigation .navbar-right {
+		margin-right: 5px;
+	}	
+	
 	#production-navigation .navbar-right > li > a {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 12px;
-		margin-right: 0px;
-		padding-right: 0px;	
 	}
 	
 	#production-navigation .navbar-right > li > a:hover {
+		font-size: 12px;		
 		text-decoration: underline;
 	}	
+	
+	.navbar-collapse.collapse {
+		width: 767px;
+	}
+
+	.navbar-collapse.collapse.in { 
+    display: block;
+		width: 780px;
+		min-height: 340px;
+    left: 0%;
+    margin-top: 0px;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 30px;		
+		padding-right: 30px;
+	}	
+	
 }
 
 /* Navigation Production - Center Logo on Mobile */
-	@media (max-width : 480px){
+@media (max-width: 480px){
 	#production-navigation .navbar-brand {
 		position: absolute;
 		margin-left: 25px;
 		padding: 0px;
 		transform: translateX(-50%);
 		left: 50%;
-	}
+	}	
 		
 	#production-navigation .navbar-brand > img {
 		height: 100px;
 	}
 		
 	#production-navigation .navbar-right > li > a {
-		font-family: "Merriweather" , "Georgia", "Times New Roman", sans-serif;
 		font-size: 14px;
 	}
 		
@@ -293,8 +321,8 @@ button.navbar-toggle {
 				
 	.navbar-collapse.collapse.in { 
     display: block;
-    width: 1000px;
-		height: 320px;
+    width: 415px;
+		min-height: 340px;
     left: 0%;
     margin-top: 0px;
     position: absolute;

@@ -3,14 +3,14 @@
 =========================== */
 
 html {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 }
 
 body {
 	margin-top: 100px;
-	padding: 0px;	
+	padding: 0;	
 	font-size: 1rem;
 }
 
@@ -72,7 +72,6 @@ body {
 	body {
 		font-size: 1rem;
 	}
-	
 	
 	/* hides the image on mobile and tablet */
 	.modal-body img {
